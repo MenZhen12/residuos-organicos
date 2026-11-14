@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Residuos orgánicos en el hogar · PI-4803 · Grupo 3</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f6f3ec; --paper:#fffdf8; --ink:#1f2a22; --muted:#5d685f; --line:#e2dccd;
+  --green:#2f5d3a; --green2:#4c8a57; --leaf:#dfeadb; --clay:#b5603a; --clay-soft:#f4e3d8; --sun:#e8b44a;
+  --neu:#8b948c; --neg:#b5603a; --pos:#4c8a57;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 Inter,system-ui,sans-serif}
+h1,h2,h3{font-family:Fraunces,Georgia,serif;line-height:1.15;margin:0 0 .5em}
+h2{font-size:clamp(1.8rem,3.4vw,2.6rem)}
+h3{font-size:1.25rem}
+p{margin:0 0 1em}
+a{color:var(--green)}
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+/* nav */
+nav{position:sticky;top:0;z-index:20;background:rgba(246,243,236,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;align-items:center;gap:20px;height:58px;overflow-x:auto}
+nav .brand{font-family:Fraunces,serif;font-weight:700;color:var(--green);white-space:nowrap;margin-right:auto}
+nav a{color:var(--muted);text-decoration:none;font-size:.92rem;font-weight:500;white-space:nowrap;padding:4px 0;border-bottom:2px solid transparent}
+nav a:hover,nav a.on{color:var(--ink);border-color:var(--clay)}
+/* hero */
+.hero{padding:72px 0 56px;position:relative;overflow:hidden}
+.kicker{font-size:.8rem;letter-spacing:.14em;text-transform:uppercase;color:var(--clay);font-weight:600;margin-bottom:14px}
+.hero h1{font-size:clamp(2.4rem,6vw,4.4rem);max-width:13ch;color:var(--green)}
+.hero .lead{font-size:1.2rem;max-width:58ch;color:var(--muted)}
+.hero svg.blob{position:absolute;right:-80px;top:20px;width:520px;opacity:.9;z-index:-1}
+.team{display:flex;flex-wrap:wrap;gap:8px;margin-top:28px}
+.chip{background:var(--paper);border:1px solid var(--line);border-radius:999px;padding:6px 14px;font-size:.88rem}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:40px}
+.stat{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:18px}
+.stat b{display:block;font-family:Fraunces,serif;font-size:2rem;color:var(--green)}
+.stat span{font-size:.88rem;color:var(--muted)}
+/* phases */
+.phases{display:grid;grid-template-columns:repeat(5,1fr);gap:0;margin:8px 0 0;counter-reset:ph}
+.ph{padding:16px 14px;border-top:4px solid var(--line);font-size:.92rem;color:var(--muted)}
+.ph.done{border-color:var(--green2);color:var(--ink)}
+.ph.next{border-color:var(--sun)}
+.ph b{display:block;font-family:Fraunces,serif;font-size:1.1rem}
+.ph small{font-size:.78rem;text-transform:uppercase;letter-spacing:.08em}
+section{padding:72px 0;border-top:1px solid var(--line)}
+section.alt{background:var(--paper)}
+.sec-head{display:flex;align-items:baseline;gap:16px;margin-bottom:28px;flex-wrap:wrap}
+.num{font-family:Fraunces,serif;font-size:1rem;color:#fff;background:var(--green);border-radius:999px;width:36px;height:36px;display:grid;place-items:center;flex:none}
+.sec-head p{flex:0 0 100%;max-width:none;padding-right:20%;color:var(--muted);margin:0}
+.grid{display:grid;gap:18px}
+.g2{grid-template-columns:repeat(2,1fr)}
+.g3{grid-template-columns:repeat(3,1fr)}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:16px;padding:22px}
+section.alt .card{background:var(--bg)}
+.card .tag{font-size:.75rem;letter-spacing:.1em;text-transform:uppercase;color:var(--clay);font-weight:600}
+.card p:last-child{margin-bottom:0}
+.refs{font-size:.8rem;color:var(--muted);margin-top:10px}
+.refs code{background:var(--leaf);color:var(--green);border-radius:4px;padding:1px 5px;font-family:inherit;font-weight:600;cursor:pointer}
+.quote{font-family:Fraunces,serif;font-size:1.35rem;line-height:1.35;border-left:4px solid var(--clay);padding:6px 0 6px 20px;margin:24px 0;max-width:60ch}
+.quote cite{display:block;font:500 .85rem Inter,sans-serif;color:var(--muted);margin-top:8px;font-style:normal}
+/* sentiment */
+.bar{display:flex;height:42px;border-radius:10px;overflow:hidden;margin:14px 0 8px}
+.bar div{display:grid;place-items:center;color:#fff;font-weight:600;font-size:.9rem}
+.legend{display:flex;gap:16px;font-size:.85rem;color:var(--muted);flex-wrap:wrap}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:6px}
+.hbar{display:grid;grid-template-columns:90px 1fr 54px;align-items:center;gap:10px;font-size:.88rem;margin:6px 0}
+.hbar .t{background:var(--line);border-radius:6px;height:12px;overflow:hidden}
+.hbar .t div{height:100%;background:var(--green2);border-radius:6px}
+.hbar.res .t div{background:var(--neu)}
+.note{font-size:.84rem;color:var(--muted);background:var(--clay-soft);border-radius:10px;padding:12px 14px;margin-top:14px}
+/* persona */
+.persona{display:grid;grid-template-columns:260px 1fr;gap:28px;align-items:start}
+.persona .avatar{background:var(--leaf);border-radius:16px;padding:22px;text-align:center}
+.persona dl{display:grid;grid-template-columns:1fr 1fr;gap:14px 24px;margin:0}
+.persona dt{font-size:.75rem;text-transform:uppercase;letter-spacing:.1em;color:var(--clay);font-weight:600}
+.persona dd{margin:2px 0 0;font-size:.93rem}
+/* evidence */
+.filters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:18px}
+.filters button{font:inherit;font-size:.86rem;border:1px solid var(--line);background:var(--paper);border-radius:999px;padding:6px 14px;cursor:pointer;color:var(--ink)}
+.filters button.on{background:var(--green);color:#fff;border-color:var(--green)}
+.wall{columns:3 280px;column-gap:18px}
+.ev{break-inside:avoid;margin-bottom:18px;background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:18px;transition:box-shadow .2s, transform .2s}
+.ev.hl{box-shadow:0 0 0 3px var(--sun);transform:translateY(-2px)}
+.ev .id{font-weight:700;color:var(--green);font-size:.85rem}
+.ev .src{font-size:.78rem;color:var(--muted);margin-top:8px}
+.ev p{font-size:.95rem;margin:6px 0 0}
+/* POV / HMW */
+.hmw{background:var(--green);color:#f4f7f1;border-radius:20px;padding:36px;margin-top:28px}
+.hmw .kicker{color:var(--sun)}
+.hmw p.big{font-family:Fraunces,serif;font-size:clamp(1.4rem,2.6vw,2rem);line-height:1.3;margin:0}
+.pov{font-size:.95rem}
+.pov b{color:var(--green)}
+/* ideas */
+.ideas{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:14px}
+.idea{border:1px solid var(--line);border-radius:14px;padding:18px;background:var(--bg);position:relative}
+.idea.sel{background:#fff;border:2px solid var(--green2)}
+.idea .top{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-bottom:6px}
+.idea .iid{font-weight:700;color:var(--clay);font-size:.85rem}
+.idea .tool{font-size:.72rem;background:var(--leaf);color:var(--green);border-radius:999px;padding:2px 9px;font-weight:600}
+.idea h4{font-family:Fraunces,serif;font-size:1.08rem;margin:0 0 6px}
+.idea p{font-size:.88rem;margin:0;color:var(--muted)}
+.idea .badge{position:absolute;top:-10px;right:14px;background:var(--green2);color:#fff;font-size:.72rem;font-weight:600;border-radius:999px;padding:2px 10px}
+ol.steps{padding-left:1.2em;margin:0}
+ol.steps li{margin-bottom:8px}
+.files{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.files ul{margin:0;padding-left:1.1em;font-size:.9rem}
+.files li{margin-bottom:4px}
+footer{padding:40px 0;color:var(--muted);font-size:.86rem;border-top:1px solid var(--line)}
+@media (max-width:860px){
+  .g2,.g3,.files,.stats{grid-template-columns:1fr 1fr}
+  .phases{grid-template-columns:repeat(5,minmax(110px,1fr));overflow-x:auto}
+  .persona{grid-template-columns:1fr}
+  .hero svg.blob{opacity:.25}
+}
+@media (max-width:560px){
+  .g2,.g3,.files,.stats,.persona dl{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+<nav><div class="wrap">
+  <span class="brand">PI-4803 · Grupo 3</span><a href="index.html" style="color:var(--clay)">← Web del producto</a>
+  <a href="#inicio">Inicio</a><a href="#empatizar">Empatizar</a><a href="#evidencia">Evidencia</a><a href="#definir">Definir</a><a href="#idear">Idear</a><a href="#siguiente">Próximos pasos</a><a href="#expediente">Expediente</a>
+</div></nav>
+
+<header class="hero" id="inicio"><div class="wrap">
+  <svg class="blob" viewBox="0 0 400 400" aria-hidden="true">
+    <path d="M318 96c40 46 52 118 22 172s-104 92-170 86S46 302 34 238 50 106 104 66s174-16 214 30z" fill="#dfeadb"/>
+    <g fill="none" stroke="#4c8a57" stroke-width="3" stroke-linecap="round">
+      <path d="M200 330V170"/><path d="M200 230c-40-6-62-34-66-74 38 2 62 26 66 74z" fill="#4c8a57" fill-opacity=".25"/>
+      <path d="M200 200c40-8 60-38 62-80-38 4-60 30-62 80z" fill="#4c8a57" fill-opacity=".35"/>
+    </g>
+    <ellipse cx="200" cy="334" rx="90" ry="14" fill="#b5603a" opacity=".35"/>
+  </svg>
+  <div class="kicker">Gestión de la Innovación · Taller Design Thinking</div>
+  <h1>Manejo de residuos orgánicos en el hogar</h1>
+  <p class="lead">Cómo viven los hogares la espera entre generar restos de comida y su recolección. Proyecto del curso PI-4803, recorrido por las fases Empatizar, Definir e Idear.</p>
+  <div class="team">
+    <span class="chip">Gianmarco Forlani Villalta</span><span class="chip">Cesar Eduardo Gomez Medrano</span><span class="chip">Valeria Santos Mora</span><span class="chip">Keila Tamara Sibaja Mata</span><span class="chip">Kun Men Zheng Liang</span>
+  </div>
+  <div class="stats">
+    <div class="stat"><b>32</b><span>respuestas anónimas a la encuesta (12–13 oct 2026)</span></div>
+    <div class="stat"><b>20</b><span>evidencias en el muro (E01–E20)</span></div>
+    <div class="stat"><b>9</b><span>herramientas del repositorio aplicadas</span></div>
+    <div class="stat"><b>12</b><span>ideas en el banco · 3 candidatas a prototipar</span></div>
+  </div>
+  <div class="phases" style="margin-top:36px">
+    <div class="ph done"><small>Fase 1</small><b>Empatizar</b>Completada</div>
+    <div class="ph done"><small>Fase 2</small><b>Definir</b>Completada</div>
+    <div class="ph done"><small>Fase 3</small><b>Idear</b>Completada</div>
+    <div class="ph next"><small>Fase 4</small><b>Prototipar</b>Siguiente</div>
+    <div class="ph"><small>Fase 5</small><b>Evaluar</b>Pendiente</div>
+  </div>
+</div></header>
+
+<section id="empatizar" class="alt"><div class="wrap">
+  <div class="sec-head"><span class="num">1</span><h2>Empatizar</h2>
+    <p>Comprender la situación sin dar por elegida una solución. Se aplicaron tres herramientas del repositorio sobre las respuestas del formulario, más un análisis de sentimientos de la pregunta 3.</p></div>
+
+  <div class="grid g3" style="margin-bottom:28px">
+    <div class="card"><div class="tag">Problema investigado</div><p>Almacenar restos de comida hasta desecharlos genera olores, líquidos, insectos y ocupación de espacio. Las personas recurren a bolsas, recipientes, congelación o disposición exterior.</p></div>
+    <div class="card"><div class="tag">Usuario</div><p>Personas que participan en el manejo de restos de comida en su hogar. La encuesta no registra edad, cantón ni composición del hogar.</p></div>
+    <div class="card"><div class="tag">Contexto</div><p>Después de preparar o consumir comida y durante el almacenamiento temporal hasta la recolección. Los relatos mencionan cocina, patio, terraza, calor y días de recolección variables.</p></div>
+  </div>
+
+  <h3>Herramientas aplicadas</h3>
+  <div class="grid g3" id="etools"></div>
+
+  <div class="quote">“…hace que la casa se sienta sucia, aunque esté limpia.”<cite>ID 6, pregunta 3 · evidencia E09</cite></div>
+
+  <div class="grid g2">
+    <div class="card">
+      <div class="tag">Análisis de sentimientos · Q3</div>
+      <h3>¿Cómo describen su experiencia?</h3>
+      <div class="bar">
+        <div style="flex:18;background:var(--neu)">18</div>
+        <div style="flex:12;background:var(--neg)">12</div>
+        <div style="flex:2;background:var(--pos)">2</div>
+      </div>
+      <div class="legend"><span><i style="background:var(--neu)"></i>Neutral 56,25%</span><span><i style="background:var(--neg)"></i>Negativo 37,50%</span><span><i style="background:var(--pos)"></i>Positivo 6,25%</span></div>
+      <div class="note">La neutralidad del modelo no implica ausencia de problema: ID 1 e ID 29 responden “Desagradable” y fueron clasificadas como neutrales (confianza 0,478).</div>
+    </div>
+    <div class="card">
+      <div class="tag">Emociones · probabilidad promedio</div>
+      <h3>Perfil emocional</h3>
+      <div id="emo"></div>
+      <div class="note">Son promedios de probabilidades del modelo (robertuito), no porcentajes de personas que sienten cada emoción. “Otros” es una categoría residual.</div>
+    </div>
+  </div>
+
+  <h3 style="margin-top:40px">User Persona (perfil compuesto)</h3>
+  <div class="card persona">
+    <div class="avatar">
+      <svg viewBox="0 0 120 120" width="120" height="120" aria-hidden="true"><circle cx="60" cy="60" r="58" fill="#fffdf8"/><circle cx="60" cy="48" r="20" fill="#4c8a57"/><path d="M24 104c6-22 20-32 36-32s30 10 36 32" fill="#4c8a57"/><rect x="74" y="78" width="22" height="26" rx="4" fill="#b5603a"/><rect x="72" y="74" width="26" height="6" rx="3" fill="#8f4a2b"/></svg>
+      <p style="margin:12px 0 0;font-weight:600">Persona que gestiona restos de comida en casa</p>
+      <p style="font-size:.82rem;color:var(--muted);margin:6px 0 0">Perfil provisional; no representa a las 32 personas ni a un participante individual.</p>
+    </div>
+    <dl id="persona"></dl>
+  </div>
+
+  <h3 style="margin-top:40px">Insights de Empatizar</h3>
+  <div class="grid g3" id="einsights"></div>
+</div></section>
+
+<section id="evidencia"><div class="wrap">
+  <div class="sec-head"><span class="num">E</span><h2>Muro de evidencia</h2>
+    <p>Citas textuales y resultados que sustentan cada hallazgo. Al tocar un código como <code style="background:var(--leaf);color:var(--green);border-radius:4px;padding:1px 5px;font-weight:600">E09</code> en cualquier parte del sitio se resalta aquí.</p></div>
+  <div class="filters" id="filters"></div>
+  <div class="wall" id="wall"></div>
+</div></section>
+
+<section id="definir" class="alt"><div class="wrap">
+  <div class="sec-head"><span class="num">2</span><h2>Definir</h2>
+    <p>Acotar el reto a partir de la evidencia: el problema no está en el momento de tirar la bolsa, sino en el intervalo de espera hasta la recolección.</p></div>
+
+  <h3>Herramientas aplicadas</h3>
+  <div class="grid g3" id="dtools"></div>
+
+  <h3 style="margin-top:40px">Áreas de oportunidad</h3>
+  <div class="grid g3" id="areas"></div>
+
+  <h3 style="margin-top:40px">Puntos de vista (POV)</h3>
+  <div class="grid g3" id="povs"></div>
+
+  <div class="card" style="margin-top:28px">
+    <div class="tag">Enunciado del problema</div>
+    <p style="font-size:1.05rem"><b>Las personas que participan en el manejo de restos de comida en su hogar</b> enfrentan <span id="pwhat"></span>, porque <span id="pbecause"></span>.</p>
+    <p class="refs">Si se resolviera, <span id="pbenefit"></span>.</p>
+  </div>
+
+  <div class="hmw">
+    <div class="kicker">¿Cómo podríamos…?</div>
+    <p class="big" id="hmw"></p>
+  </div>
+</div></section>
+
+<section id="idear"><div class="wrap">
+  <div class="sec-head"><span class="num">3</span><h2>Idear</h2>
+    <p>Generar alternativas diversas a partir del POV y converger en candidatas para prototipar. Cada idea se vincula con una herramienta y con evidencias.</p></div>
+
+  <div class="card" style="margin-bottom:28px"><div class="tag">POV de partida</div><p id="ipov" style="font-family:Fraunces,serif;font-size:1.15rem;line-height:1.4;margin:6px 0 0"></p></div>
+
+  <h3>Herramientas aplicadas</h3>
+  <div class="grid g3" style="margin-bottom:40px">
+    <div class="card"><div class="tag">Herramienta 1</div><h3>SCAMPER</h3><p>Aumentar el número y variedad de las ideas. Las siete provocaciones produjeron alternativas de producto, distribución y rutina; el problema no exige de entrada una aplicación digital ni una compostera.</p><div class="refs">Ideas I01–I07</div></div>
+    <div class="card"><div class="tag">Herramienta 2</div><h3>¿Y si…?</h3><p>Plantear hipótesis extremas. Las provocaciones separan tres restricciones: espacio, dependencia del retiro y cantidad generada.</p><div class="refs">Ideas I08–I11</div></div>
+    <div class="card"><div class="tag">Herramienta 3</div><h3>Seis sombreros para pensar</h3><p>Analizar desde distintos puntos de vista: datos, emociones declaradas, riesgos y beneficios esperados, sin elegir por atractivo tecnológico.</p><div class="refs">Idea I12 · contraste de I01, I08 e I10</div></div>
+  </div>
+
+  <h3>Banco de alternativas</h3>
+  <div class="filters" id="ifilters"></div>
+  <div class="ideas" id="ideas"></div>
+
+  <div class="grid g2" style="margin-top:40px">
+    <div class="card"><div class="tag">Criterios de selección</div><p id="criteria"></p></div>
+    <div class="card"><div class="tag">Justificación</div><p id="reason"></p></div>
+  </div>
+</div></section>
+
+<section id="siguiente" class="alt"><div class="wrap">
+  <div class="sec-head"><span class="num">4</span><h2>Hacia Prototipar</h2>
+    <p>Pasos propuestos para la siguiente fase. Ninguna de estas pruebas se ha ejecutado todavía.</p></div>
+  <div class="grid g2">
+    <div class="card"><div class="tag">Próximos pasos</div><ol class="steps" id="steps"></ol></div>
+    <div>
+      <div class="card" style="margin-bottom:18px"><div class="tag">Supuestos por verificar</div><p id="assumptions"></p></div>
+      <div class="card"><div class="tag">Limitaciones del estudio</div><p id="limit"></p></div>
+    </div>
+  </div>
+</div></section>
+
+<section id="expediente"><div class="wrap">
+  <div class="sec-head"><span class="num">⎙</span><h2>Expediente del grupo</h2>
+    <p>Documentos de cada fase, listos para abrir o descargar.</p></div>
+  <div class="files">
+    <div class="card"><div class="tag">Empatizar</div><ul>
+      <li><a href="entregables/01-empatizar/Dossier_Empatizar_Grupo_3.pdf">Dossier de Empatía (PDF)</a></li><li><a href="entregables/01-empatizar/Herramienta_1_mapas-del-contexto.pdf">Herramienta 1 · Mapas del contexto</a></li><li><a href="entregables/01-empatizar/Herramienta_2_usuarios-extremos.pdf">Herramienta 2 · Usuarios extremos</a></li><li><a href="entregables/01-empatizar/Herramienta_3_mapa-de-empatia.pdf">Herramienta 3 · Mapa de empatía</a></li><li><a href="entregables/01-empatizar/analisis-sentimientos/sentimientos_resumen.pdf">Análisis de sentimientos (PDF)</a></li><li><a href="entregables/01-empatizar/analisis-sentimientos/ANALISIS_SENTIMIENTOS_PROYECTO_PI4803_COLAB2026_v2.ipynb">Notebook del análisis</a></li><li><a href="entregables/01-empatizar/aplicativo/Taller_DT_Empatizar_PI4803_v2.html">Aplicativo del taller Empatizar</a></li></ul></div>
+    <div class="card"><div class="tag">Definir</div><ul>
+      <li><a href="entregables/02-definir/Taller_Definir.pdf">Taller Definir (PDF)</a></li><li><a href="entregables/02-definir/Customer_Journey.pdf">Customer Journey (PDF)</a></li><li><a href="entregables/02-definir/Definir_PI4803.json">Respaldo Definir (JSON)</a></li></ul></div>
+    <div class="card"><div class="tag">Idear</div><ul>
+      <li><a href="entregables/03-idear/Taller_Idear.pdf">Taller Idear (PDF)</a></li><li><a href="entregables/03-idear/Mapa_Mental.pdf">Mapa mental (PDF)</a></li><li><a href="entregables/03-idear/Repositorio_Idear.pdf">Repositorio de herramientas (PDF)</a></li><li><a href="entregables/03-idear/Taller_DT_Idear_PI4803_v1.html">Aplicativo del taller Idear</a></li></ul></div>
+  </div>
+</div></section>
+
+<footer><div class="wrap">PI-4803 Gestión de la Innovación · Taller Design Thinking · Grupo 3 · 2026. Fuente: encuesta de 32 respuestas anónimas; las ideas y beneficios son hipótesis, no resultados comprobados.</div></footer>
+
+<script>
+const D = {
+ "ev": [
+  {
+   "id": "E01",
+   "src": "Mapas del contexto; encuesta Manejo de residuos orgánicos, ID 2, Q1, fila 3 de Sheet1 (12–13/10/2026).",
+   "text": "“Si, cuando se acumula mucha basura, debemos dejar las bolsas a un lado porque no hay suficiente espacio para almacenarlas. Los restos de comida generan líquidos y malos olores fuertes, por lo que resulta incómodo tenerlos dentro de la casa. Además, debemos esperar hasta el día en que pasa el camión recolector para poder desecharlos.”"
+  },
+  {
+   "id": "E02",
+   "src": "Mapas del contexto; encuesta Manejo de residuos orgánicos, ID 13, Q2, fila 14 de Sheet1 (12–13/10/2026).",
+   "text": "“Lo que me molesta es que se hacen gusanos y malos olores en la basura. Por qué de jueves a martes son muchos días de acumulación de desechos .”"
+  },
+  {
+   "id": "E03",
+   "src": "Mapas del contexto; encuesta Manejo de residuos orgánicos, ID 20, Q1, fila 21 de Sheet1 (12–13/10/2026).",
+   "text": "“En ocasiones algunos residuos al depositarlos en el contenedor de la basura de la casa produce liquidos despues de horas o de varios dias al estar ahi, como la recoleccion de  basura pasa un par de veces a la semana esto es un problema constante, estos liquidos de residuos han atraido en varias ocasiones mapaches al pationde mi casa y han generado problemas ronpiendo las bolsas y tirando con los contenedores de basura.”"
+  },
+  {
+   "id": "E04",
+   "src": "Mapas del contexto; encuesta Manejo de residuos orgánicos, ID 21, Q2, fila 22 de Sheet1 (12–13/10/2026).",
+   "text": "“Los malos olores y no tener espacio”"
+  },
+  {
+   "id": "E05",
+   "src": "Usuarios extremos; encuesta Manejo de residuos orgánicos, ID 15, Q4, fila 16 de Sheet1 (12–13/10/2026).",
+   "text": "“En realidad lo llevamos bastante organizado por el tema de la compasta”"
+  },
+  {
+   "id": "E06",
+   "src": "Usuarios extremos; encuesta Manejo de residuos orgánicos, ID 26, Q1, fila 27 de Sheet1 (12–13/10/2026).",
+   "text": "“Es complicado cuando el camión de basura solo pasa una vez a la semana y se ve como la basura se acumula en el patio y se ven las movas y el mal olor.”"
+  },
+  {
+   "id": "E07",
+   "src": "Usuarios extremos; encuesta Manejo de residuos orgánicos, ID 29, Q1, fila 30 de Sheet1 (12–13/10/2026).",
+   "text": "“No he tenido problemas graves con la basura ya que vivo en el centro y ahí pasa el camión todos los días”"
+  },
+  {
+   "id": "E08",
+   "src": "Usuarios extremos; encuesta Manejo de residuos orgánicos, ID 29, Q3, fila 30 de Sheet1 (12–13/10/2026).",
+   "text": "“Desagradable”"
+  },
+  {
+   "id": "E09",
+   "src": "Mapa de Empatía; encuesta Manejo de residuos orgánicos, ID 6, Q3, fila 7 de Sheet1 (12–13/10/2026).",
+   "text": "“Lo que más me molesta es el mal olor y que atrae moscas o bichos, sobre todo si la basura se queda varios días antes de que pase el camión. También me preocupa el lixiviado que sueltan, porque ensucia el basurero y deja un olor difícil de quitar. Me molesta porque es antihigiénico y hace que la casa se sienta sucia, aunque esté limpia”"
+  },
+  {
+   "id": "E10",
+   "src": "Mapa de Empatía; encuesta Manejo de residuos orgánicos, ID 12, Q5, fila 13 de Sheet1 (12–13/10/2026).",
+   "text": "“En la actualidad los colocó en bolsa plástica con cierre hermético y los congeló  hasta que pasa el camión recolector.”"
+  },
+  {
+   "id": "E11",
+   "src": "Mapa de Empatía; encuesta Manejo de residuos orgánicos, ID 24, Q2, fila 25 de Sheet1 (12–13/10/2026).",
+   "text": "“Que se hagan gusanos, por eso los separamos pero es mas complicado de tener separados”"
+  },
+  {
+   "id": "E12",
+   "src": "Mapa de Empatía; encuesta Manejo de residuos orgánicos, ID 8, Q5, fila 9 de Sheet1 (12–13/10/2026).",
+   "text": "“Al no tener dónde desechar la parte orgánica, se desecha directo al basurero común. Se trata de desechar los restos orgánico lo más cercano a los días de recolección de basura y mantener el basurero cerrado para limitar la propagación de olores.”"
+  },
+  {
+   "id": "E13",
+   "src": "Mapa de Empatía; encuesta Manejo de residuos orgánicos, ID 22, Q4, fila 23 de Sheet1 (12–13/10/2026).",
+   "text": "“un congelador mas grande”"
+  },
+  {
+   "id": "E14",
+   "src": "Usuarios extremos; encuesta Manejo de residuos orgánicos, ID 30, Q3, fila 31 de Sheet1 (12–13/10/2026).",
+   "text": "“Casi no generamos desperdicio de comida, y de tener alimento perritos de la calle”"
+  },
+  {
+   "id": "E15",
+   "src": "Usuarios extremos; encuesta Manejo de residuos orgánicos, ID 30, Q5, fila 31 de Sheet1 (12–13/10/2026).",
+   "text": "“No tenemos ése tipo de problemas”"
+  },
+  {
+   "id": "E16",
+   "src": "Mapas del contexto; encuesta Manejo de residuos orgánicos, ID 25, Q1, fila 26 de Sheet1 (12–13/10/2026).",
+   "text": "“En días feriados que no pasa la basura, se acumula más  y por ende el manejo se complica”"
+  },
+  {
+   "id": "E17",
+   "src": "Mapa de Empatía; encuesta Manejo de residuos orgánicos, ID 7, Q3, fila 8 de Sheet1 (12–13/10/2026).",
+   "text": "“Eficiente, porque la he ido mejorando poco a poco.”"
+  },
+  {
+   "id": "E18",
+   "src": "Notebook original, modelos pysentimiento/robertuito-sentiment-analysis y robertuito-emotion-analysis; Q3; sentimientos_resumen.xlsx, hojas Sentimientos/Promedios; ejecución 23/10/2026.",
+   "text": "32 respuestas: NEU 18/32 (56,25%); NEG 12/32 (37,50%); POS 2/32 (6,25%). Probabilidades emocionales promedio: Otros 63,10%; Alegría 11,07%; Enojo 10,35%; Tristeza 6,40%; Disgusto 3,60%; Sorpresa 3,40%; Miedo 2,09%. No equivalen a prevalencias de emociones."
+  },
+  {
+   "id": "E19",
+   "src": "Contraste de respuestas_con_sentimientos.csv: ID 1, 23 y 29, Q3, sentiment_label y confidence.",
+   "text": "ID 1 e ID 29: “Desagradable” fue clasificado NEU, confianza 0,478. ID 23: “Los alimentos desperdiciados se ponen en un basurero separado del de reciclaje.” fue clasificado NEG, confianza 0,820. Son discrepancias entre clasificación automática y lectura cualitativa, conservadas sin corregir las salidas del modelo."
+  },
+  {
+   "id": "E20",
+   "src": "Respuestas_originales.xlsx, Sheet1: 32 filas de respuestas, IDs 1–32, cinco preguntas abiertas. Fechas 12–13/10/2026.",
+   "text": "Las 32 Q3 contienen texto. Q4 de ID 4 contiene únicamente “.” y Q1 de ID 18 menciona humedad en una bodega de pinturas. Esas dos respuestas no se usan como evidencia del problema; no se elimina a los participantes ni sus Q3 del análisis automático."
+  }
+ ],
+ "ideas": [
+  {
+   "id": "I01",
+   "title": "Módulo compacto de contención",
+   "tool": "scamper",
+   "text": "Concepto de recipiente extraíble con base que permita estudiar goteos, limpieza y extracción en una huella pequeña. El primer modelo será de cartón y usará material simulado. No se ha definido capacidad ni se afirma control de olores.",
+   "refs": "SCAMPER — Sustituir. E01 (ID 2, Q1), E03 (ID 20, Q1), E04 (ID 21, Q2). Idea propuesta; eficacia no comprobada."
+  },
+  {
+   "id": "I02",
+   "title": "Estación integrada de separación y retiro",
+   "tool": "scamper",
+   "text": "Reunir en un punto la separación, almacenamiento y extracción con componentes independientes. Se evaluará si disminuye recorridos o si añade piezas que limpiar.",
+   "refs": "SCAMPER — Combinar. E01, E09 (ID 6, Q3), E11 (ID 24, Q2). Idea propuesta; eficacia no comprobada."
+  },
+  {
+   "id": "I03",
+   "title": "Soporte vertical removible",
+   "tool": "scamper",
+   "text": "Explorar un soporte para aprovechar una zona disponible del mueble sin usar más superficie de piso. La prueba debe comprobar acceso, estabilidad y compatibilidad con el espacio real.",
+   "refs": "SCAMPER — Adaptar. E01, E04. La encuesta no aporta dimensiones del mobiliario. Idea propuesta; eficacia no comprobada."
+  },
+  {
+   "id": "I04",
+   "title": "Capacidad modular según generación",
+   "tool": "scamper",
+   "text": "Comparar recipientes pequeños que se puedan retirar por separado y módulos adicionales para variaciones de cantidad. La configuración queda sujeta a medidas de volumen y espacio.",
+   "refs": "SCAMPER — Modificar. E01, E06 (ID 26, Q1), E14 (ID 30, Q3). Idea propuesta; eficacia no comprobada."
+  },
+  {
+   "id": "I05",
+   "title": "Distribución con recursos existentes",
+   "tool": "scamper",
+   "text": "Usar objetos disponibles como modelos para comparar ubicaciones y recorridos, antes de diseñar o comprar un producto. Es una exploración del espacio con material simulado.",
+   "refs": "SCAMPER — Poner en otros usos. E10 (ID 12, Q5), E12 (ID 8, Q5), E13 (ID 22, Q4). Idea propuesta; eficacia no comprobada."
+  },
+  {
+   "id": "I06",
+   "title": "Separación con menos pasos",
+   "tool": "scamper",
+   "text": "Observar la rutina y representar una secuencia corta que reduzca traslados o decisiones repetidas sin suprimir limpieza necesaria. Se compararía la comprensión de la secuencia actual y la propuesta.",
+   "refs": "SCAMPER — Eliminar. E11, E12. No se midieron pasos o tiempos previamente. Idea propuesta; eficacia no comprobada."
+  },
+  {
+   "id": "I07",
+   "title": "Tarjeta manual de organización",
+   "tool": "scamper",
+   "text": "Representar en una tarjeta el retiro habitual, el punto de almacenamiento y la preparación de la bolsa. Sirve para estudiar la organización del intervalo; no supone que el usuario olvida la fecha.",
+   "refs": "SCAMPER — Reordenar. E01, E02 (ID 13, Q2), E12, E16 (ID 25, Q1). Idea propuesta; eficacia no comprobada."
+  },
+  {
+   "id": "I08",
+   "title": "Rutina mínima sin compra inicial",
+   "tool": "y-si",
+   "text": "Combinar una ubicación acordada, recursos existentes y una secuencia breve de separación, almacenamiento y retiro. Se ensayará con tarjetas y material simulado para comprobar si encaja en el espacio y en las tareas del hogar.",
+   "refs": "¿Y si no pudiéramos comprar ni ocupar más superficie? Integra I05/I06. E01, E04, E11, E12. Idea propuesta; eficacia no comprobada."
+  },
+  {
+   "id": "I09",
+   "title": "Punto compartido de entrega",
+   "tool": "y-si",
+   "text": "Explorar conceptualmente una alternativa de entrega compartida que reduzca la espera doméstica. Requiere comprobar gestor, ubicación, accesibilidad y operación; no se afirma que exista el servicio ni se propone implementarlo sin esa revisión.",
+   "refs": "¿Y si el retiro se interrumpiera? E02, E06, E16. Dependencia externa aún no verificada. Idea propuesta; eficacia no comprobada."
+  },
+  {
+   "id": "I10",
+   "title": "Plan doméstico ante retrasos",
+   "tool": "y-si",
+   "text": "Prototipo en papel de un plan para reconocer capacidad disponible y decidir qué hacer ante una interrupción del retiro. Cada acción debe contrastarse con los recursos y condiciones del hogar; no se fija una duración segura de almacenamiento sin evidencia.",
+   "refs": "¿Y si cambiara el día de recolección? E01, E02, E06, E16. Idea propuesta; eficacia no comprobada."
+  },
+  {
+   "id": "I11",
+   "title": "Reducir restos evitables antes de almacenar",
+   "tool": "y-si",
+   "text": "Explorar con el hogar qué parte de los restos se puede evitar al organizar la preparación de alimentos. Es una línea complementaria aguas arriba; no resuelve por sí sola los restos inevitables ni presupone desperdicio excesivo.",
+   "refs": "¿Y si parte del residuo no llegara a generarse? E14, E15 (ID 30, Q5). Un caso de poco desperdicio no representa a todos los hogares. Idea propuesta; eficacia no comprobada."
+  },
+  {
+   "id": "I12",
+   "title": "Aprovechamiento condicionado al contexto",
+   "tool": "seis-sombreros-para-pensar",
+   "text": "Contrastar rutas de aprovechamiento orgánico en hogares que ya cuenten con condiciones e interés, tomando el compost reportado como caso de referencia. Se conserva como alternativa y no como solución universal para espacios pequeños.",
+   "refs": "Sombreros verde y negro; expansión de ¿Y si...? E05 (ID 15, Q4), E14, E15. Faltan datos de espacio, esfuerzo y viabilidad. Idea propuesta; eficacia no comprobada."
+  }
+ ],
+ "selected": [
+  "I01",
+  "I08",
+  "I10"
+ ],
+ "persona": {
+  "role": "Persona que gestiona restos de comida en su hogar. Perfil compuesto de casos con espera de recolección; no representa a las 32 personas ni es un participante individual.",
+  "context": "Almacenamiento temporal de residuos en un hogar con espacio limitado y espera hasta la recolección [E01, E02, E04]. No se infieren edad, género, ocupación ni ubicación.",
+  "goal": "Inferencia: mantener el hogar limpio y reducir molestias mientras llega el momento de disponer los residuos [E01, E09, E12].",
+  "job": "Conservar y retirar restos de comida sin que la espera implique olores, líquidos, insectos o una carga doméstica excesiva [E01, E09–E13].",
+  "says": "ID 6: “hace que la casa se sienta sucia, aunque esté limpia” (extracto de Q3). ID 24: “por eso los separamos pero es mas complicado de tener separados” (extracto de Q2).",
+  "saysRefs": "E09, E11",
+  "does": "Según autorreportes: almacena en bolsas cerradas (ID 2/Q5), congela hasta la recolección (ID 12/Q5) o aproxima la eliminación de residuos a los días de recolección (ID 8/Q5). Son alternativas declaradas, no conductas observadas ni una rutina única.",
+  "doesRefs": "E01, E10, E12",
+  "thinks": "Inferencia: podría valorar la organización, pero considerar insuficiente limpiar si los residuos deben permanecer varios días y siguen produciendo molestias.",
+  "thinksRefs": "E01, E02, E09, E11",
+  "feels": "Inferencia: podría sentir desagrado y frustración por las molestias y la manipulación adicional. ID 6 declara molestia y ID 24 describe complicación; no se atribuye el resultado del modelo a una persona específica.",
+  "feelsRefs": "E09, E11",
+  "needs": "Necesidades inferidas: mantener condiciones de higiene durante la espera, disponer de una rutina de separación practicable y gestionar el espacio de almacenamiento. Motivador: evitar que la casa se sienta sucia; existe también interés por mejorar gradualmente el manejo (ID 7).",
+  "needsRefs": "E01, E04, E09, E11, E13, E17",
+  "pains": "Olores y líquidos mientras espera, insectos o animales en los relatos y complejidad adicional al separar residuos. No se afirma enfermedad ni toxicidad comprobada.",
+  "painsRefs": "E01, E03, E09, E11",
+  "barriers": "Espacio limitado [E04], tiempo hasta la recolección [E02] y ausencia de un lugar para disposición orgánica [E12]. La petición de un congelador más grande [E13] orienta una pregunta sobre capacidad, no prueba una medida.",
+  "workarounds": "Bolsas cerradas o dobles, recipientes con tapa y espera hasta el camión; congelación declarada [E10], ajuste a días de recolección [E12]. La composta pertenece a un caso de contraste [E05] y no se atribuye automáticamente al perfil central."
+ },
+ "insights": [
+  "Aunque las personas intentan mantener limpio el hogar, la espera hasta la recolección puede prolongar la permanencia de residuos que producen molestias. Los relatos sugieren que necesitan conservar condiciones de higiene durante ese intervalo, además de retirar la basura a tiempo. Es una interpretación de E01, E02, E09 y E16, no una relación causal demostrada.",
+  "Aunque separar residuos se asocia con un mejor manejo, para algunos participantes añade dificultad: se mantienen fracciones aparte y se recurre a congelar o a buscar más capacidad. La tensión sugiere que una práctica ambiental deseada necesita encajar en el espacio y el esfuerzo domésticos disponibles.",
+  "Aunque una recolección más frecuente reduce la espera en algunos relatos, no garantiza una experiencia agradable: ID 29 declara recolección diaria y aun así usa “Desagradable”. Los contrastes con hogares que compostan o generan pocos restos sugieren que también importa el destino de los residuos y la rutina de manejo."
+ ],
+ "areas": [
+  {
+   "title": "Higiene y espacio durante la espera hasta la recolección.",
+   "finding": "Cuando los restos de comida permanecen varios días en el hogar aparecen olores, líquidos, gusanos o moscas y, en algunos casos, animales que rompen las bolsas. La espera varía entre diaria y semanal, de jueves a martes, y se alarga con los feriados. Las personas limpian y cierran las bolsas, pero la casa «se siente sucia aunque esté limpia». Las tres herramientas coinciden: Insights lo identifica como patrón, el Dibujo del problema lo coloca en el centro y el Mapa de presente y futuro lo marca como brecha prioritaria.",
+   "need": "Mantener condiciones de higiene y un uso razonable del espacio durante el intervalo entre generar y retirar los residuos.",
+   "refs": "E01, E02, E03, E06, E09, E16",
+   "importance": 5,
+   "selected": false
+  },
+  {
+   "title": "Separación practicable en el espacio y esfuerzo del hogar.",
+   "finding": "Separar los residuos se asocia con un mejor manejo, pero para algunas personas es más complicado mantener las fracciones aparte. Recurren a congelar, a desechar en el basurero común o a pedir más capacidad, y en un caso no hay dónde disponer la fracción orgánica.",
+   "need": "Una rutina de separación compatible con el espacio y el esfuerzo disponibles en el hogar.",
+   "refs": "E10, E11, E12, E13",
+   "importance": 4,
+   "selected": false
+  },
+  {
+   "title": "Factores que hacen más llevadero el manejo: destino y rutina de los residuos.",
+   "finding": "Los hogares con composta o pocos restos relatan menos problemas. Una persona con recolección diaria califica la experiencia como «Desagradable». La frecuencia de recolección, por sí sola, no explica la experiencia.",
+   "need": "Comprender qué condiciones del destino y de la rutina reducen la carga, más allá de la frecuencia de recolección.",
+   "refs": "E05, E07, E08, E14, E15",
+   "importance": 3,
+   "selected": false
+  }
+ ],
+ "povs": [
+  {
+   "user": "Las personas que gestionan restos de comida en su hogar",
+   "need": "mantener condiciones de higiene durante los días de espera hasta la recolección",
+   "insight": "aunque limpian y cierran sus bolsas, los olores, líquidos e insectos persisten mientras los residuos permanecen almacenados y la casa se siente sucia aunque esté limpia",
+   "refs": "E01, E02, E06, E09, E16"
+  },
+  {
+   "user": "Las personas que gestionan restos de comida en su hogar",
+   "need": "una rutina de separación que sea practicable con el espacio y el esfuerzo que tienen",
+   "insight": "separar se asocia con mejor manejo, pero obliga a mantener fracciones aparte y a recurrir a congelar o buscar más capacidad",
+   "refs": "E10, E11, E12, E13"
+  },
+  {
+   "user": "Las personas que gestionan restos de comida en su hogar",
+   "need": "que su manejo de restos funcione más allá de la frecuencia de recolección",
+   "insight": "incluso con recolección diaria la experiencia puede seguir siendo desagradable, mientras los hogares con composta o pocos restos reportan menos problemas",
+   "refs": "E05, E07, E08, E14, E15"
+  }
+ ],
+ "problem": {
+  "segment": "las personas que participan en el manejo de restos de comida en su hogar",
+  "what": "olores, líquidos, insectos o animales y falta de espacio mientras los restos de comida esperan en el hogar hasta su recolección",
+  "because": "el intervalo entre generar y retirar los residuos puede alargarse varios días (recolección semanal, de jueves a martes o con feriados) y las estrategias actuales, como bolsas cerradas, congelar o ajustar el día de desecho, alivian pero no eliminan las molestias ni la carga doméstica",
+  "userBenefit": "vivirían la espera con menos molestias y menos esfuerzo, sin sentir que su casa está sucia aunque esté limpia",
+  "orgBenefit": "tendríamos un problema acotado y sustentado en evidencia para generar alternativas en Idear sin dar por elegida una solución",
+  "transition": "¿Cómo podríamos ayudar a que los hogares mantengan higiene y espacio mientras esperan la recolección de sus restos de comida, sin aumentar su carga de esfuerzo?"
+ },
+ "dtools": [
+  {
+   "name": "Insights",
+   "purpose": "Identifica la información relevante a partir de la cual podemos generar valor.",
+   "findings": "El insight más sólido y repetido en la evidencia es la espera entre la generación y la recolección de los restos de comida como momento crítico de higiene y espacio (E01, E02, E06, E09, E16). Un segundo hallazgo, menos frecuente en la evidencia, es la dificultad de practicar la separación dentro del espacio y esfuerzo del hogar (E10–E13). Ambos son interpretaciones, no relaciones causales demostradas."
+  },
+  {
+   "name": "Dibujo del problema",
+   "purpose": "Definir el reto al que nos enfrentamos.",
+   "findings": "Al dibujar el problema, el centro no es el momento de tirar la basura sino el intervalo de espera, donde convergen espacio, higiene y esfuerzo. Aparece una relación visible entre días de espera y molestias, y la presencia de animales/insectos como consecuencia visible de la acumulación (E01, E03, E06). El dibujo debe ser elaborado a mano o en digital por el equipo; este texto es la síntesis escrita que lo acompaña."
+  },
+  {
+   "name": "Mapa de presente, Mapa de futuro",
+   "purpose": "Definir los puntos de conflicto e identificar los deseos de los usuarios implicados en la solución.",
+   "findings": "La brecha prioritaria entre el presente y el futuro deseado es la espera: la experiencia actual depende de cuántos días permanezcan los restos en casa y de cuánto espacio y esfuerzo haya. Se detectaron tres brechas; la primera concentra más evidencia directa y por eso se priorizó. Los deseos de los usuarios surgen de pocos casos y no se han validado."
+  }
+ ],
+ "limit": "La definición se apoya en una sola fuente: 32 respuestas anónimas de una encuesta, con muestreo y reclutamiento no documentados y sin representatividad estadística. Las tres herramientas de Empatizar y las tres de Definir reorganizan esa misma fuente, por lo que no hay triangulación independiente. Las preguntas mencionaban olores, líquidos y espacio, lo que pudo inducir esos temas. Las citas son percepciones autorreportadas, no hechos sanitarios comprobados. No se midieron volúmenes, temperaturas ni frecuencias reales de recolección, y la encuesta no registra edad, cantón ni composición del hogar. El análisis automático de sentimientos presenta discrepancias con la lectura cualitativa (E19). El POV y el área prioritaria son síntesis provisionales.",
+ "next": "Entrevistas con consentimiento a casos como los ID 2, 15, 26 y 29, o a perfiles comparables si no se puede recontactar a participantes anónimos. Observación del almacenamiento en el hogar. Medición de volumen generado y de días de espera. Contraste entre hogares con distintas frecuencias de recolección y con composta. Registro de quién realiza la tarea y cuánto esfuerzo le toma.",
+ "criteria": "Criterios de preselección cualitativa: (1) relación con el POV y evidencias sobre espera, espacio y limpieza; (2) posibilidad de encajar en poco espacio; (3) carga de uso y limpieza que deberá asumir la persona; (4) facilidad de representar y contrastar el concepto antes de construir; (5) dependencia de compras, infraestructura o terceros. No se calculan ahorros, costos ni puntuaciones de desempeño porque no se midieron. La selección es documental y provisional.",
+ "reason": "Se proponen I01, I08 e I10 para comparar tres enfoques: un objeto de contención, una rutina con recursos existentes y una respuesta a interrupciones del retiro. I01 aborda espacio, líquidos y extracción [E01, E03, E04]; I08 aborda la dificultad de separar sin añadir carga [E11, E12]; I10 aborda la espera y los feriados [E02, E16]. I02–I07 permanecen como variantes o componentes. I09 depende de un servicio no verificado; I11 amplía el alcance hacia la generación; I12 requiere condiciones que no se conocen. Ninguna candidata se declara solución final ni cuenta con aprobación de usuarios o una votación del grupo.",
+ "assumptions": "I01: se supone que una configuración compacta puede ser accesible y más sencilla de manipular, pero faltan medidas y prueba de limpieza. I08: se supone que existen recursos aprovechables y margen para reorganizar tareas; no se conoce la distribución del trabajo doméstico. I10: se supone que un plan visual puede ayudar ante cambios, aunque el problema podría requerir recursos que una tarjeta no aporta. Las molestias son autorreportadas; no se midieron higiene, tiempo, volumen, temperatura, presupuesto o aceptación. Las ideas y beneficios son hipótesis, no evidencia nueva.",
+ "nextSteps": "1. Recuperar medidas y rutinas de hogares que declaren poco espacio y espera larga, incorporando casos contrastantes con menos dificultades; acordar participación y registro. 2. Representar I01 con modelos de cartón de distintas configuraciones; simular ubicación, llenado y extracción con material limpio. 3. Representar I08 con tarjetas de pasos y objetos existentes; pedir al participante que recorra su rutina y señale cambios o carga añadida. 4. Presentar I10 mediante escenarios de retiro normal y retraso, sin dar por válida una acción de almacenamiento no estudiada. 5. Registrar comprensión, accesibilidad, pasos, espacio requerido, molestias previstas y comentarios; los tiempos y medidas serán nuevos datos, no resultados actuales. 6. Comparar candidatas con los criterios, corregir supuestos y decidir con el equipo cuál desarrollar. Conservar el expediente para Prototipar. No se han ejecutado estas pruebas.",
+ "pov": "La persona que maneja restos de comida en un hogar con poco espacio y molestias durante la espera de recolección necesita mantener limpieza y espacio utilizable con una carga cotidiana manejable porque aunque intenta ordenar y limpiar, debe conservar residuos hasta un retiro que no controla; las molestias pueden continuar durante ese intervalo.",
+ "idtools": [
+  {
+   "name": "SCAMPER",
+   "purpose": null,
+   "deliverable": "Matriz SCAMPER + ideas",
+   "findings": null
+  },
+  {
+   "name": "¿Y si...?",
+   "purpose": null,
+   "deliverable": "Banco de hipótesis extremas e ideas",
+   "findings": null
+  },
+  {
+   "name": "Seis sombreros para pensar",
+   "purpose": null,
+   "deliverable": "Síntesis de seis perspectivas + acuerdos",
+   "findings": null
+  }
+ ],
+ "etools": [
+  {
+   "name": "Mapas del contexto",
+   "purpose": "Definir cuál es el contexto relacionado con nuestro reto.",
+   "result": "La espera entre generación y recolección aparece como contexto de acumulación, falta de espacio y olores [E01–E04, E16]. La frecuencia varía entre casos y no está verificada externamente. El mapa contextual está completado con la evidencia disponible, manteniendo explícitas las variables no medidas.",
+   "refs": "E01, E02, E03, E04, E16"
+  },
+  {
+   "name": "Usuarios extremos",
+   "purpose": "Identificar necesidades que en usuarios medios no aparecerían.",
+   "result": "Hay experiencias contrastantes: organización mediante composta [E05], pocos desperdicios [E14–E15] y acumulación con recolección semanal [E06]. La recolección diaria no elimina por sí sola el desagrado [E07–E08]. Se comparan casos individuales; no se estima prevalencia poblacional.",
+   "refs": "E05, E06, E07, E08, E14, E15"
+  },
+  {
+   "name": "Mapa de Empatía",
+   "purpose": "Aumentar la empatía con los usuarios investigados.",
+   "result": "Se observa una tensión entre querer higiene y tener que conservar o manipular residuos: congelar y cerrar bolsas alivian la espera, pero la separación se declara complicada y se solicita mayor capacidad [E09–E13]. También existe percepción de mejora gradual [E17]. Se distinguen citas, conductas autorreportadas e inferencias.",
+   "refs": "E09, E10, E11, E12, E13, E17"
+  }
+ ]
+};
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? '').replace(/[&<>]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+// turn E01, E01–E04 into clickable codes
+function codes(s){
+  return esc(s).replace(/E(\d{2})(?:\s*[–-]\s*E(\d{2}))?/g,(m,a,b)=>{
+    if(!b) return `<code data-e="E${a}">E${a}</code>`;
+    return `<code data-e="E${a}" data-to="E${b}">E${a}–E${b}</code>`;
+  });
+}
+const short = (s,n=260)=> s && s.length>n ? s.slice(0,s.lastIndexOf(' ',n))+'…' : s;
+
+// Empatizar tools
+$('etools').innerHTML = D.etools.map((t,i)=>`<div class="card"><div class="tag">Herramienta ${i+1}</div><h3>${esc(t.name)}</h3><p><i>${esc(t.purpose)}</i></p><p>${codes(t.result)}</p><div class="refs">${codes(t.refs)}</div></div>`).join('');
+
+// emotions
+const emo=[['Otros',63.10,1],['Alegría',11.07],['Enojo',10.35],['Tristeza',6.40],['Disgusto',3.60],['Sorpresa',3.40],['Miedo',2.09]];
+$('emo').innerHTML = emo.map(([n,v,r])=>`<div class="hbar ${r?'res':''}"><span>${n}</span><div class="t"><div style="width:${v/63.1*100}%"></div></div><span>${v.toFixed(2).replace('.',',')}%</span></div>`).join('');
+
+// persona
+const P=D.persona, pf=[['Objetivo',P.goal],['Tarea principal',P.job],['Dice',P.says],['Hace',P.does],['Necesidades',P.needs],['Dolores',P.pains],['Barreras',P.barriers],['Soluciones actuales',P.workarounds]];
+$('persona').innerHTML = pf.map(([k,v])=>`<div><dt>${k}</dt><dd>${codes(short(v,230))}</dd></div>`).join('');
+
+$('einsights').innerHTML = D.insights.map((t,i)=>`<div class="card"><div class="tag">Insight ${i+1}</div><p>${codes(t)}</p></div>`).join('');
+
+// evidence wall
+const groups=['Todas','Mapas del contexto','Usuarios extremos','Mapa de Empatía','Sentimientos'];
+const grp = e => e.src.startsWith('Mapas')?'Mapas del contexto':e.src.startsWith('Usuarios')?'Usuarios extremos':e.src.startsWith('Mapa de Emp')?'Mapa de Empatía':'Sentimientos';
+function drawWall(g){
+  $('wall').innerHTML = D.ev.filter(e=>g==='Todas'||grp(e)===g).map(e=>{
+    const m=e.src.match(/ID (\d+), (Q\d)/);
+    return `<div class="ev" id="ev-${e.id}"><span class="id">${e.id}</span> <span class="tool" style="font-size:.72rem;color:var(--muted)">· ${grp(e)}</span><p>${esc(e.text)}</p><div class="src">${m?`Participante ID ${m[1]} · ${m[2]}`:esc(short(e.src,120))}</div></div>`;}).join('');
+}
+$('filters').innerHTML = groups.map((g,i)=>`<button class="${i?'':'on'}" data-g="${g}">${g}</button>`).join('');
+$('filters').onclick = ev=>{const b=ev.target.closest('button'); if(!b) return; [...$('filters').children].forEach(x=>x.classList.toggle('on',x===b)); drawWall(b.dataset.g);};
+drawWall('Todas');
+
+// Definir
+const dtp=['Organizar la información relevante a partir de la cual generar valor.','Representar visualmente el reto al que nos enfrentamos.','Identificar puntos de conflicto y deseos de los usuarios.'];
+$('dtools').innerHTML = D.dtools.map((t,i)=>`<div class="card"><div class="tag">Herramienta ${i+1}</div><h3>${esc(t.name)}</h3><p><i>${esc(t.purpose||dtp[i])}</i></p><p>${codes(short(t.findings,330))}</p></div>`).join('');
+$('areas').innerHTML = D.areas.map((a,i)=>`<div class="card"><div class="tag">Área ${i+1}${i===0?' · prioritaria':''}</div><h3>${esc(a.title)}</h3><p><b>Necesidad:</b> ${esc(a.need)}</p>${a.refs?`<div class="refs">${codes(a.refs)}</div>`:''}</div>`).join('');
+$('povs').innerHTML = D.povs.map((p,i)=>`<div class="card pov"><div class="tag">POV ${i+1}</div><p><b>${esc(p.user)}</b> necesitan <b>${esc(p.need)}</b> porque ${esc(p.insight)}.</p>${p.refs?`<div class="refs">${codes(p.refs)}</div>`:''}</div>`).join('');
+$('pwhat').textContent = D.problem.what; $('pbecause').textContent = D.problem.because; $('pbenefit').textContent = D.problem.userBenefit;
+$('hmw').textContent = D.problem.transition;
+
+// Idear
+$('ipov').textContent = D.pov;
+const tname={scamper:'SCAMPER','y-si':'¿Y si…?','seis-sombreros-para-pensar':'Seis sombreros'};
+const ig=['Todas','Seleccionadas','SCAMPER','¿Y si…?','Seis sombreros'];
+function drawIdeas(g){
+  $('ideas').innerHTML = D.ideas.filter(x=>g==='Todas'||(g==='Seleccionadas'?D.selected.includes(x.id):tname[x.tool]===g)).map(x=>{
+    const s=D.selected.includes(x.id);
+    return `<div class="idea ${s?'sel':''}">${s?'<span class="badge">Candidata</span>':''}<div class="top"><span class="iid">${x.id}</span><span class="tool">${tname[x.tool]||x.tool}</span></div><h4>${esc(x.title)}</h4><p>${esc(x.text)}</p><div class="refs">${codes(x.refs.replace(/ Idea propuesta; eficacia no comprobada\./,''))}</div></div>`;}).join('');
+}
+$('ifilters').innerHTML = ig.map((g,i)=>`<button class="${i?'':'on'}" data-g="${g}">${g}</button>`).join('');
+$('ifilters').onclick = ev=>{const b=ev.target.closest('button'); if(!b) return; [...$('ifilters').children].forEach(x=>x.classList.toggle('on',x===b)); drawIdeas(b.dataset.g);};
+drawIdeas('Todas');
+$('criteria').innerHTML = codes(D.criteria); $('reason').innerHTML = codes(D.reason);
+
+// next steps
+$('steps').innerHTML = D.nextSteps.split(/\s(?=\d\.\s)/).map(s=>s.replace(/^\d\.\s*/,'')).map(s=>`<li>${esc(s)}</li>`).join('');
+$('assumptions').innerHTML = codes(D.assumptions); $('limit').innerHTML = codes(D.limit);
+
+// code click -> highlight evidence
+document.addEventListener('click',ev=>{
+  const c=ev.target.closest('code[data-e]'); if(!c) return;
+  const a=+c.dataset.e.slice(1), b=c.dataset.to?+c.dataset.to.slice(1):a;
+  [...$('filters').children].forEach((x,i)=>x.classList.toggle('on',i===0)); drawWall('Todas');
+  const ids=[]; for(let k=a;k<=b;k++) ids.push('ev-E'+String(k).padStart(2,'0'));
+  const first=document.getElementById(ids[0]); if(!first) return;
+  first.scrollIntoView({behavior:'smooth',block:'center'});
+  ids.forEach(id=>{const el=document.getElementById(id); if(el){el.classList.add('hl'); setTimeout(()=>el.classList.remove('hl'),2600);}});
+});
+
+// active nav
+const links=[...document.querySelectorAll('nav a')];
+const obs=new IntersectionObserver(es=>es.forEach(e=>{ if(e.isIntersecting) links.forEach(l=>l.classList.toggle('on',l.getAttribute('href')==='#'+e.target.id)); }),{rootMargin:'-45% 0px -50% 0px'});
+document.querySelectorAll('header[id],section[id]').forEach(s=>obs.observe(s));
+</script>
+</body>
+</html>
