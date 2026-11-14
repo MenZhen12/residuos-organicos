@@ -1,0 +1,270 @@
+{
+  "version": "1.0",
+  "type": "PI4803-Idear",
+  "phase": "Idear",
+  "project": "Manejo de residuos orgánicos en el hogar",
+  "team": "Grupo 3",
+  "user": "Personas que participan en el manejo de restos de comida en su hogar. La encuesta aporta 32 respuestas anónimas; no registra edad, cantón ni composición del hogar de forma sistemática.",
+  "need": "mantener limpieza y espacio utilizable con una carga cotidiana manejable",
+  "pov": "La persona que maneja restos de comida en un hogar con poco espacio y molestias durante la espera de recolección necesita mantener limpieza y espacio utilizable con una carga cotidiana manejable porque aunque intenta ordenar y limpiar, debe conservar residuos hasta un retiro que no controla; las molestias pueden continuar durante ese intervalo.",
+  "problem": "El segmento de personas que manejan restos de comida en hogares con espacio limitado y molestias durante la espera de recolección enfrenta dificultad para mantener la limpieza y el espacio utilizable mientras los residuos permanecen en casa porque los relatos asocian la acumulación antes del retiro con olores, líquidos y falta de espacio; es una explicación provisional basada en E01, E02, E04, E09 y E16, pendiente de contrastar en campo. Beneficio esperado: podría conservar la comodidad del hogar y reducir la carga de manejar los residuos durante ese intervalo, beneficios aún por evaluar",
+  "defineRefs": "E01, E02, E04, E09, E16. Interpretación del equipo; seleccionada por conectar usuario, necesidad y contexto sin imponer una solución. | E01, E02, E04, E09, E16 | Exportación del formulario Manejo de residuos orgánicos (1–32).xlsx, Sheet1, y resultados previos del notebook. El muro E01–E20, Mapas del contexto, Usuarios extremos y Mapa de empatía reutilizan esa misma fuente. Análisis dimensional, Insights y ¿Cómo podríamos...? son síntesis documentales. No hubo nuevas entrevistas, observaciones o mediciones.",
+  "criteria": "Criterios de preselección cualitativa: (1) relación con el POV y evidencias sobre espera, espacio y limpieza; (2) posibilidad de encajar en poco espacio; (3) carga de uso y limpieza que deberá asumir la persona; (4) facilidad de representar y contrastar el concepto antes de construir; (5) dependencia de compras, infraestructura o terceros. No se calculan ahorros, costos ni puntuaciones de desempeño porque no se midieron. La selección es documental y provisional.",
+  "reason": "Se proponen I01, I08 e I10 para comparar tres enfoques: un objeto de contención, una rutina con recursos existentes y una respuesta a interrupciones del retiro. I01 aborda espacio, líquidos y extracción [E01, E03, E04]; I08 aborda la dificultad de separar sin añadir carga [E11, E12]; I10 aborda la espera y los feriados [E02, E16]. I02–I07 permanecen como variantes o componentes. I09 depende de un servicio no verificado; I11 amplía el alcance hacia la generación; I12 requiere condiciones que no se conocen. Ninguna candidata se declara solución final ni cuenta con aprobación de usuarios o una votación del grupo.",
+  "assumptions": "I01: se supone que una configuración compacta puede ser accesible y más sencilla de manipular, pero faltan medidas y prueba de limpieza. I08: se supone que existen recursos aprovechables y margen para reorganizar tareas; no se conoce la distribución del trabajo doméstico. I10: se supone que un plan visual puede ayudar ante cambios, aunque el problema podría requerir recursos que una tarjeta no aporta. Las molestias son autorreportadas; no se midieron higiene, tiempo, volumen, temperatura, presupuesto o aceptación. Las ideas y beneficios son hipótesis, no evidencia nueva.",
+  "nextSteps": "1. Recuperar medidas y rutinas de hogares que declaren poco espacio y espera larga, incorporando casos contrastantes con menos dificultades; acordar participación y registro. 2. Representar I01 con modelos de cartón de distintas configuraciones; simular ubicación, llenado y extracción con material limpio. 3. Representar I08 con tarjetas de pasos y objetos existentes; pedir al participante que recorra su rutina y señale cambios o carga añadida. 4. Presentar I10 mediante escenarios de retiro normal y retraso, sin dar por válida una acción de almacenamiento no estudiada. 5. Registrar comprensión, accesibilidad, pasos, espacio requerido, molestias previstas y comentarios; los tiempos y medidas serán nuevos datos, no resultados actuales. 6. Comparar candidatas con los criterios, corregir supuestos y decidir con el equipo cuál desarrollar. Conservar el expediente para Prototipar. No se han ejecutado estas pruebas.",
+  "defineImported": true,
+  "defineFilename": "Definir.json",
+  "repoFilename": "PI4803_Idear_Herramientas.json",
+  "tools": [
+    {
+      "id": "scamper",
+      "name": "SCAMPER",
+      "objective": "Aumentar el número y variedad de las ideas.",
+      "deliverable": "Matriz SCAMPER + ideas",
+      "source": "Dinngo / designthinking.es - plantilla original proporcionada por el docente",
+      "fields": [
+        "Sustituir",
+        "Combinar",
+        "Adaptar",
+        "Modificar",
+        "Poner en otros usos",
+        "Eliminar",
+        "Reordenar / invertir",
+        "Ideas seleccionadas"
+      ],
+      "application": {
+        "toolId": "scamper",
+        "phase": "Idear",
+        "status": "Completada",
+        "values": [
+          "Sustituir la bolsa sin soporte por un módulo compacto con recipiente extraíble, superficies accesibles y base para contener posibles goteos. Idea I01. Responde a falta de espacio y líquidos [E01, E03, E04]. Se propone comparar configuraciones; no se afirma que un recipiente específico elimine olores.",
+          "Combinar separación, extracción y limpieza en una sola estación con piezas independientes: recipiente para restos y bandeja extraíble. Idea I02. La intención es reducir traslados sin mezclar funciones incompatibles [E01, E09, E11]. Hay que comprobar si simplifica la tarea o añade piezas que limpiar.",
+          "Adaptar el principio de un organizador vertical a la ubicación de los residuos: soporte removible que aproveche una zona disponible del mueble sin obstruir su uso. Idea I03 [E01, E04]. Se deben revisar acceso, estabilidad, limpieza y cargas; todavía no se han medido los muebles.",
+          "Modificar la capacidad mediante módulos de distinto tamaño que puedan retirarse por separado, manteniendo una huella pequeña cuando se genera poco residuo. Idea I04 [E01, E06, E14]. El volumen necesario y la comodidad de extracción siguen sin medirse.",
+          "Aprovechar objetos y recipientes existentes como modelos para estudiar ubicaciones y recorridos antes de comprar un producto. Idea I05 [E10, E12, E13]. Es una prueba de distribución con material simulado; no se prescribe reutilizar un envase que no sea adecuado para residuos.",
+          "Eliminar pasos repetidos y decisiones innecesarias de la separación mediante una rutina corta y un lugar de disposición definido. Idea I06 [E11, E12]. Hay que observar primero qué pasos se repiten; no se elimina ninguna medida de limpieza por suponer que sobra.",
+          "Reordenar la rutina: definir punto de almacenamiento y preparación para el retiro antes de que se acumule el residuo. Incorporar una tarjeta manual vinculada al día habitual de recolección. Idea I07 [E01, E02, E12, E16]. No se supone que los participantes olvidan el horario; se explora cómo organizar la espera.",
+          "Se conservan I01–I07 en el banco. I01 pasa a comparación como candidata física; I05 e I06 alimentan la alternativa de rutina mínima I08. I03 e I04 permanecen como variaciones para contrastar cuando se conozcan medidas y capacidad. Es una preselección documental, sin pruebas de funcionamiento ni votación del grupo."
+        ],
+        "findings": "Las siete provocaciones produjeron alternativas de producto, distribución y rutina. El problema no exige de entrada una aplicación digital ni una compostera. Las variantes deben compararse por espacio ocupado, esfuerzo de uso y facilidad de limpieza, manteniendo explícitas las condiciones no medidas.",
+        "evidenceText": "EI01 — Resultado de ideación SCAMPER, no evidencia de eficacia: ideas I01–I07 vinculadas a E01, E02, E03, E04, E06, E09, E10, E11, E12, E13, E14 y E16 del expediente de Empatizar conservado en Definir.json.",
+        "attachment": "Plantilla digital completa y hallazgos en este repositorio. Abrir SCAMPER; el aplicativo permite imprimir la herramienta o exportar su JSON.",
+        "updated": "2026-11-08T16:49:20.917Z"
+      }
+    },
+    {
+      "id": "y-si",
+      "name": "¿Y si...?",
+      "objective": "Plantear hipótesis extremas que den pie a nuevas ideas.",
+      "deliverable": "Banco de hipótesis extremas e ideas",
+      "source": "Dinngo / designthinking.es - plantilla original proporcionada por el docente",
+      "fields": [
+        "Situación actual",
+        "¿Y si...? 1",
+        "¿Y si...? 2",
+        "¿Y si...? 3",
+        "Ideas derivadas",
+        "Hipótesis/ideas seleccionadas"
+      ],
+      "application": {
+        "toolId": "y-si",
+        "phase": "Idear",
+        "status": "Completada",
+        "values": [
+          "El segmento priorizado conserva restos de comida hasta la recolección y declara molestias por acumulación, líquidos, olores o espacio limitado [E01, E02, E04, E09, E16]. Definir centra el reto en ese intervalo. Las hipótesis siguientes amplían opciones; no describen hechos observados ni servicios existentes.",
+          "¿Y si no pudiéramos comprar un producto nuevo ni ocupar más superficie? Esto obliga a explorar mejor ubicación de recursos existentes, una rutina mínima y apoyos manuales. Deriva I08, junto con I03 e I05. Hay que comprobar disponibilidad real de espacio y recipientes [E01, E04, E12].",
+          "¿Y si el día de recolección cambiara o el retiro habitual se interrumpiera? En vez de confiar en una fecha fija, podríamos tener un plan doméstico de contingencia con señales de capacidad y acciones acordadas. Deriva I10; también invita a explorar I09 como alternativa de servicio [E02, E06, E16]. No se promete almacenamiento seguro por un número de días no estudiado.",
+          "¿Y si el mejor residuo para almacenar fuera el que no llega a generarse? Se abre una alternativa complementaria para revisar preparación y aprovechamiento de alimentos, I11, y se contrastan destinos alternativos, I12. Esta provocación amplía el reto, pero no sustituye el foco actual ni supone que todos los hogares puedan compostar [E05, E14, E15].",
+          "I08: rutina mínima con recursos existentes. I09: explorar un punto compartido de entrega con un gestor autorizado, cuya existencia y viabilidad deben verificarse. I10: plan para retrasos del retiro. I11: reducir la generación de restos evitables. I12: explorar aprovechamiento orgánico solo en hogares que tengan condiciones. Ninguna idea implica un servicio contratado o una solución ya implantada.",
+          "I08 e I10 pasan a preselección porque permiten contrastar conductas y necesidades sin depender inicialmente de infraestructura externa. I09 se conserva, pero requiere coordinación y queda fuera del prototipo doméstico inicial. I11 e I12 son líneas complementarias y necesitan revisar alcance y condiciones. Todas son hipótesis pendientes de contrastar."
+        ],
+        "findings": "Las provocaciones separan tres restricciones: espacio, dependencia del retiro y cantidad generada. Se obtuvieron alternativas distintas del contenedor y se identificaron dependencias que no conviene dar por resueltas. La preselección es provisional; no se realizó investigación nueva de servicios o usuarios.",
+        "evidenceText": "EI02 — Banco de hipótesis e ideas, no evidencia de resultados: I08–I12 se relacionan con E01, E02, E04, E05, E06, E12, E14, E15 y E16. Fuente de partida: encuesta original de 32 respuestas, recuperada mediante el expediente de Definir.",
+        "attachment": "Plantilla digital completa y hallazgos en este repositorio. Abrir ¿Y si...?; el aplicativo permite imprimir la herramienta o exportar su JSON.",
+        "updated": "2026-11-08T16:49:20.917Z"
+      }
+    },
+    {
+      "id": "seis-sombreros-para-pensar",
+      "name": "Seis sombreros para pensar",
+      "objective": "Analizar desde diferentes puntos de vista un problema, ya sea en grupo o individualmente.",
+      "deliverable": "Síntesis de seis perspectivas + acuerdos",
+      "source": "Dinngo / designthinking.es - plantilla original proporcionada por el docente",
+      "fields": [
+        "Reto o decisión",
+        "Sombrero blanco: hechos",
+        "Sombrero rojo: emociones",
+        "Sombrero negro: riesgos",
+        "Sombrero amarillo: beneficios",
+        "Sombrero verde: alternativas",
+        "Sombrero azul: síntesis y próximos pasos"
+      ],
+      "application": {
+        "toolId": "seis-sombreros-para-pensar",
+        "phase": "Idear",
+        "status": "Completada",
+        "values": [
+          "Comparar las alternativas I01–I12 para mantener limpieza y espacio utilizable durante la espera de recolección, con una carga cotidiana manejable. Se aplica como análisis documental de perspectivas; no se atribuyen opiniones, acuerdos o votos a integrantes que no participaron en una sesión registrada.",
+          "Blanco — Hechos disponibles: 32 respuestas anónimas; ID 2 relata falta de espacio, líquidos y olores [E01]; ID 13 menciona espera de jueves a martes [E02]; ID 6 describe sensación de suciedad [E09]; ID 25 señala feriados sin retiro [E16]. Existen casos contrastantes de compost y pocos residuos [E05, E14, E15]. No hay medidas de volumen, tiempo, costo, espacio o eficacia de las ideas.",
+          "Rojo — En los relatos aparecen desagrado y molestia [E08, E09], pero no se conoce la reacción de los usuarios a nuestras ideas. Como hipótesis de diseño, una rutina sencilla podría dar sensación de control y un sistema complejo podría generar rechazo. Estas reacciones se deben preguntar; no se presentan como emociones observadas ni como resultado del modelo de sentimientos.",
+          "Negro — Un módulo puede ocupar más espacio del esperado, ser difícil de limpiar o trasladar el problema. La opción vertical puede fallar por estabilidad o acceso. Una rutina puede añadir carga o depender de colaboración doméstica no documentada. Un punto compartido depende de terceros. La congelación o el compost no son alternativas universales. No se asignan costos ni desempeño sin mediciones.",
+          "Amarillo — I01 podría reunir contención y extracción en poca superficie; I08 podría aprovechar recursos existentes y reducir pasos; I10 podría facilitar decisiones ante un retraso. Son beneficios esperados. Se conservarían solo si los prototipos muestran utilidad para el usuario sin aumentar el esfuerzo o desplazar las molestias.",
+          "Verde — Mantener alternativas abiertas: recipiente compacto, estación integrada, soporte vertical, capacidad modular, reutilización de recursos como modelos, rutina mínima, tarjeta de organización, servicio compartido, plan de contingencia, reducción de generación y aprovechamiento condicionado. También se puede combinar I01 con I08 si primero se identifican los aportes de cada una por separado.",
+          "Azul — Proponer I01, I08 e I10 como tres candidatas diferentes para aprender en Prototipar. Comparar vínculo con evidencia, espacio, carga cotidiana, facilidad de ensayo y dependencia de recursos externos. Primero elaborar modelos de papel o cartón y recorridos con material simulado; luego recoger comentarios y revisar la selección. No hay solución final elegida ni validación del usuario."
+        ],
+        "findings": "Las perspectivas permiten distinguir datos, emociones declaradas, reacciones hipotéticas, riesgos y beneficios esperados. I01, I08 e I10 permiten contrastar producto, rutina y respuesta a interrupciones. Las alternativas restantes siguen disponibles; se evita elegir por atractivo tecnológico o atribuir eficacia antes de probar.",
+        "evidenceText": "EI03 — Síntesis de perspectivas y preselección documental, no acta de reunión ni validación: usa EI01/EI02 y las evidencias E01, E02, E04, E05, E08, E09, E11, E14, E15 y E16. La selección se revisará con usuarios y con el equipo.",
+        "attachment": "Plantilla digital completa y hallazgos en este repositorio. Abrir Seis sombreros para pensar; el aplicativo permite imprimir la herramienta o exportar su JSON.",
+        "updated": "2026-11-08T16:49:20.917Z"
+      }
+    }
+  ],
+  "toolEvidence": [
+    {
+      "id": "EI01",
+      "toolId": "scamper",
+      "tool": "SCAMPER",
+      "text": "EI01 — Resultado de ideación SCAMPER, no evidencia de eficacia: ideas I01–I07 vinculadas a E01, E02, E03, E04, E06, E09, E10, E11, E12, E13, E14 y E16 del expediente de Empatizar conservado en Definir.json.",
+      "created": "2026-11-08T16:49:20.917Z"
+    },
+    {
+      "id": "EI02",
+      "toolId": "y-si",
+      "tool": "¿Y si...?",
+      "text": "EI02 — Banco de hipótesis e ideas, no evidencia de resultados: I08–I12 se relacionan con E01, E02, E04, E05, E06, E12, E14, E15 y E16. Fuente de partida: encuesta original de 32 respuestas, recuperada mediante el expediente de Definir.",
+      "created": "2026-11-08T16:49:20.917Z"
+    },
+    {
+      "id": "EI03",
+      "toolId": "seis-sombreros-para-pensar",
+      "tool": "Seis sombreros para pensar",
+      "text": "EI03 — Síntesis de perspectivas y preselección documental, no acta de reunión ni validación: usa EI01/EI02 y las evidencias E01, E02, E04, E05, E08, E09, E11, E14, E15 y E16. La selección se revisará con usuarios y con el equipo.",
+      "created": "2026-11-08T16:49:20.917Z"
+    }
+  ],
+  "ideas": [
+    {
+      "id": "I01",
+      "title": "Módulo compacto de contención",
+      "toolId": "scamper",
+      "text": "Concepto de recipiente extraíble con base que permita estudiar goteos, limpieza y extracción en una huella pequeña. El primer modelo será de cartón y usará material simulado. No se ha definido capacidad ni se afirma control de olores.",
+      "refs": "SCAMPER — Sustituir. E01 (ID 2, Q1), E03 (ID 20, Q1), E04 (ID 21, Q2). Idea propuesta; eficacia no comprobada."
+    },
+    {
+      "id": "I02",
+      "title": "Estación integrada de separación y retiro",
+      "toolId": "scamper",
+      "text": "Reunir en un punto la separación, almacenamiento y extracción con componentes independientes. Se evaluará si disminuye recorridos o si añade piezas que limpiar.",
+      "refs": "SCAMPER — Combinar. E01, E09 (ID 6, Q3), E11 (ID 24, Q2). Idea propuesta; eficacia no comprobada."
+    },
+    {
+      "id": "I03",
+      "title": "Soporte vertical removible",
+      "toolId": "scamper",
+      "text": "Explorar un soporte para aprovechar una zona disponible del mueble sin usar más superficie de piso. La prueba debe comprobar acceso, estabilidad y compatibilidad con el espacio real.",
+      "refs": "SCAMPER — Adaptar. E01, E04. La encuesta no aporta dimensiones del mobiliario. Idea propuesta; eficacia no comprobada."
+    },
+    {
+      "id": "I04",
+      "title": "Capacidad modular según generación",
+      "toolId": "scamper",
+      "text": "Comparar recipientes pequeños que se puedan retirar por separado y módulos adicionales para variaciones de cantidad. La configuración queda sujeta a medidas de volumen y espacio.",
+      "refs": "SCAMPER — Modificar. E01, E06 (ID 26, Q1), E14 (ID 30, Q3). Idea propuesta; eficacia no comprobada."
+    },
+    {
+      "id": "I05",
+      "title": "Distribución con recursos existentes",
+      "toolId": "scamper",
+      "text": "Usar objetos disponibles como modelos para comparar ubicaciones y recorridos, antes de diseñar o comprar un producto. Es una exploración del espacio con material simulado.",
+      "refs": "SCAMPER — Poner en otros usos. E10 (ID 12, Q5), E12 (ID 8, Q5), E13 (ID 22, Q4). Idea propuesta; eficacia no comprobada."
+    },
+    {
+      "id": "I06",
+      "title": "Separación con menos pasos",
+      "toolId": "scamper",
+      "text": "Observar la rutina y representar una secuencia corta que reduzca traslados o decisiones repetidas sin suprimir limpieza necesaria. Se compararía la comprensión de la secuencia actual y la propuesta.",
+      "refs": "SCAMPER — Eliminar. E11, E12. No se midieron pasos o tiempos previamente. Idea propuesta; eficacia no comprobada."
+    },
+    {
+      "id": "I07",
+      "title": "Tarjeta manual de organización",
+      "toolId": "scamper",
+      "text": "Representar en una tarjeta el retiro habitual, el punto de almacenamiento y la preparación de la bolsa. Sirve para estudiar la organización del intervalo; no supone que el usuario olvida la fecha.",
+      "refs": "SCAMPER — Reordenar. E01, E02 (ID 13, Q2), E12, E16 (ID 25, Q1). Idea propuesta; eficacia no comprobada."
+    },
+    {
+      "id": "I08",
+      "title": "Rutina mínima sin compra inicial",
+      "toolId": "y-si",
+      "text": "Combinar una ubicación acordada, recursos existentes y una secuencia breve de separación, almacenamiento y retiro. Se ensayará con tarjetas y material simulado para comprobar si encaja en el espacio y en las tareas del hogar.",
+      "refs": "¿Y si no pudiéramos comprar ni ocupar más superficie? Integra I05/I06. E01, E04, E11, E12. Idea propuesta; eficacia no comprobada."
+    },
+    {
+      "id": "I09",
+      "title": "Punto compartido de entrega",
+      "toolId": "y-si",
+      "text": "Explorar conceptualmente una alternativa de entrega compartida que reduzca la espera doméstica. Requiere comprobar gestor, ubicación, accesibilidad y operación; no se afirma que exista el servicio ni se propone implementarlo sin esa revisión.",
+      "refs": "¿Y si el retiro se interrumpiera? E02, E06, E16. Dependencia externa aún no verificada. Idea propuesta; eficacia no comprobada."
+    },
+    {
+      "id": "I10",
+      "title": "Plan doméstico ante retrasos",
+      "toolId": "y-si",
+      "text": "Prototipo en papel de un plan para reconocer capacidad disponible y decidir qué hacer ante una interrupción del retiro. Cada acción debe contrastarse con los recursos y condiciones del hogar; no se fija una duración segura de almacenamiento sin evidencia.",
+      "refs": "¿Y si cambiara el día de recolección? E01, E02, E06, E16. Idea propuesta; eficacia no comprobada."
+    },
+    {
+      "id": "I11",
+      "title": "Reducir restos evitables antes de almacenar",
+      "toolId": "y-si",
+      "text": "Explorar con el hogar qué parte de los restos se puede evitar al organizar la preparación de alimentos. Es una línea complementaria aguas arriba; no resuelve por sí sola los restos inevitables ni presupone desperdicio excesivo.",
+      "refs": "¿Y si parte del residuo no llegara a generarse? E14, E15 (ID 30, Q5). Un caso de poco desperdicio no representa a todos los hogares. Idea propuesta; eficacia no comprobada."
+    },
+    {
+      "id": "I12",
+      "title": "Aprovechamiento condicionado al contexto",
+      "toolId": "seis-sombreros-para-pensar",
+      "text": "Contrastar rutas de aprovechamiento orgánico en hogares que ya cuenten con condiciones e interés, tomando el compost reportado como caso de referencia. Se conserva como alternativa y no como solución universal para espacios pequeños.",
+      "refs": "Sombreros verde y negro; expansión de ¿Y si...? E05 (ID 15, Q4), E14, E15. Faltan datos de espacio, esfuerzo y viabilidad. Idea propuesta; eficacia no comprobada."
+    }
+  ],
+  "selected": [
+    "I01",
+    "I08",
+    "I10"
+  ],
+  "exportedAt": "2026-11-09T00:56:10.925Z",
+  "handoff": {
+    "targetPhase": "Prototipar",
+    "candidates": [
+      {
+        "id": "I01",
+        "title": "Módulo compacto de contención",
+        "toolId": "scamper",
+        "text": "Concepto de recipiente extraíble con base que permita estudiar goteos, limpieza y extracción en una huella pequeña. El primer modelo será de cartón y usará material simulado. No se ha definido capacidad ni se afirma control de olores.",
+        "refs": "SCAMPER — Sustituir. E01 (ID 2, Q1), E03 (ID 20, Q1), E04 (ID 21, Q2). Idea propuesta; eficacia no comprobada."
+      },
+      {
+        "id": "I08",
+        "title": "Rutina mínima sin compra inicial",
+        "toolId": "y-si",
+        "text": "Combinar una ubicación acordada, recursos existentes y una secuencia breve de separación, almacenamiento y retiro. Se ensayará con tarjetas y material simulado para comprobar si encaja en el espacio y en las tareas del hogar.",
+        "refs": "¿Y si no pudiéramos comprar ni ocupar más superficie? Integra I05/I06. E01, E04, E11, E12. Idea propuesta; eficacia no comprobada."
+      },
+      {
+        "id": "I10",
+        "title": "Plan doméstico ante retrasos",
+        "toolId": "y-si",
+        "text": "Prototipo en papel de un plan para reconocer capacidad disponible y decidir qué hacer ante una interrupción del retiro. Cada acción debe contrastarse con los recursos y condiciones del hogar; no se fija una duración segura de almacenamiento sin evidencia.",
+        "refs": "¿Y si cambiara el día de recolección? E01, E02, E06, E16. Idea propuesta; eficacia no comprobada."
+      }
+    ],
+    "problem": "El segmento de personas que manejan restos de comida en hogares con espacio limitado y molestias durante la espera de recolección enfrenta dificultad para mantener la limpieza y el espacio utilizable mientras los residuos permanecen en casa porque los relatos asocian la acumulación antes del retiro con olores, líquidos y falta de espacio; es una explicación provisional basada en E01, E02, E04, E09 y E16, pendiente de contrastar en campo. Beneficio esperado: podría conservar la comodidad del hogar y reducir la carga de manejar los residuos durante ese intervalo, beneficios aún por evaluar",
+    "pov": "La persona que maneja restos de comida en un hogar con poco espacio y molestias durante la espera de recolección necesita mantener limpieza y espacio utilizable con una carga cotidiana manejable porque aunque intenta ordenar y limpiar, debe conservar residuos hasta un retiro que no controla; las molestias pueden continuar durante ese intervalo.",
+    "assumptions": "I01: se supone que una configuración compacta puede ser accesible y más sencilla de manipular, pero faltan medidas y prueba de limpieza. I08: se supone que existen recursos aprovechables y margen para reorganizar tareas; no se conoce la distribución del trabajo doméstico. I10: se supone que un plan visual puede ayudar ante cambios, aunque el problema podría requerir recursos que una tarjeta no aporta. Las molestias son autorreportadas; no se midieron higiene, tiempo, volumen, temperatura, presupuesto o aceptación. Las ideas y beneficios son hipótesis, no evidencia nueva.",
+    "nextSteps": "1. Recuperar medidas y rutinas de hogares que declaren poco espacio y espera larga, incorporando casos contrastantes con menos dificultades; acordar participación y registro. 2. Representar I01 con modelos de cartón de distintas configuraciones; simular ubicación, llenado y extracción con material limpio. 3. Representar I08 con tarjetas de pasos y objetos existentes; pedir al participante que recorra su rutina y señale cambios o carga añadida. 4. Presentar I10 mediante escenarios de retiro normal y retraso, sin dar por válida una acción de almacenamiento no estudiada. 5. Registrar comprensión, accesibilidad, pasos, espacio requerido, molestias previstas y comentarios; los tiempos y medidas serán nuevos datos, no resultados actuales. 6. Comparar candidatas con los criterios, corregir supuestos y decidir con el equipo cuál desarrollar. Conservar el expediente para Prototipar. No se han ejecutado estas pruebas.",
+    "sourceDefine": "Definir.json",
+    "sourceRepository": "PI4803_Idear_Herramientas.json"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "project": {
+    "name": "Manejo de residuos orgánicos en el hogar",
+    "team": "Grupo 3"
+  },
+  "phase": "Idear",
+  "tools": [
+    {
+      "metadata": {
+        "id": "mapa-mental",
+        "title": "Mapa Mental",
+        "file": "plantilla-mapa-mental-design-thinking-en-espanol.pdf",
+        "objective": "Evaluar la relación entre distintas variables sobre un tema central y obtener una visión global y simplificada del mismo.",
+        "time": "00:30",
+        "primary": "Definir",
+        "secondary": [
+          "Idear"
+        ],
+        "category": "Síntesis",
+        "deliverable": "Mapa mental del tema/reto",
+        "fields": [
+          "Tema central",
+          "Ramas principales",
+          "Variables relacionadas",
+          "Conexiones",
+          "Patrones/hallazgos",
+          "Conclusión"
+        ],
+        "use": "Úsala para organizar variables y obtener una visión global y simplificada de un tema.",
+        "steps": [
+          "Definan qué parte del proyecto quieren comprender o resolver con esta herramienta.",
+          "Reúnan la evidencia o información necesaria antes de completar la plantilla.",
+          "Completen la plantilla con aportes trazables y distingan hechos de interpretaciones.",
+          "Sinteticen patrones, tensiones, oportunidades o decisiones que resulten de la aplicación.",
+          "Registren el entregable y envíen los hallazgos relevantes a la fase del proyecto."
+        ],
+        "special": false,
+        "special_note": "",
+        "source": "Dinngo / designthinking.es - plantilla original proporcionada por el docente"
+      },
+      "application": {
+        "toolId": "mapa-mental",
+        "phase": "Idear",
+        "status": "Completada",
+        "values": [
+          "Análisis de las necesidades del consumidor y las oportunidades de una solución doméstica que triture, centrifugue y deshidrate los residuos de comida para facilitar su almacenamiento o posterior compostaje.",
+          "Rama 1: Necesidades y \"Puntos de Dolor\" del Consumidor\n\nRama 2: Proceso Técnico y Funciones del Dispositivo\n\nRama 3: Almacenamiento Doméstico y Logística Post-Procesamiento\n\nRama 4: Oportunidades de Mercado e Innovación\n\nRama 5: Viabilidad y Desafíos de Uso\n",
+          "Con respecto a la rama 1 tenemos: \nProblemas operativos cotidianos: Generación de malos olores en la cocina, goteo de bolsas de basura, atracción de plagas (moscas, hormigas, roedores).\n\nRestricciones de espacio y tiempo: Espacios reducidos en cocinas, falta de tiempo para gestionar composteras tradicionales o sacar la basura a diario.\n\nPercepción y fricción psicológica: Rechazo al contacto con residuos descompuestos, percepción de suciedad o acumulación  de desechos húmedos.\n\nCon respecto a la rama 2: \nTrituración: Capacidad de procesar diversos tipos de alimentos (cáscaras duras, huesos pequeños, fibra vegetal, restos de café).\n\nCentrifugación: Extracción mecánica acelerada del exceso de humedad para reducir el volumen inicial.\n\nDeshidratación Térmica / Evaporación: Aplicación de calor/flujo de aire para estabilizar el residuo, reducir el peso hasta en un 80-90% y eliminar microorganismos causantes de mal olor.\n\nCon respecto a la rama 3 se tiene: \nFormato del subproducto: Generación de un sustrato seco, inodoro, compacto y de lenta descomposición.\n\nAlmacenamiento seguro: Capacidad de acumular el residuo seco durante días sin degradación ni generación de líquidos.\n\nFlexibilidad de disposición: Facilidad para verter directo al compostaje casero, entregar en recolección municipal de orgánicos o desechar en basura común reduciendo huella volumétrica.\n\nCon respecto a la rama 4 se tiene:  \nNicho de mercado: Habitantes de apartamentos/zonas urbanas sin patio ni acceso a compostaje exterior.\n\nPropuesta de valor sustentable: Facilita la transición hacia el compostaje doméstico eliminando la barrera de la descomposición previa.\n\nIntegración en la cocina: Electrodoméstico de mueble de cocina con diseño compacto, silencioso y de bajo consumo energético.\n\nCon Respecto a la rama 5 se tiene: \n Consumo energético y tiempo de ciclo: Relación entre el costo eléctrico de deshidratar/centrifugar y el valor percibido por el usuario.\n\nMantenimiento y limpieza: Facilidad de lavado de componentes interiores, filtros antiolor (carbón activado) y resistencia de las cuchillas.\n",
+          "Puntos de Dolor (Malos olores) -- Proceso Técnico (Deshidratación): La eliminación del agua inhibe la descomposición bacteriana, resolviendo de raíz el problema de olores en la cocina.\nProceso Técnico (Centrifugación) -- Viabilidad (Consumo Energético): Remover agua mecánicamente por centrifugado antes de aplicar calor reduce drásticamente el consumo eléctrico de la deshidratación.\nAlmacenamiento (Sustrato seco) -- Oportunidades (Compostaje facilitado): El residuo preprocesado actúa como un excelente material seco listo para compostar o desechar sin generar lixiviados. ",
+          "La humedad es el enemigo principal: La mayoría de los problemas asociados a los residuos orgánicos (olor, peso, plagas, lixiviados) provienen del contenido de agua; removerla mecánicamente y térmicamente transforma un \"desecho molesto\" en un \"insumo inerte\".\n\nSinergia de 3 etapas: Triturar aumenta la superficie de contacto; centrifugar remueve agua libre a bajo costo energético; deshidratar remueve humedad profunda y esteriliza. La combinación es la clave de la eficiencia.\n\nPuente hacia la economía circular: Este tipo de solución actúa como un facilitador intermedio: no requiere que el usuario sea experto en compostaje para empezar a gestionar de forma limpia sus residuos.",
+          "La oportunidad para una solución doméstica que triture, centrifugue y deshidrate residuos radica en eliminar la principal fricción del consumidor: el manejo de desechos húmedos y malolientes. Al combinar centrifugación mecánica previa con deshidratación, el sistema optimiza la eficiencia energética y entrega un subproducto seco, compacto e inodoro, transformando la preparación para el compostaje o almacenamiento en un hábito sencillo, limpio e integrable a la vida urbana."
+        ],
+        "findings": "Punto crítico de diseño: El consumo de energía y la duración del ciclo. El usuario busca rapidez y eficiencia sin un impacto drástico en la factura eléctrica.\n\nOportunidad estratégica: Posicionar el dispositivo no solo como un \"pre-compostador\", sino como un compactador/estabilizador higiénico de residuos que resuelve la logística de basura en cualquier hogar urbano.",
+        "evidenceText": "Validación de la necesidad de Centrifugado y Deshidratación (E01, E03, E09): La mayor molestia proviene del agua contenida en los alimentos (lixiviados y malos olores). Eliminar el agua mecánicamente reduce hasta un 80-90% del peso y neutraliza la pudrición.   Validación del Almacenamiento Seguro (E02, E06, E10, E16): Dado que la basura municipal tarda días o feriados en pasar, convertir los residuos en un subproducto deshidratado e inodoro resuelve la necesidad de los usuarios que hoy deben recurrir al congelador o a bolsas herméticas acumuladas en patios.   Reducción de Fricción Psicológica (E08, E11, E18): El 37.5% de sentimiento negativo y las expresiones de rechazo (\"desagradable\", \"gusanos\", \"asco\") confirman que el usuario necesita un proceso automatizado donde no tenga que manipular materia descompuesta",
+        "attachment": "Herramienta Mapa Mental ",
+        "updated": "2026-11-08T01:30:27.853Z"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "id": "E-ID-mapa-mental-1",
+      "toolId": "mapa-mental",
+      "tool": "Mapa Mental",
+      "text": "Validación de la necesidad de Centrifugado y Deshidratación (E01, E03, E09): La mayor molestia proviene del agua contenida en los alimentos (lixiviados y malos olores). Eliminar el agua mecánicamente reduce hasta un 80-90% del peso y neutraliza la pudrición.   Validación del Almacenamiento Seguro (E02, E06, E10, E16): Dado que la basura municipal tarda días o feriados en pasar, convertir los residuos en un subproducto deshidratado e inodoro resuelve la necesidad de los usuarios que hoy deben recurrir al congelador o a bolsas herméticas acumuladas en patios.   Reducción de Fricción Psicológica (E08, E11, E18): El 37.5% de sentimiento negativo y las expresiones de rechazo (\"desagradable\", \"gusanos\", \"asco\") confirman que el usuario necesita un proceso automatizado donde no tenga que manipular materia descompuesta",
+      "created": "2026-11-08T01:35:22.773Z"
+    }
+  ],
+  "exported": "2026-11-08T01:51:13.903Z"
+}

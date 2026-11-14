@@ -1,0 +1,288 @@
+{
+  "project": {
+    "name": "Manejo de residuos orgánicos en el hogar",
+    "team": "Grupo 3"
+  },
+  "phase": "Empatizar",
+  "tools": [
+    {
+      "metadata": {
+        "id": "mapas-del-contexto",
+        "title": "Mapas del contexto",
+        "file": "plantilla-mapas-del-contexto-design-thinking-en-espanol.pdf",
+        "objective": "Definir cuál es el contexto relacionado con nuestro reto.",
+        "time": "01:30",
+        "primary": "Empatizar",
+        "secondary": [
+          "Definir"
+        ],
+        "category": "Contexto",
+        "deliverable": "Mapa contextual del reto",
+        "fields": [
+          "Reto",
+          "Entorno físico",
+          "Entorno social",
+          "Factores tecnológicos",
+          "Factores organizacionales",
+          "Restricciones",
+          "Oportunidades del contexto"
+        ],
+        "use": "Úsala para hacer explícito el contexto que rodea el reto y al usuario.",
+        "steps": [
+          "Definan qué parte del proyecto quieren comprender o resolver con esta herramienta.",
+          "Reúnan la evidencia o información necesaria antes de completar la plantilla.",
+          "Completen la plantilla con aportes trazables y distingan hechos de interpretaciones.",
+          "Sinteticen patrones, tensiones, oportunidades o decisiones que resulten de la aplicación.",
+          "Registren el entregable y envíen los hallazgos relevantes a la fase del proyecto."
+        ],
+        "special": false,
+        "special_note": "",
+        "source": "Dinngo / designthinking.es - plantilla original proporcionada por el docente"
+      },
+      "application": {
+        "toolId": "mapas-del-contexto",
+        "phase": "Empatizar",
+        "status": "Completada",
+        "values": [
+          "Comprender cómo se manejan y almacenan temporalmente los restos de comida en el hogar y qué dificulta mantener la limpieza hasta su destino final. Aplicación documental a 32 respuestas del 12–13/10/2026; no se realizó visita a hogares.",
+          "Los relatos sitúan la experiencia en cocina, patio, terraza y recipientes de basura. ID 2 declara falta de espacio y líquidos; ID 20 reporta bolsas rotas por mapaches en el patio. Son experiencias declaradas, no mediciones del equipo [E01, E03].",
+          "La tarea ocurre en hogares y después de actividades familiares (ID 17, Q1). ID 14, Q1 vincula acumulación con una familia grande; no se conoce la composición de los demás hogares. No hay evidencia sobre quién distribuye las tareas dentro de cada hogar.",
+          "Se declaran bolsas cerradas, doble bolsa, recipientes con tapa y refrigeración/congelación (ID 2, 6, 9, 12, 16–18, 22, Q5). Son recursos actuales, no soluciones probadas por el equipo [E10, E12].",
+          "La frecuencia y continuidad de recolección condicionan el tiempo de almacenamiento: ID 13 menciona el intervalo de jueves a martes y ID 25, los feriados. Las frecuencias son autorreportadas y no se verificaron rutas oficiales [E02, E16].",
+          "Falta de espacio [E01, E04], espera entre recolecciones [E02], olores y líquidos [E01], acceso de animales [E03]. No se midieron volúmenes, temperaturas, costos ni capacidad del congelador.",
+          "Necesidad inferida: comprender el intervalo entre generar y retirar residuos como parte central del problema, y no limitarse al momento de tirar la bolsa [E01–E04, E16]. Comparar contextos de recolección distintos antes de generalizar."
+        ],
+        "findings": "La espera entre generación y recolección aparece como contexto de acumulación, falta de espacio y olores [E01–E04, E16]. La frecuencia varía entre casos y no está verificada externamente. El mapa contextual está completado con la evidencia disponible, manteniendo explícitas las variables no medidas.",
+        "evidenceText": "E01 — Mapas del contexto; encuesta Manejo de residuos orgánicos, ID 2, Q1, fila 3 de Sheet1 (12–13/10/2026). “Si, cuando se acumula mucha basura, debemos dejar las bolsas a un lado porque no hay suficiente espacio para almacenarlas. Los restos de comida generan líquidos y malos olores fuertes, por lo que resulta incómodo tenerlos dentro de la casa. Además, debemos esperar hasta el día en que pasa el camión recolector para poder desecharlos.”\nE02 — Mapas del contexto; encuesta Manejo de residuos orgánicos, ID 13, Q2, fila 14 de Sheet1 (12–13/10/2026). “Lo que me molesta es que se hacen gusanos y malos olores en la basura. Por qué de jueves a martes son muchos días de acumulación de desechos .”\nE03 — Mapas del contexto; encuesta Manejo de residuos orgánicos, ID 20, Q1, fila 21 de Sheet1 (12–13/10/2026). “En ocasiones algunos residuos al depositarlos en el contenedor de la basura de la casa produce liquidos despues de horas o de varios dias al estar ahi, como la recoleccion de  basura pasa un par de veces a la semana esto es un problema constante, estos liquidos de residuos han atraido en varias ocasiones mapaches al pationde mi casa y han generado problemas ronpiendo las bolsas y tirando con los contenedores de basura.”\nE04 — Mapas del contexto; encuesta Manejo de residuos orgánicos, ID 21, Q2, fila 22 de Sheet1 (12–13/10/2026). “Los malos olores y no tener espacio”\nE16 — Mapas del contexto; encuesta Manejo de residuos orgánicos, ID 25, Q1, fila 26 de Sheet1 (12–13/10/2026). “En días feriados que no pasa la basura, se acumula más  y por ende el manejo se complica”",
+        "attachment": "../../Entregables/Herramienta_1_mapas-del-contexto.pdf",
+        "updated": "2026-10-23T10:30:00-06:00"
+      }
+    },
+    {
+      "metadata": {
+        "id": "usuarios-extremos",
+        "title": "Usuarios extremos",
+        "file": "plantilla-usuarios-extremos-design-thinking-en-espanol.pdf",
+        "objective": "Identificar necesidades que en usuarios medios no aparecerían.",
+        "time": "00:30",
+        "primary": "Empatizar",
+        "secondary": [
+          "Definir"
+        ],
+        "category": "Investigación",
+        "deliverable": "Comparación usuarios extremos/medios",
+        "fields": [
+          "Extremo 1",
+          "Usuario medio",
+          "Extremo 2",
+          "Necesidades visibles en extremos",
+          "Patrones comunes",
+          "Implicaciones"
+        ],
+        "use": "Úsala para revelar necesidades que podrían pasar desapercibidas al estudiar solo usuarios medios.",
+        "steps": [
+          "Definan qué parte del proyecto quieren comprender o resolver con esta herramienta.",
+          "Reúnan la evidencia o información necesaria antes de completar la plantilla.",
+          "Completen la plantilla con aportes trazables y distingan hechos de interpretaciones.",
+          "Sinteticen patrones, tensiones, oportunidades o decisiones que resulten de la aplicación.",
+          "Registren el entregable y envíen los hallazgos relevantes a la fase del proyecto."
+        ],
+        "special": false,
+        "special_note": "",
+        "source": "Dinngo / designthinking.es - plantilla original proporcionada por el docente"
+      },
+      "application": {
+        "toolId": "usuarios-extremos",
+        "phase": "Empatizar",
+        "status": "Completada",
+        "values": [
+          "Extremo de menor dificultad declarada: ID 15 dice que el manejo está organizado por la composta (Q4, E05); ID 30 declara generar pocos desperdicios y no tener ese tipo de problemas (Q3/Q5, E14–E15). Se conservan como dos casos distintos, sin fusionarlos en una persona.",
+          "Caso intermedio para contraste, no “usuario promedio” estadístico: ID 2 guarda restos en bolsas separadas y cerradas y espera la recolección (Q1/Q5, E01). La muestra no permite estimar un usuario medio poblacional.",
+          "Extremo de mayor dificultad declarada: ID 26 reporta recolección una vez por semana, acumulación en patio y presencia de insectos (Q1, E06). En Q3 expresa “Terrible y feo, no saber que hacer”. Es un caso real del formulario, sin atribuirle edad o ubicación.",
+          "Inferencia: algunos hogares requieren tolerar varios días de almacenamiento sin que el cuidado de los residuos aumente excesivamente la carga doméstica [E01, E06]. Los casos con composta o pocos desperdicios permiten investigar qué condiciones facilitan un manejo menos problemático [E05, E14–E15].",
+          "El contraste no es absoluto: ID 29 declara buena frecuencia diaria y ausencia de problemas graves, pero califica la experiencia como “Desagradable” [E07–E08]. Por tanto, frecuencia favorable y valoración positiva no son equivalentes.",
+          "No imponer una única experiencia a todos los hogares. Profundizar en cantidad generada, destino de residuos, espacio y frecuencia de recolección. Estos extremos se seleccionaron retrospectivamente de la encuesta; no son entrevistas nuevas ni segmentos validados."
+        ],
+        "findings": "Hay experiencias contrastantes: organización mediante composta [E05], pocos desperdicios [E14–E15] y acumulación con recolección semanal [E06]. La recolección diaria no elimina por sí sola el desagrado [E07–E08]. Se comparan casos individuales; no se estima prevalencia poblacional.",
+        "evidenceText": "E05 — Usuarios extremos; encuesta Manejo de residuos orgánicos, ID 15, Q4, fila 16 de Sheet1 (12–13/10/2026). “En realidad lo llevamos bastante organizado por el tema de la compasta”\nE06 — Usuarios extremos; encuesta Manejo de residuos orgánicos, ID 26, Q1, fila 27 de Sheet1 (12–13/10/2026). “Es complicado cuando el camión de basura solo pasa una vez a la semana y se ve como la basura se acumula en el patio y se ven las movas y el mal olor.”\nE07 — Usuarios extremos; encuesta Manejo de residuos orgánicos, ID 29, Q1, fila 30 de Sheet1 (12–13/10/2026). “No he tenido problemas graves con la basura ya que vivo en el centro y ahí pasa el camión todos los días”\nE08 — Usuarios extremos; encuesta Manejo de residuos orgánicos, ID 29, Q3, fila 30 de Sheet1 (12–13/10/2026). “Desagradable”\nE14 — Usuarios extremos; encuesta Manejo de residuos orgánicos, ID 30, Q3, fila 31 de Sheet1 (12–13/10/2026). “Casi no generamos desperdicio de comida, y de tener alimento perritos de la calle”\nE15 — Usuarios extremos; encuesta Manejo de residuos orgánicos, ID 30, Q5, fila 31 de Sheet1 (12–13/10/2026). “No tenemos ése tipo de problemas”",
+        "attachment": "../../Entregables/Herramienta_2_usuarios-extremos.pdf",
+        "updated": "2026-10-23T10:30:00-06:00"
+      }
+    },
+    {
+      "metadata": {
+        "id": "mapa-de-empatia",
+        "title": "Mapa de Empatía",
+        "file": "plantilla-mapa-de-empatia-design-thinking-en-espanol.pdf",
+        "objective": "Aumentar la empatía con los usuarios investigados.",
+        "time": "00:40",
+        "primary": "Empatizar",
+        "secondary": [
+          "Definir"
+        ],
+        "category": "Síntesis de usuario",
+        "deliverable": "Mapa de empatía sustentado en evidencia",
+        "fields": [
+          "¿Qué piensa y siente?",
+          "¿Qué oye?",
+          "¿Qué ve?",
+          "¿Qué dice y hace?",
+          "Limitaciones / obstáculos",
+          "Oportunidades / necesidades",
+          "Evidencias que sustentan el mapa"
+        ],
+        "use": "Úsala para organizar y discutir de forma visual la comprensión alcanzada sobre usuarios investigados.",
+        "steps": [
+          "Definan qué parte del proyecto quieren comprender o resolver con esta herramienta.",
+          "Reúnan la evidencia o información necesaria antes de completar la plantilla.",
+          "Completen la plantilla con aportes trazables y distingan hechos de interpretaciones.",
+          "Sinteticen patrones, tensiones, oportunidades o decisiones que resulten de la aplicación.",
+          "Registren el entregable y envíen los hallazgos relevantes a la fase del proyecto."
+        ],
+        "special": false,
+        "special_note": "",
+        "source": "Dinngo / designthinking.es - plantilla original proporcionada por el docente"
+      },
+      "application": {
+        "toolId": "mapa-de-empatia",
+        "phase": "Empatizar",
+        "status": "Completada",
+        "values": [
+          "Inferencia: podría preocuparle que el hogar se perciba sucio pese a limpiarlo; ID 6 lo expresa en Q3 [E09]. El rechazo a olores también aparece en ID 12, Q3. No se atribuyen emociones no declaradas a todas las personas.",
+          "No hay evidencia directa sobre consejos, conversaciones o mensajes que escucha la persona. El formulario no lo pregunta; dejar esta dimensión abierta evita inventar influencias sociales.",
+          "Según los relatos, aparecen líquidos, moscas, bolsas acumuladas y falta de espacio [E01, E03, E04, E09]. No se hizo observación directa ni inspección de vivienda.",
+          "Dice: ID 24 describe la separación como más complicada [E11]. Hace, según autorreporte: ID 12 congela en bolsa hermética [E10]; ID 8 desecha en el basurero común y ajusta el momento a la recolección [E12]. Son estrategias de personas distintas.",
+          "Espera de recolección y espacio limitado [E01–E04]; ausencia de dónde disponer la fracción orgánica [E12]; ID 22 pide un congelador más grande [E13], lo que sugiere explorar capacidad sin asumir que ya se midió.",
+          "Necesidades inferidas: higiene durante la espera, separación practicable y manejo compatible con espacio y esfuerzo disponibles [E09–E13]. No se propone todavía un producto ni se da por aceptado el compostaje.",
+          "E09 (ID 6/Q3), E10 (ID 12/Q5), E11 (ID 24/Q2), E12 (ID 8/Q5), E13 (ID 22/Q4), E17 (ID 7/Q3). Fuente única: formulario de 32 respuestas, Sheet1. La síntesis usa autorreportes; requiere contraste posterior con observación."
+        ],
+        "findings": "Se observa una tensión entre querer higiene y tener que conservar o manipular residuos: congelar y cerrar bolsas alivian la espera, pero la separación se declara complicada y se solicita mayor capacidad [E09–E13]. También existe percepción de mejora gradual [E17]. Se distinguen citas, conductas autorreportadas e inferencias.",
+        "evidenceText": "E09 — Mapa de Empatía; encuesta Manejo de residuos orgánicos, ID 6, Q3, fila 7 de Sheet1 (12–13/10/2026). “Lo que más me molesta es el mal olor y que atrae moscas o bichos, sobre todo si la basura se queda varios días antes de que pase el camión. También me preocupa el lixiviado que sueltan, porque ensucia el basurero y deja un olor difícil de quitar. Me molesta porque es antihigiénico y hace que la casa se sienta sucia, aunque esté limpia”\nE10 — Mapa de Empatía; encuesta Manejo de residuos orgánicos, ID 12, Q5, fila 13 de Sheet1 (12–13/10/2026). “En la actualidad los colocó en bolsa plástica con cierre hermético y los congeló  hasta que pasa el camión recolector.”\nE11 — Mapa de Empatía; encuesta Manejo de residuos orgánicos, ID 24, Q2, fila 25 de Sheet1 (12–13/10/2026). “Que se hagan gusanos, por eso los separamos pero es mas complicado de tener separados”\nE12 — Mapa de Empatía; encuesta Manejo de residuos orgánicos, ID 8, Q5, fila 9 de Sheet1 (12–13/10/2026). “Al no tener dónde desechar la parte orgánica, se desecha directo al basurero común. Se trata de desechar los restos orgánico lo más cercano a los días de recolección de basura y mantener el basurero cerrado para limitar la propagación de olores.”\nE13 — Mapa de Empatía; encuesta Manejo de residuos orgánicos, ID 22, Q4, fila 23 de Sheet1 (12–13/10/2026). “un congelador mas grande”\nE17 — Mapa de Empatía; encuesta Manejo de residuos orgánicos, ID 7, Q3, fila 8 de Sheet1 (12–13/10/2026). “Eficiente, porque la he ido mejorando poco a poco.”",
+        "attachment": "../../Entregables/Herramienta_3_mapa-de-empatia.pdf",
+        "updated": "2026-10-23T10:30:00-06:00"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "id": "E01",
+      "toolId": "mapas-del-contexto",
+      "tool": "Mapas del contexto",
+      "text": "Mapas del contexto; encuesta Manejo de residuos orgánicos, ID 2, Q1, fila 3 de Sheet1 (12–13/10/2026). “Si, cuando se acumula mucha basura, debemos dejar las bolsas a un lado porque no hay suficiente espacio para almacenarlas. Los restos de comida generan líquidos y malos olores fuertes, por lo que resulta incómodo tenerlos dentro de la casa. Además, debemos esperar hasta el día en que pasa el camión recolector para poder desecharlos.”",
+      "created": "2026-10-23T10:30:00-06:00"
+    },
+    {
+      "id": "E02",
+      "toolId": "mapas-del-contexto",
+      "tool": "Mapas del contexto",
+      "text": "Mapas del contexto; encuesta Manejo de residuos orgánicos, ID 13, Q2, fila 14 de Sheet1 (12–13/10/2026). “Lo que me molesta es que se hacen gusanos y malos olores en la basura. Por qué de jueves a martes son muchos días de acumulación de desechos .”",
+      "created": "2026-10-23T10:30:00-06:00"
+    },
+    {
+      "id": "E03",
+      "toolId": "mapas-del-contexto",
+      "tool": "Mapas del contexto",
+      "text": "Mapas del contexto; encuesta Manejo de residuos orgánicos, ID 20, Q1, fila 21 de Sheet1 (12–13/10/2026). “En ocasiones algunos residuos al depositarlos en el contenedor de la basura de la casa produce liquidos despues de horas o de varios dias al estar ahi, como la recoleccion de  basura pasa un par de veces a la semana esto es un problema constante, estos liquidos de residuos han atraido en varias ocasiones mapaches al pationde mi casa y han generado problemas ronpiendo las bolsas y tirando con los contenedores de basura.”",
+      "created": "2026-10-23T10:30:00-06:00"
+    },
+    {
+      "id": "E04",
+      "toolId": "mapas-del-contexto",
+      "tool": "Mapas del contexto",
+      "text": "Mapas del contexto; encuesta Manejo de residuos orgánicos, ID 21, Q2, fila 22 de Sheet1 (12–13/10/2026). “Los malos olores y no tener espacio”",
+      "created": "2026-10-23T10:30:00-06:00"
+    },
+    {
+      "id": "E16",
+      "toolId": "mapas-del-contexto",
+      "tool": "Mapas del contexto",
+      "text": "Mapas del contexto; encuesta Manejo de residuos orgánicos, ID 25, Q1, fila 26 de Sheet1 (12–13/10/2026). “En días feriados que no pasa la basura, se acumula más  y por ende el manejo se complica”",
+      "created": "2026-10-23T10:30:00-06:00"
+    },
+    {
+      "id": "E05",
+      "toolId": "usuarios-extremos",
+      "tool": "Usuarios extremos",
+      "text": "Usuarios extremos; encuesta Manejo de residuos orgánicos, ID 15, Q4, fila 16 de Sheet1 (12–13/10/2026). “En realidad lo llevamos bastante organizado por el tema de la compasta”",
+      "created": "2026-10-23T10:30:00-06:00"
+    },
+    {
+      "id": "E06",
+      "toolId": "usuarios-extremos",
+      "tool": "Usuarios extremos",
+      "text": "Usuarios extremos; encuesta Manejo de residuos orgánicos, ID 26, Q1, fila 27 de Sheet1 (12–13/10/2026). “Es complicado cuando el camión de basura solo pasa una vez a la semana y se ve como la basura se acumula en el patio y se ven las movas y el mal olor.”",
+      "created": "2026-10-23T10:30:00-06:00"
+    },
+    {
+      "id": "E07",
+      "toolId": "usuarios-extremos",
+      "tool": "Usuarios extremos",
+      "text": "Usuarios extremos; encuesta Manejo de residuos orgánicos, ID 29, Q1, fila 30 de Sheet1 (12–13/10/2026). “No he tenido problemas graves con la basura ya que vivo en el centro y ahí pasa el camión todos los días”",
+      "created": "2026-10-23T10:30:00-06:00"
+    },
+    {
+      "id": "E08",
+      "toolId": "usuarios-extremos",
+      "tool": "Usuarios extremos",
+      "text": "Usuarios extremos; encuesta Manejo de residuos orgánicos, ID 29, Q3, fila 30 de Sheet1 (12–13/10/2026). “Desagradable”",
+      "created": "2026-10-23T10:30:00-06:00"
+    },
+    {
+      "id": "E14",
+      "toolId": "usuarios-extremos",
+      "tool": "Usuarios extremos",
+      "text": "Usuarios extremos; encuesta Manejo de residuos orgánicos, ID 30, Q3, fila 31 de Sheet1 (12–13/10/2026). “Casi no generamos desperdicio de comida, y de tener alimento perritos de la calle”",
+      "created": "2026-10-23T10:30:00-06:00"
+    },
+    {
+      "id": "E15",
+      "toolId": "usuarios-extremos",
+      "tool": "Usuarios extremos",
+      "text": "Usuarios extremos; encuesta Manejo de residuos orgánicos, ID 30, Q5, fila 31 de Sheet1 (12–13/10/2026). “No tenemos ése tipo de problemas”",
+      "created": "2026-10-23T10:30:00-06:00"
+    },
+    {
+      "id": "E09",
+      "toolId": "mapa-de-empatia",
+      "tool": "Mapa de Empatía",
+      "text": "Mapa de Empatía; encuesta Manejo de residuos orgánicos, ID 6, Q3, fila 7 de Sheet1 (12–13/10/2026). “Lo que más me molesta es el mal olor y que atrae moscas o bichos, sobre todo si la basura se queda varios días antes de que pase el camión. También me preocupa el lixiviado que sueltan, porque ensucia el basurero y deja un olor difícil de quitar. Me molesta porque es antihigiénico y hace que la casa se sienta sucia, aunque esté limpia”",
+      "created": "2026-10-23T10:30:00-06:00"
+    },
+    {
+      "id": "E10",
+      "toolId": "mapa-de-empatia",
+      "tool": "Mapa de Empatía",
+      "text": "Mapa de Empatía; encuesta Manejo de residuos orgánicos, ID 12, Q5, fila 13 de Sheet1 (12–13/10/2026). “En la actualidad los colocó en bolsa plástica con cierre hermético y los congeló  hasta que pasa el camión recolector.”",
+      "created": "2026-10-23T10:30:00-06:00"
+    },
+    {
+      "id": "E11",
+      "toolId": "mapa-de-empatia",
+      "tool": "Mapa de Empatía",
+      "text": "Mapa de Empatía; encuesta Manejo de residuos orgánicos, ID 24, Q2, fila 25 de Sheet1 (12–13/10/2026). “Que se hagan gusanos, por eso los separamos pero es mas complicado de tener separados”",
+      "created": "2026-10-23T10:30:00-06:00"
+    },
+    {
+      "id": "E12",
+      "toolId": "mapa-de-empatia",
+      "tool": "Mapa de Empatía",
+      "text": "Mapa de Empatía; encuesta Manejo de residuos orgánicos, ID 8, Q5, fila 9 de Sheet1 (12–13/10/2026). “Al no tener dónde desechar la parte orgánica, se desecha directo al basurero común. Se trata de desechar los restos orgánico lo más cercano a los días de recolección de basura y mantener el basurero cerrado para limitar la propagación de olores.”",
+      "created": "2026-10-23T10:30:00-06:00"
+    },
+    {
+      "id": "E13",
+      "toolId": "mapa-de-empatia",
+      "tool": "Mapa de Empatía",
+      "text": "Mapa de Empatía; encuesta Manejo de residuos orgánicos, ID 22, Q4, fila 23 de Sheet1 (12–13/10/2026). “un congelador mas grande”",
+      "created": "2026-10-23T10:30:00-06:00"
+    },
+    {
+      "id": "E17",
+      "toolId": "mapa-de-empatia",
+      "tool": "Mapa de Empatía",
+      "text": "Mapa de Empatía; encuesta Manejo de residuos orgánicos, ID 7, Q3, fila 8 de Sheet1 (12–13/10/2026). “Eficiente, porque la he ido mejorando poco a poco.”",
+      "created": "2026-10-23T10:30:00-06:00"
+    }
+  ],
+  "exported": "2026-10-23T16:23:00.908Z"
+}

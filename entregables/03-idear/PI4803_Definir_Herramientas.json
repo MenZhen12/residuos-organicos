@@ -1,0 +1,226 @@
+{
+  "project": {
+    "name": "Manejo de residuos orgánicos en el hogar",
+    "team": "Grupo 3"
+  },
+  "phase": "Definir",
+  "tools": [
+    {
+      "metadata": {
+        "id": "insights",
+        "title": "Insights",
+        "file": "plantilla-insights-design-thinking-en-espanol.pdf",
+        "objective": "Identifica la información relevante a partir de la cual podemos generar valor.",
+        "time": "02:00",
+        "primary": "Definir",
+        "secondary": [
+          "Empatizar"
+        ],
+        "category": "Síntesis",
+        "deliverable": "Banco de insights sustentados",
+        "fields": [
+          "Evidencias de partida",
+          "Patrón detectado",
+          "Tensión/contradicción",
+          "Necesidad subyacente",
+          "Insight redactado",
+          "Evidencias que lo sostienen"
+        ],
+        "use": "Úsala para transformar información relevante en una comprensión accionable del usuario.",
+        "steps": [
+          "Definan qué parte del proyecto quieren comprender o resolver con esta herramienta.",
+          "Reúnan la evidencia o información necesaria antes de completar la plantilla.",
+          "Completen la plantilla con aportes trazables y distingan hechos de interpretaciones.",
+          "Sinteticen patrones, tensiones, oportunidades o decisiones que resulten de la aplicación.",
+          "Registren el entregable y envíen los hallazgos relevantes a la fase del proyecto."
+        ],
+        "special": false,
+        "special_note": "",
+        "source": "Dinngo / designthinking.es - plantilla original proporcionada por el docente"
+      },
+      "application": {
+        "toolId": "insights",
+        "phase": "Definir",
+        "status": "Completada",
+        "values": [
+          "E01, E02, E03, E06, E09, E16: relatos de espera entre recolecciones (jueves a martes, una vez por semana, feriados) con olores, líquidos, gusanos/moscas y animales en el patio. E10, E12, E13: estrategias declaradas (congelar en bolsa hermética, desechar cerca del día de recolección, pedir un congelador más grande). E11: separar es más complicado. E05, E14, E15: casos con composta o pocos desperdicios sin problemas. E07, E08: recolección diaria pero experiencia “Desagradable”.",
+          "Patrón 1: mientras más días permanecen los restos en el hogar, más aparecen olores, líquidos e insectos (E01, E02, E06, E16). Patrón 2: las estrategias actuales trasladan la carga al hogar (bolsas, congelador, ajustar el momento de desechar) (E10, E12, E13). Patrón 3: los hogares con composta o pocos restos reportan menos problemas (E05, E14, E15).",
+          "Tensión A: se limpia y se cierra todo, pero la casa “se siente sucia aunque esté limpia” (E09). Tensión B: separar se asocia con mejor manejo, pero añade dificultad de mantener fracciones aparte (E11, E12). Tensión C: una recolección diaria no evita el desagrado (E07, E08).",
+          "Inferencia: necesitan conservar condiciones de higiene durante la espera, además de retirar la basura a tiempo; necesitan una rutina de separación que quepa en su espacio y esfuerzo; necesitan que el manejo no dependa únicamente de la frecuencia de recolección.",
+          "Insight 1: Aunque las personas intentan mantener limpio el hogar, la espera hasta la recolección prolonga la permanencia de residuos que producen molestias, por lo que necesitan higiene durante ese intervalo y no solo retirar la basura a tiempo. Insight 2: Aunque separar residuos se asocia con mejor manejo, para algunos añade dificultad, por lo que una práctica ambiental deseada debe encajar en el espacio y esfuerzo doméstico disponibles.",
+          "Insight 1: E01, E02, E09, E16. Insight 2: E10, E11, E12, E13. Contraste: E05, E07, E08, E14, E15. Fuente única: formulario de 32 respuestas; son percepciones autorreportadas, no hechos sanitarios comprobados."
+        ],
+        "findings": "El insight más sólido y repetido en la evidencia es la espera entre la generación y la recolección de los restos de comida como momento crítico de higiene y espacio (E01, E02, E06, E09, E16). Un segundo hallazgo, menos frecuente en la evidencia, es la dificultad de practicar la separación dentro del espacio y esfuerzo del hogar (E10–E13). Ambos son interpretaciones, no relaciones causales demostradas.",
+        "evidenceText": "Insight: la espera hasta la recolección prolonga la permanencia de residuos que producen olores, líquidos e insectos [E01, E02, E06, E09, E16].\nInsight: separar residuos puede añadir dificultad si no encaja en el espacio y esfuerzo disponibles [E10, E11, E12, E13].\nContraste: la recolección diaria no elimina el desagrado (ID 29) y hogares con composta o pocos restos reportan menos problemas [E05, E07, E08, E14, E15].",
+        "attachment": "Insights · Manejo de residuos orgánicos en el hogar (PDF de herramienta)",
+        "updated": "2026-11-07T13:25:10.880870Z"
+      }
+    },
+    {
+      "metadata": {
+        "id": "dibujo-del-problema",
+        "title": "Dibujo del problema",
+        "file": "plantilla-dibujo-del-problema-design-thinking-en-espanol.pdf",
+        "objective": "Definir el reto al que nos enfrentamos.",
+        "time": "01:00",
+        "primary": "Definir",
+        "secondary": [
+          "Empatizar"
+        ],
+        "category": "Reto",
+        "deliverable": "Representación visual del problema + síntesis",
+        "fields": [
+          "Problema a representar",
+          "Elementos/personas clave",
+          "Relaciones visibles",
+          "Conflictos o tensiones",
+          "Síntesis escrita del dibujo"
+        ],
+        "use": "Úsala para externalizar y discutir visualmente cómo entiende el equipo el problema.",
+        "steps": [
+          "Definan qué parte del proyecto quieren comprender o resolver con esta herramienta.",
+          "Reúnan la evidencia o información necesaria antes de completar la plantilla.",
+          "Completen la plantilla con aportes trazables y distingan hechos de interpretaciones.",
+          "Sinteticen patrones, tensiones, oportunidades o decisiones que resulten de la aplicación.",
+          "Registren el entregable y envíen los hallazgos relevantes a la fase del proyecto."
+        ],
+        "special": false,
+        "special_note": "",
+        "source": "Dinngo / designthinking.es - plantilla original proporcionada por el docente"
+      },
+      "application": {
+        "toolId": "dibujo-del-problema",
+        "phase": "Definir",
+        "status": "Completada",
+        "values": [
+          "La espera de los restos de comida en el hogar entre que se generan y se recolectan (o aprovechan), con olores, líquidos, insectos o animales y falta de espacio.",
+          "Persona que maneja los restos de comida en el hogar; recipiente o bolsa de residuos; congelador (en algunos casos); patio/terraza/cocina; camión recolector (días de recolección); insectos, gusanos o animales (mapaches); en un caso contrastante, la composta.",
+          "Cocina → bolsa/recipiente → espera de varios días → patio o espacio exterior → camión recolector. Los líquidos y olores aumentan con los días de espera; los animales e insectos aparecen cerca de las bolsas en el patio (E01, E03, E06).",
+          "Hogar limpio vs. residuos que deben permanecer días (E09). Separar para manejar mejor vs. mayor complejidad (E11). Recolección frecuente vs. experiencia aún desagradable (E07, E08). Espacio limitado vs. cantidad de residuos acumulados (E01, E04).",
+          "El dibujo muestra a una persona en el centro con una línea de tiempo entre “generar” y “recolección”. Sobre esa línea crece la acumulación y se suman olores, líquidos, insectos y animales; alrededor se dibujan el espacio limitado y las estrategias de alivio (bolsas cerradas, congelador). La tensión central es mantener la higiene durante la espera."
+        ],
+        "findings": "Al dibujar el problema, el centro no es el momento de tirar la basura sino el intervalo de espera, donde convergen espacio, higiene y esfuerzo. Aparece una relación visible entre días de espera y molestias, y la presencia de animales/insectos como consecuencia visible de la acumulación (E01, E03, E06). El dibujo debe ser elaborado a mano o en digital por el equipo; este texto es la síntesis escrita que lo acompaña.",
+        "evidenceText": "El problema se representa como una línea de tiempo entre la generación y la recolección, no como el acto de desechar [E01, E02, E16].\nLos relatos sitúan los restos en cocina, patio o terraza, con presencia de insectos o mapaches cuando la espera se prolonga [E03, E06].\nLa tensión central es higiene durante la espera frente a espacio y esfuerzo disponibles [E04, E09, E13].",
+        "attachment": "Dibujo del problema · Manejo de residuos orgánicos en el hogar (PDF de herramienta)",
+        "updated": "2026-11-07T13:25:10.880870Z"
+      }
+    },
+    {
+      "metadata": {
+        "id": "mapa-de-presente-mapa-de-futuro",
+        "title": "Mapa de presente, Mapa de futuro",
+        "file": "plantilla-mapa-de-presente-mapa-de-futuro-design-thinking-en-espanol.pdf",
+        "objective": "Definir los puntos de conflicto e identificar los deseos de los usuarios implicados en la solución.",
+        "time": "01:00",
+        "primary": "Definir",
+        "secondary": [
+          "Idear"
+        ],
+        "category": "Transformación",
+        "deliverable": "Comparación presente/futuro",
+        "fields": [
+          "Situación presente",
+          "Conflictos actuales",
+          "Deseos de usuarios",
+          "Situación futura deseada",
+          "Cambios necesarios",
+          "Brechas prioritarias"
+        ],
+        "use": "Úsala para contrastar la situación actual con un futuro deseado e identificar brechas.",
+        "steps": [
+          "Definan qué parte del proyecto quieren comprender o resolver con esta herramienta.",
+          "Reúnan la evidencia o información necesaria antes de completar la plantilla.",
+          "Completen la plantilla con aportes trazables y distingan hechos de interpretaciones.",
+          "Sinteticen patrones, tensiones, oportunidades o decisiones que resulten de la aplicación.",
+          "Registren el entregable y envíen los hallazgos relevantes a la fase del proyecto."
+        ],
+        "special": false,
+        "special_note": "",
+        "source": "Dinngo / designthinking.es - plantilla original proporcionada por el docente"
+      },
+      "application": {
+        "toolId": "mapa-de-presente-mapa-de-futuro",
+        "phase": "Definir",
+        "status": "Completada",
+        "values": [
+          "Los hogares almacenan restos de comida en bolsas cerradas, recipientes con tapa o congelador hasta que pasa el camión (E01, E10), o los desechan en el basurero común cerca del día de recolección (E12). La frecuencia declarada varía: diaria (E07), una vez por semana (E06), de jueves a martes (E02), con feriados sin recolección (E16).",
+          "Olores y líquidos en la espera (E01, E09); gusanos e insectos (E02, E06, E11); animales que rompen bolsas (E03); falta de espacio (E01, E04); mayor complejidad al separar (E11); no hay dónde disponer la fracción orgánica en algunos hogares (E12).",
+          "Mantener la casa limpia durante la espera (E09); poder separar sin que sea complicado (E11); más capacidad de almacenamiento (E13); seguir mejorando el manejo poco a poco (E17). Son deseos declarados o inferidos de pocos casos.",
+          "Un hogar en el que la espera hasta la recolección o el aprovechamiento ocurre sin olores, líquidos ni insectos notorios, con la separación al alcance del espacio y esfuerzo disponibles. Describe condiciones deseadas; no una solución concreta.",
+          "Reducir la sensación de suciedad e incomodidad durante la espera; hacer practicable la separación en el espacio disponible; entender el rol del destino de los residuos y la frecuencia de recolección. Se deben validar con más evidencia, no se asumen soluciones.",
+          "Brecha 1 (prioritaria): higiene y espacio durante la espera hasta la recolección (E01, E02, E09, E16). Brecha 2: practicabilidad de la separación (E10–E13). Brecha 3: factores que hacen más llevadero el manejo: destino y rutina de los residuos (E05, E07, E08, E14, E15)."
+        ],
+        "findings": "La brecha prioritaria entre el presente y el futuro deseado es la espera: la experiencia actual depende de cuántos días permanezcan los restos en casa y de cuánto espacio y esfuerzo haya. Se detectaron tres brechas; la primera concentra más evidencia directa y por eso se priorizó. Los deseos de los usuarios surgen de pocos casos y no se han validado.",
+        "evidenceText": "Presente: la espera entre recolecciones varía de diaria a semanal y condiciona olores, líquidos e insectos [E01, E02, E06, E07, E16].\nFuturo deseado (declarado/inferido): casa limpia durante la espera, separación practicable y más capacidad de almacenamiento [E09, E11, E13].\nBrecha prioritaria: higiene y espacio durante la espera hasta la recolección [E01, E02, E09, E16].",
+        "attachment": "Mapa de presente, Mapa de futuro · Manejo de residuos orgánicos en el hogar (PDF de herramienta)",
+        "updated": "2026-11-07T13:25:10.880870Z"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "id": "E-DE-insights-1",
+      "toolId": "insights",
+      "tool": "Insights",
+      "text": "Insight: la espera hasta la recolección prolonga la permanencia de residuos que producen olores, líquidos e insectos [E01, E02, E06, E09, E16].",
+      "created": "2026-11-07T13:25:10.880870Z"
+    },
+    {
+      "id": "E-DE-insights-2",
+      "toolId": "insights",
+      "tool": "Insights",
+      "text": "Insight: separar residuos puede añadir dificultad si no encaja en el espacio y esfuerzo disponibles [E10, E11, E12, E13].",
+      "created": "2026-11-07T13:25:10.880870Z"
+    },
+    {
+      "id": "E-DE-insights-3",
+      "toolId": "insights",
+      "tool": "Insights",
+      "text": "Contraste: la recolección diaria no elimina el desagrado (ID 29) y hogares con composta o pocos restos reportan menos problemas [E05, E07, E08, E14, E15].",
+      "created": "2026-11-07T13:25:10.880870Z"
+    },
+    {
+      "id": "E-DE-dibujo-del-problema-1",
+      "toolId": "dibujo-del-problema",
+      "tool": "Dibujo del problema",
+      "text": "El problema se representa como una línea de tiempo entre la generación y la recolección, no como el acto de desechar [E01, E02, E16].",
+      "created": "2026-11-07T13:25:10.880870Z"
+    },
+    {
+      "id": "E-DE-dibujo-del-problema-2",
+      "toolId": "dibujo-del-problema",
+      "tool": "Dibujo del problema",
+      "text": "Los relatos sitúan los restos en cocina, patio o terraza, con presencia de insectos o mapaches cuando la espera se prolonga [E03, E06].",
+      "created": "2026-11-07T13:25:10.880870Z"
+    },
+    {
+      "id": "E-DE-dibujo-del-problema-3",
+      "toolId": "dibujo-del-problema",
+      "tool": "Dibujo del problema",
+      "text": "La tensión central es higiene durante la espera frente a espacio y esfuerzo disponibles [E04, E09, E13].",
+      "created": "2026-11-07T13:25:10.880870Z"
+    },
+    {
+      "id": "E-DE-mapa-de-presente-mapa-de-futuro-1",
+      "toolId": "mapa-de-presente-mapa-de-futuro",
+      "tool": "Mapa de presente, Mapa de futuro",
+      "text": "Presente: la espera entre recolecciones varía de diaria a semanal y condiciona olores, líquidos e insectos [E01, E02, E06, E07, E16].",
+      "created": "2026-11-07T13:25:10.880870Z"
+    },
+    {
+      "id": "E-DE-mapa-de-presente-mapa-de-futuro-2",
+      "toolId": "mapa-de-presente-mapa-de-futuro",
+      "tool": "Mapa de presente, Mapa de futuro",
+      "text": "Futuro deseado (declarado/inferido): casa limpia durante la espera, separación practicable y más capacidad de almacenamiento [E09, E11, E13].",
+      "created": "2026-11-07T13:25:10.880870Z"
+    },
+    {
+      "id": "E-DE-mapa-de-presente-mapa-de-futuro-3",
+      "toolId": "mapa-de-presente-mapa-de-futuro",
+      "tool": "Mapa de presente, Mapa de futuro",
+      "text": "Brecha prioritaria: higiene y espacio durante la espera hasta la recolección [E01, E02, E09, E16].",
+      "created": "2026-11-07T13:25:10.880870Z"
+    }
+  ],
+  "exported": "2026-11-07T13:25:10.880870Z"
+}

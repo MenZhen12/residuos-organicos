@@ -1,0 +1,2031 @@
+[
+  {
+    "id": "consejo-de-sabios",
+    "title": "Consejo de Sabios",
+    "file": "materiales-consejo-de-sabios-design-thinking-en-espanol.pdf",
+    "objective": "Producir inspiración desde diversas fuentes para generar ideas durante el proyecto de innovación.",
+    "time": "00:40",
+    "primary": "Idear",
+    "secondary": [
+      "Definir"
+    ],
+    "category": "Inspiración",
+    "deliverable": "Matriz de referentes + ideas transferibles",
+    "fields": [
+      "Reto o tema",
+      "Sabio/referente 1 y aprendizaje",
+      "Sabio/referente 2 y aprendizaje",
+      "Sabio/referente 3 y aprendizaje",
+      "Ideas inspiradas"
+    ],
+    "use": "Úsala cuando el equipo necesite romper el marco habitual y buscar inspiración en referentes diversos.",
+    "steps": [
+      "Definan qué parte del proyecto quieren comprender o resolver con esta herramienta.",
+      "Reúnan la evidencia o información necesaria antes de completar la plantilla.",
+      "Completen la plantilla con aportes trazables y distingan hechos de interpretaciones.",
+      "Sinteticen patrones, tensiones, oportunidades o decisiones que resulten de la aplicación.",
+      "Registren el entregable y envíen los hallazgos relevantes a la fase del proyecto."
+    ],
+    "special": false,
+    "special_note": "",
+    "source": "Dinngo / designthinking.es - plantilla original proporcionada por el docente"
+  },
+  {
+    "id": "seis-sombreros-para-pensar",
+    "title": "Seis sombreros para pensar",
+    "file": "materiales-seis-sombreros-para-pensar-design-thinking-en-espanol.pdf",
+    "objective": "Analizar desde diferentes puntos de vista un problema, ya sea en grupo o individualmente.",
+    "time": "00:40",
+    "primary": "Idear",
+    "secondary": [
+      "Definir"
+    ],
+    "category": "Perspectivas",
+    "deliverable": "Síntesis de seis perspectivas + acuerdos",
+    "fields": [
+      "Reto o decisión",
+      "Sombrero blanco: hechos",
+      "Sombrero rojo: emociones",
+      "Sombrero negro: riesgos",
+      "Sombrero amarillo: beneficios",
+      "Sombrero verde: alternativas",
+      "Sombrero azul: síntesis y próximos pasos"
+    ],
+    "use": "Úsala para revisar un reto desde perspectivas deliberadamente distintas antes de decidir.",
+    "steps": [
+      "Definan qué parte del proyecto quieren comprender o resolver con esta herramienta.",
+      "Reúnan la evidencia o información necesaria antes de completar la plantilla.",
+      "Completen la plantilla con aportes trazables y distingan hechos de interpretaciones.",
+      "Sinteticen patrones, tensiones, oportunidades o decisiones que resulten de la aplicación.",
+      "Registren el entregable y envíen los hallazgos relevantes a la fase del proyecto."
+    ],
+    "special": false,
+    "special_note": "",
+    "source": "Dinngo / designthinking.es - plantilla original proporcionada por el docente"
+  },
+  {
+    "id": "analisis-dimensional",
+    "title": "Análisis Dimensional",
+    "file": "plantilla-analisis-dimensional-design-thinking-en-espanol.pdf",
+    "objective": "Asegurar que conocemos el reto que vamos a abordar con Design Thinking.",
+    "time": "02:00",
+    "primary": "Definir",
+    "secondary": [
+      "Empatizar"
+    ],
+    "category": "Reto",
+    "deliverable": "Mapa dimensional del problema",
+    "fields": [
+      "¿Cuál es el problema?",
+      "¿Quiénes están involucrados?",
+      "¿Para qué resolverlo?",
+      "Relevancia del problema",
+      "Causas identificadas",
+      "Lugar/contexto",
+      "Cuándo ocurre",
+      "Restricciones y alcance"
+    ],
+    "use": "Úsala para comprobar que el equipo comprende las dimensiones del reto antes de enfocarlo.",
+    "steps": [
+      "Definan qué parte del proyecto quieren comprender o resolver con esta herramienta.",
+      "Reúnan la evidencia o información necesaria antes de completar la plantilla.",
+      "Completen la plantilla con aportes trazables y distingan hechos de interpretaciones.",
+      "Sinteticen patrones, tensiones, oportunidades o decisiones que resulten de la aplicación.",
+      "Registren el entregable y envíen los hallazgos relevantes a la fase del proyecto."
+    ],
+    "special": false,
+    "special_note": "",
+    "source": "Dinngo / designthinking.es - plantilla original proporcionada por el docente"
+  },
+  {
+    "id": "apuntes-de-testeo",
+    "title": "Apuntes de Testeo",
+    "file": "plantilla-apuntes-de-testeo-design-thinking-en-espanol.pdf",
+    "objective": "Recopilar toda la información de las técnicas de testeo.",
+    "time": "00:40",
+    "primary": "Testear",
+    "secondary": [],
+    "category": "Registro de test",
+    "deliverable": "Bitácora consolidada de testeo",
+    "fields": [
+      "¿Qué funciona?",
+      "¿Qué se puede mejorar?",
+      "¿Qué preguntas hacen los usuarios?",
+      "¿Qué ideas proponen?",
+      "Decisiones posteriores al test"
+    ],
+    "use": "Úsala para consolidar hallazgos de varias pruebas en una sola síntesis.",
+    "steps": [
+      "Definan qué parte del proyecto quieren comprender o resolver con esta herramienta.",
+      "Reúnan la evidencia o información necesaria antes de completar la plantilla.",
+      "Completen la plantilla con aportes trazables y distingan hechos de interpretaciones.",
+      "Sinteticen patrones, tensiones, oportunidades o decisiones que resulten de la aplicación.",
+      "Registren el entregable y envíen los hallazgos relevantes a la fase del proyecto."
+    ],
+    "special": false,
+    "special_note": "",
+    "source": "Dinngo / designthinking.es - plantilla original proporcionada por el docente"
+  },
+  {
+    "id": "apuntes-p-o-e-m-s",
+    "title": "Apuntes P.O.E.M.S.",
+    "file": "plantilla-apuntes-poems-design-thinking-en-espanol.pdf",
+    "objective": "Tomar apuntes de la observación e interacción con usuarios en la investigación primaria.",
+    "time": "01:00",
+    "primary": "Empatizar",
+    "secondary": [
+      "Definir"
+    ],
+    "category": "Observación",
+    "deliverable": "Matriz POEMS de observación",
+    "fields": [
+      "Personas",
+      "Objetos",
+      "Entorno",
+      "Mensajes",
+      "Servicios",
+      "Patrones observados"
+    ],
+    "use": "Úsala durante investigación primaria para estructurar observaciones del contexto y la interacción.",
+    "steps": [
+      "Definan qué parte del proyecto quieren comprender o resolver con esta herramienta.",
+      "Reúnan la evidencia o información necesaria antes de completar la plantilla.",
+      "Completen la plantilla con aportes trazables y distingan hechos de interpretaciones.",
+      "Sinteticen patrones, tensiones, oportunidades o decisiones que resulten de la aplicación.",
+      "Registren el entregable y envíen los hallazgos relevantes a la fase del proyecto."
+    ],
+    "special": false,
+    "special_note": "",
+    "source": "Dinngo / designthinking.es - plantilla original proporcionada por el docente"
+  },
+  {
+    "id": "benchmark",
+    "title": "Benchmark",
+    "file": "plantilla-benchmark-design-thinking-en-espanol.pdf",
+    "objective": "Analizar de forma cuantitativa una serie de características que definen la oferta de los competidores.",
+    "time": "01:00",
+    "primary": "Definir",
+    "secondary": [
+      "Empatizar",
+      "Idear"
+    ],
+    "category": "Análisis externo",
+    "deliverable": "Matriz comparativa de referentes/competidores",
+    "fields": [
+      "Referentes a comparar",
+      "Criterios de comparación",
+      "Datos / puntuaciones",
+      "Diferencias relevantes",
+      "Oportunidades detectadas"
+    ],
+    "use": "Úsala cuando sea necesario comparar cuantitativamente características de ofertas existentes.",
+    "steps": [
+      "Definan qué parte del proyecto quieren comprender o resolver con esta herramienta.",
+      "Reúnan la evidencia o información necesaria antes de completar la plantilla.",
+      "Completen la plantilla con aportes trazables y distingan hechos de interpretaciones.",
+      "Sinteticen patrones, tensiones, oportunidades o decisiones que resulten de la aplicación.",
+      "Registren el entregable y envíen los hallazgos relevantes a la fase del proyecto."
+    ],
+    "special": false,
+    "special_note": "",
+    "source": "Dinngo / designthinking.es - plantilla original proporcionada por el docente"
+  },
+  {
+    "id": "blueprint",
+    "title": "Blueprint",
+    "file": "plantilla-blueprint-design-thinking-en-espanol.pdf",
+    "objective": "Conocer la experiencia del usuario con un producto o servicio.",
+    "time": "00:40",
+    "primary": "Definir",
+    "secondary": [
+      "Testear"
+    ],
+    "category": "Experiencia/servicio",
+    "deliverable": "Blueprint del servicio",
+    "fields": [
+      "Necesidades del usuario",
+      "Touchpoints",
+      "Actividades del usuario",
+      "Acciones visibles del servicio",
+      "Procesos internos",
+      "Soportes / evidencias",
+      "Fricciones y oportunidades"
+    ],
+    "use": "Úsala para visualizar la experiencia y las capas que hacen posible un servicio.",
+    "steps": [
+      "Definan qué parte del proyecto quieren comprender o resolver con esta herramienta.",
+      "Reúnan la evidencia o información necesaria antes de completar la plantilla.",
+      "Completen la plantilla con aportes trazables y distingan hechos de interpretaciones.",
+      "Sinteticen patrones, tensiones, oportunidades o decisiones que resulten de la aplicación.",
+      "Registren el entregable y envíen los hallazgos relevantes a la fase del proyecto."
+    ],
+    "special": false,
+    "special_note": "",
+    "source": "Dinngo / designthinking.es - plantilla original proporcionada por el docente"
+  },
+  {
+    "id": "casos-de-uso",
+    "title": "Casos de uso",
+    "file": "plantilla-casos-de-uso-design-thinking-en-espanol.pdf",
+    "objective": "Mejorar la funcionalidad del producto o servicio, a través de la comprensión de las experiencias que pueden brindar sus usarios.",
+    "time": "01:00",
+    "primary": "Prototipar",
+    "secondary": [
+      "Testear"
+    ],
+    "category": "Funcionalidad",
+    "deliverable": "Diagrama/listado de casos de uso",
+    "fields": [
+      "Actores",
+      "Actividad o caso de uso",
+      "Variables/condiciones",
+      "Secuencia principal",
+      "Excepciones",
+      "Resultado esperado"
+    ],
+    "use": "Úsala para precisar cómo distintos usuarios interactuarán con una solución.",
+    "steps": [
+      "Definan qué parte del proyecto quieren comprender o resolver con esta herramienta.",
+      "Reúnan la evidencia o información necesaria antes de completar la plantilla.",
+      "Completen la plantilla con aportes trazables y distingan hechos de interpretaciones.",
+      "Sinteticen patrones, tensiones, oportunidades o decisiones que resulten de la aplicación.",
+      "Registren el entregable y envíen los hallazgos relevantes a la fase del proyecto."
+    ],
+    "special": false,
+    "special_note": "",
+    "source": "Dinngo / designthinking.es - plantilla original proporcionada por el docente"
+  },
+  {
+    "id": "como-podriamos",
+    "title": "¿Cómo podríamos...?",
+    "file": "plantilla-como-podriamos-design-thinking-en-espanol.pdf",
+    "objective": "Definir preguntas clave para facilitar una lluvia de ideas.",
+    "time": "02:00",
+    "primary": "Definir",
+    "secondary": [
+      "Idear"
+    ],
+    "category": "Reformulación",
+    "deliverable": "Banco priorizado de preguntas HMW",
+    "fields": [
+      "Insight o tensión de partida",
+      "¿Cómo podríamos...? 1",
+      "¿Cómo podríamos...? 2",
+      "¿Cómo podríamos...? 3",
+      "Pregunta seleccionada y justificación"
+    ],
+    "use": "Úsala para transformar hallazgos o insights en preguntas que abran la ideación.",
+    "steps": [
+      "Definan qué parte del proyecto quieren comprender o resolver con esta herramienta.",
+      "Reúnan la evidencia o información necesaria antes de completar la plantilla.",
+      "Completen la plantilla con aportes trazables y distingan hechos de interpretaciones.",
+      "Sinteticen patrones, tensiones, oportunidades o decisiones que resulten de la aplicación.",
+      "Registren el entregable y envíen los hallazgos relevantes a la fase del proyecto."
+    ],
+    "special": false,
+    "special_note": "",
+    "source": "Dinngo / designthinking.es - plantilla original proporcionada por el docente"
+  },
+  {
+    "id": "curvas-de-valor",
+    "title": "Curvas de valor",
+    "file": "plantilla-curvas-de-valor-design-thinking-en-espanol.pdf",
+    "objective": "Plasmar de forma visual la estrategia de la competencia.",
+    "time": "02:00",
+    "primary": "Definir",
+    "secondary": [
+      "Idear"
+    ],
+    "category": "Estrategia",
+    "deliverable": "Curva de valor comparativa",
+    "fields": [
+      "Alternativas/competidores",
+      "Factores de valor",
+      "Valoración por factor",
+      "Patrones de la curva",
+      "Espacios de diferenciación"
+    ],
+    "use": "Úsala para comparar visualmente los factores en los que compiten distintas ofertas.",
+    "steps": [
+      "Definan qué parte del proyecto quieren comprender o resolver con esta herramienta.",
+      "Reúnan la evidencia o información necesaria antes de completar la plantilla.",
+      "Completen la plantilla con aportes trazables y distingan hechos de interpretaciones.",
+      "Sinteticen patrones, tensiones, oportunidades o decisiones que resulten de la aplicación.",
+      "Registren el entregable y envíen los hallazgos relevantes a la fase del proyecto."
+    ],
+    "special": false,
+    "special_note": "",
+    "source": "Dinngo / designthinking.es - plantilla original proporcionada por el docente"
+  },
+  {
+    "id": "customer-journey-map",
+    "title": "Customer Journey Map",
+    "file": "plantilla-customer-journey-map-completa-design-thinking-en-espanol.pdf",
+    "objective": "Definir la experiencia del cliente en el uso de un producto o servicio.",
+    "time": "02:00",
+    "primary": "Definir",
+    "secondary": [
+      "Empatizar",
+      "Testear"
+    ],
+    "category": "Experiencia",
+    "deliverable": "Customer Journey documentado",
+    "fields": [
+      "Persona/usuario",
+      "Etapas del recorrido",
+      "Acciones",
+      "Touchpoints",
+      "Pensamientos",
+      "Emociones",
+      "Pain points",
+      "Oportunidades"
+    ],
+    "use": "Úsala para reconstruir la experiencia a lo largo del tiempo. En este curso se trabaja como actividad obligatoria independiente en Definir.",
+    "steps": [
+      "Definan qué parte del proyecto quieren comprender o resolver con esta herramienta.",
+      "Reúnan la evidencia o información necesaria antes de completar la plantilla.",
+      "Completen la plantilla con aportes trazables y distingan hechos de interpretaciones.",
+      "Sinteticen patrones, tensiones, oportunidades o decisiones que resulten de la aplicación.",
+      "Registren el entregable y envíen los hallazgos relevantes a la fase del proyecto."
+    ],
+    "special": true,
+    "special_note": "En PI-4803 el Customer Journey se desarrolla como actividad obligatoria independiente en Definir; no cuenta entre las 3 herramientas seleccionables de esa fase.",
+    "source": "Dinngo / designthinking.es - plantilla original proporcionada por el docente"
+  },
+  {
+    "id": "dentro-fuera",
+    "title": "Dentro / Fuera",
+    "file": "plantilla-dentro-fuera-design-thinking-en-espanol.pdf",
+    "objective": "Facilitar la toma de decisiones y llegar a consensos.",
+    "time": "00:30",
+    "primary": "Idear",
+    "secondary": [
+      "Definir"
+    ],
+    "category": "Decisión",
+    "deliverable": "Matriz dentro/fuera con consenso",
+    "fields": [
+      "Tema de decisión",
+      "Elementos dentro",
+      "Elementos fuera",
+      "Criterios usados",
+      "Acuerdo final"
+    ],
+    "use": "Úsala para delimitar alcance o lograr consenso sobre qué se incluye y qué se excluye.",
+    "steps": [
+      "Definan qué parte del proyecto quieren comprender o resolver con esta herramienta.",
+      "Reúnan la evidencia o información necesaria antes de completar la plantilla.",
+      "Completen la plantilla con aportes trazables y distingan hechos de interpretaciones.",
+      "Sinteticen patrones, tensiones, oportunidades o decisiones que resulten de la aplicación.",
+      "Registren el entregable y envíen los hallazgos relevantes a la fase del proyecto."
+    ],
+    "special": false,
+    "special_note": "",
+    "source": "Dinngo / designthinking.es - plantilla original proporcionada por el docente"
+  },
+  {
+    "id": "diagrama-de-prioridades",
+    "title": "Diagrama de prioridades",
+    "file": "plantilla-diagramas-de-prioridades-design-thinking-en-espanol.pdf",
+    "objective": "Consensuar la priorización de acciones en la toma de decisiones.",
+    "time": "00:30",
+    "primary": "Idear",
+    "secondary": [
+      "Definir"
+    ],
+    "category": "Priorización",
+    "deliverable": "Ranking consensuado de prioridades",
+    "fields": [
+      "Acciones/opciones",
+      "Criterio de prioridad",
+      "Valoraciones",
+      "Orden final",
+      "Justificación"
+    ],
+    "use": "Úsala para ordenar acciones o alternativas cuando el equipo necesita priorizar.",
+    "steps": [
+      "Definan qué parte del proyecto quieren comprender o resolver con esta herramienta.",
+      "Reúnan la evidencia o información necesaria antes de completar la plantilla.",
+      "Completen la plantilla con aportes trazables y distingan hechos de interpretaciones.",
+      "Sinteticen patrones, tensiones, oportunidades o decisiones que resulten de la aplicación.",
+      "Registren el entregable y envíen los hallazgos relevantes a la fase del proyecto."
+    ],
+    "special": false,
+    "special_note": "",
+    "source": "Dinngo / designthinking.es - plantilla original proporcionada por el docente"
+  },
+  {
+    "id": "dibujo-del-problema",
+    "title": "Dibujo del problema",
+    "file": "plantilla-dibujo-del-problema-design-thinking-en-espanol.pdf",
+    "objective": "Definir el reto al que nos enfrentamos.",
+    "time": "01:00",
+    "primary": "Definir",
+    "secondary": [
+      "Empatizar"
+    ],
+    "category": "Reto",
+    "deliverable": "Representación visual del problema + síntesis",
+    "fields": [
+      "Problema a representar",
+      "Elementos/personas clave",
+      "Relaciones visibles",
+      "Conflictos o tensiones",
+      "Síntesis escrita del dibujo"
+    ],
+    "use": "Úsala para externalizar y discutir visualmente cómo entiende el equipo el problema.",
+    "steps": [
+      "Definan qué parte del proyecto quieren comprender o resolver con esta herramienta.",
+      "Reúnan la evidencia o información necesaria antes de completar la plantilla.",
+      "Completen la plantilla con aportes trazables y distingan hechos de interpretaciones.",
+      "Sinteticen patrones, tensiones, oportunidades o decisiones que resulten de la aplicación.",
+      "Registren el entregable y envíen los hallazgos relevantes a la fase del proyecto."
+    ],
+    "special": false,
+    "special_note": "",
+    "source": "Dinngo / designthinking.es - plantilla original proporcionada por el docente"
+  },
+  {
+    "id": "dibujo-en-grupo",
+    "title": "Dibujo en grupo",
+    "file": "plantilla-dibujo-en-grupo-design-thinking-en-espanol.pdf",
+    "objective": "Fomentar la participación de todo el equipo en el desarrollo de una idea.",
+    "time": "02:00",
+    "primary": "Idear",
+    "secondary": [
+      "Prototipar"
+    ],
+    "category": "Co-creación",
+    "deliverable": "Dibujo colectivo + decisiones de diseño",
+    "fields": [
+      "Idea o tema",
+      "Aportes individuales",
+      "Elementos integrados",
+      "Decisiones del equipo",
+      "Aprendizajes"
+    ],
+    "use": "Úsala cuando sea importante que todos aporten a la construcción visual de una idea.",
+    "steps": [
+      "Definan qué parte del proyecto quieren comprender o resolver con esta herramienta.",
+      "Reúnan la evidencia o información necesaria antes de completar la plantilla.",
+      "Completen la plantilla con aportes trazables y distingan hechos de interpretaciones.",
+      "Sinteticen patrones, tensiones, oportunidades o decisiones que resulten de la aplicación.",
+      "Registren el entregable y envíen los hallazgos relevantes a la fase del proyecto."
+    ],
+    "special": false,
+    "special_note": "",
+    "source": "Dinngo / designthinking.es - plantilla original proporcionada por el docente"
+  },
+  {
+    "id": "elevator-pitch",
+    "title": "Elevator Pitch",
+    "file": "plantilla-elevator-pitch-design-thinking-en-espanol.pdf",
+    "objective": "Convencer del valor de tu proyecto en pocas palabras.",
+    "time": "00:30",
+    "primary": "Idear",
+    "secondary": [
+      "Prototipar"
+    ],
+    "category": "Comunicación",
+    "deliverable": "Pitch breve de la propuesta",
+    "fields": [
+      "Usuario/cliente",
+      "Problema",
+      "Propuesta de valor",
+      "Diferenciador",
+      "Evidencia/beneficio",
+      "Pitch final"
+    ],
+    "use": "Úsala para sintetizar y comunicar rápidamente el valor de una propuesta.",
+    "steps": [
+      "Definan qué parte del proyecto quieren comprender o resolver con esta herramienta.",
+      "Reúnan la evidencia o información necesaria antes de completar la plantilla.",
+      "Completen la plantilla con aportes trazables y distingan hechos de interpretaciones.",
+      "Sinteticen patrones, tensiones, oportunidades o decisiones que resulten de la aplicación.",
+      "Registren el entregable y envíen los hallazgos relevantes a la fase del proyecto."
+    ],
+    "special": false,
+    "special_note": "",
+    "source": "Dinngo / designthinking.es - plantilla original proporcionada por el docente"
+  },
+  {
+    "id": "entrevistas-cualitativas",
+    "title": "Entrevistas cualitativas",
+    "file": "plantilla-entrevistas-cualitativas-design-thinking-en-espanol.pdf",
+    "objective": "Empatizar con el usuario. Entender sus motivaciones, emociones y forma de pensar.",
+    "time": "01:00",
+    "primary": "Empatizar",
+    "secondary": [],
+    "category": "Investigación",
+    "deliverable": "Registro de entrevista + citas y hallazgos",
+    "fields": [
+      "Perfil del participante",
+      "Contexto de la entrevista",
+      "Preguntas clave",
+      "Respuestas / citas",
+      "Conductas o señales observadas",
+      "Hallazgos y tensiones"
+    ],
+    "use": "Úsala para comprender motivaciones, emociones, experiencias y formas de pensar de usuarios reales.",
+    "steps": [
+      "Definan qué parte del proyecto quieren comprender o resolver con esta herramienta.",
+      "Reúnan la evidencia o información necesaria antes de completar la plantilla.",
+      "Completen la plantilla con aportes trazables y distingan hechos de interpretaciones.",
+      "Sinteticen patrones, tensiones, oportunidades o decisiones que resulten de la aplicación.",
+      "Registren el entregable y envíen los hallazgos relevantes a la fase del proyecto."
+    ],
+    "special": false,
+    "special_note": "",
+    "source": "Dinngo / designthinking.es - plantilla original proporcionada por el docente"
+  },
+  {
+    "id": "evaluacion-controlada",
+    "title": "Evaluación controlada",
+    "file": "plantilla-evaluacion-controlada-design-thinking-en-espanol.pdf",
+    "objective": "Obtener información de distintas hipótesis preestablecidas de uso.",
+    "time": "01:00",
+    "primary": "Testear",
+    "secondary": [],
+    "category": "Validación",
+    "deliverable": "Resultados de hipótesis de uso",
+    "fields": [
+      "Hipótesis a evaluar",
+      "Condiciones de prueba",
+      "Tareas del usuario",
+      "Observaciones",
+      "Resultados por hipótesis",
+      "Decisiones"
+    ],
+    "use": "Úsala cuando quieras probar hipótesis específicas en condiciones definidas.",
+    "steps": [
+      "Definan qué parte del proyecto quieren comprender o resolver con esta herramienta.",
+      "Reúnan la evidencia o información necesaria antes de completar la plantilla.",
+      "Completen la plantilla con aportes trazables y distingan hechos de interpretaciones.",
+      "Sinteticen patrones, tensiones, oportunidades o decisiones que resulten de la aplicación.",
+      "Registren el entregable y envíen los hallazgos relevantes a la fase del proyecto."
+    ],
+    "special": false,
+    "special_note": "",
+    "source": "Dinngo / designthinking.es - plantilla original proporcionada por el docente"
+  },
+  {
+    "id": "evaluacion-de-la-experiencia",
+    "title": "Evaluación de la experiencia",
+    "file": "plantilla-evaluacion-de-la-experiencia-design-thinking-en-espanol.pdf",
+    "objective": "Validar la experiencia del usuario con respecto al uso del producto o servicio.",
+    "time": "00:40",
+    "primary": "Testear",
+    "secondary": [],
+    "category": "Validación",
+    "deliverable": "Evaluación estructurada de experiencia",
+    "fields": [
+      "Experiencia evaluada",
+      "Aspectos positivos",
+      "Aspectos negativos",
+      "Emociones/reacciones",
+      "Valoración global",
+      "Cambios requeridos"
+    ],
+    "use": "Úsala para valorar la experiencia de uso de un producto o servicio.",
+    "steps": [
+      "Definan qué parte del proyecto quieren comprender o resolver con esta herramienta.",
+      "Reúnan la evidencia o información necesaria antes de completar la plantilla.",
+      "Completen la plantilla con aportes trazables y distingan hechos de interpretaciones.",
+      "Sinteticen patrones, tensiones, oportunidades o decisiones que resulten de la aplicación.",
+      "Registren el entregable y envíen los hallazgos relevantes a la fase del proyecto."
+    ],
+    "special": false,
+    "special_note": "",
+    "source": "Dinngo / designthinking.es - plantilla original proporcionada por el docente"
+  },
+  {
+    "id": "evaluacion-del-contexto",
+    "title": "Evaluación del contexto",
+    "file": "plantilla-evaluacion-del-contexto-design-thinking-en-espanol.pdf",
+    "objective": "Validar la experiencia del usuario con respecto al uso del producto o servicio en un entorno real.",
+    "time": "01:00",
+    "primary": "Testear",
+    "secondary": [
+      "Empatizar"
+    ],
+    "category": "Validación en contexto",
+    "deliverable": "Registro de prueba en entorno real",
+    "fields": [
+      "Contexto real",
+      "Tarea realizada",
+      "Factores del entorno",
+      "Conductas observadas",
+      "Problemas detectados",
+      "Adaptaciones necesarias"
+    ],
+    "use": "Úsala para validar la experiencia en las condiciones reales donde ocurre.",
+    "steps": [
+      "Definan qué parte del proyecto quieren comprender o resolver con esta herramienta.",
+      "Reúnan la evidencia o información necesaria antes de completar la plantilla.",
+      "Completen la plantilla con aportes trazables y distingan hechos de interpretaciones.",
+      "Sinteticen patrones, tensiones, oportunidades o decisiones que resulten de la aplicación.",
+      "Registren el entregable y envíen los hallazgos relevantes a la fase del proyecto."
+    ],
+    "special": false,
+    "special_note": "",
+    "source": "Dinngo / designthinking.es - plantilla original proporcionada por el docente"
+  },
+  {
+    "id": "evaluacion-del-valor",
+    "title": "Evaluación del valor",
+    "file": "plantilla-evaluacion-del-valor-design-thinking-en-espanol.pdf",
+    "objective": "Confirmar que aportamos valor a nuestros usuarios con las soluciones que estemos desarrollando.",
+    "time": "01:30",
+    "primary": "Testear",
+    "secondary": [
+      "Definir"
+    ],
+    "category": "Valor",
+    "deliverable": "Matriz de valor percibido",
+    "fields": [
+      "Usuario",
+      "Propuesta evaluada",
+      "Beneficios percibidos",
+      "Costos/esfuerzos percibidos",
+      "Valor que sí aporta",
+      "Valor que falta",
+      "Decisiones"
+    ],
+    "use": "Úsala para comprobar si una solución aporta valor relevante a los usuarios.",
+    "steps": [
+      "Definan qué parte del proyecto quieren comprender o resolver con esta herramienta.",
+      "Reúnan la evidencia o información necesaria antes de completar la plantilla.",
+      "Completen la plantilla con aportes trazables y distingan hechos de interpretaciones.",
+      "Sinteticen patrones, tensiones, oportunidades o decisiones que resulten de la aplicación.",
+      "Registren el entregable y envíen los hallazgos relevantes a la fase del proyecto."
+    ],
+    "special": false,
+    "special_note": "",
+    "source": "Dinngo / designthinking.es - plantilla original proporcionada por el docente"
+  },
+  {
+    "id": "flor-de-loto",
+    "title": "Flor de Loto",
+    "file": "plantilla-flor-de-loto-design-thinking-en-espanol.pdf",
+    "objective": "Propiciar la generación de alternativas en base a un concepto central.",
+    "time": "02:00",
+    "primary": "Idear",
+    "secondary": [],
+    "category": "Generación de ideas",
+    "deliverable": "Mapa de expansión de ideas",
+    "fields": [
+      "Concepto central",
+      "8 ideas alrededor del concepto",
+      "Expansión de ideas seleccionadas",
+      "Ideas más prometedoras"
+    ],
+    "use": "Úsala para expandir sistemáticamente alternativas a partir de un concepto central.",
+    "steps": [
+      "Definan qué parte del proyecto quieren comprender o resolver con esta herramienta.",
+      "Reúnan la evidencia o información necesaria antes de completar la plantilla.",
+      "Completen la plantilla con aportes trazables y distingan hechos de interpretaciones.",
+      "Sinteticen patrones, tensiones, oportunidades o decisiones que resulten de la aplicación.",
+      "Registren el entregable y envíen los hallazgos relevantes a la fase del proyecto."
+    ],
+    "special": false,
+    "special_note": "",
+    "source": "Dinngo / designthinking.es - plantilla original proporcionada por el docente"
+  },
+  {
+    "id": "guion-de-la-entrevista-cualitativa",
+    "title": "Guion de la entrevista cualitativa",
+    "file": "plantilla-guion-de-entrevista-cualitativa-design-thinking-en-espanol.pdf",
+    "objective": "Definir un guion de entrevista sobre el que apoyarse en el desarrollo de la misma.",
+    "time": "01:00",
+    "primary": "Empatizar",
+    "secondary": [],
+    "category": "Preparación de investigación",
+    "deliverable": "Guion de entrevista listo para aplicar",
+    "fields": [
+      "Objetivo de investigación",
+      "Perfil a entrevistar",
+      "Apertura / calentamiento",
+      "Preguntas de contexto",
+      "Preguntas de experiencia",
+      "Preguntas de profundización",
+      "Cierre"
+    ],
+    "use": "Úsala antes de entrevistar para asegurar coherencia entre lo que necesitas aprender y las preguntas.",
+    "steps": [
+      "Definan qué parte del proyecto quieren comprender o resolver con esta herramienta.",
+      "Reúnan la evidencia o información necesaria antes de completar la plantilla.",
+      "Completen la plantilla con aportes trazables y distingan hechos de interpretaciones.",
+      "Sinteticen patrones, tensiones, oportunidades o decisiones que resulten de la aplicación.",
+      "Registren el entregable y envíen los hallazgos relevantes a la fase del proyecto."
+    ],
+    "special": false,
+    "special_note": "",
+    "source": "Dinngo / designthinking.es - plantilla original proporcionada por el docente"
+  },
+  {
+    "id": "inmersion-cognitiva",
+    "title": "Inmersión cognitiva",
+    "file": "plantilla-inmersion-cognitiva-design-thinking-en-espanol.pdf",
+    "objective": "Entender la realidad existente, poniéndonos en el lugar de un usuario tipo.",
+    "time": "02:00",
+    "primary": "Empatizar",
+    "secondary": [],
+    "category": "Inmersión",
+    "deliverable": "Bitácora de inmersión + aprendizajes",
+    "fields": [
+      "Usuario representado",
+      "Situación simulada/vivida",
+      "Qué hice",
+      "Qué observé",
+      "Qué dificultades aparecieron",
+      "Qué sentí/pensé",
+      "Hipótesis a contrastar"
+    ],
+    "use": "Úsala para acercarte a la realidad de un usuario viviendo temporalmente condiciones similares.",
+    "steps": [
+      "Definan qué parte del proyecto quieren comprender o resolver con esta herramienta.",
+      "Reúnan la evidencia o información necesaria antes de completar la plantilla.",
+      "Completen la plantilla con aportes trazables y distingan hechos de interpretaciones.",
+      "Sinteticen patrones, tensiones, oportunidades o decisiones que resulten de la aplicación.",
+      "Registren el entregable y envíen los hallazgos relevantes a la fase del proyecto."
+    ],
+    "special": false,
+    "special_note": "",
+    "source": "Dinngo / designthinking.es - plantilla original proporcionada por el docente"
+  },
+  {
+    "id": "insights",
+    "title": "Insights",
+    "file": "plantilla-insights-design-thinking-en-espanol.pdf",
+    "objective": "Identifica la información relevante a partir de la cual podemos generar valor.",
+    "time": "02:00",
+    "primary": "Definir",
+    "secondary": [
+      "Empatizar"
+    ],
+    "category": "Síntesis",
+    "deliverable": "Banco de insights sustentados",
+    "fields": [
+      "Evidencias de partida",
+      "Patrón detectado",
+      "Tensión/contradicción",
+      "Necesidad subyacente",
+      "Insight redactado",
+      "Evidencias que lo sostienen"
+    ],
+    "use": "Úsala para transformar información relevante en una comprensión accionable del usuario.",
+    "steps": [
+      "Definan qué parte del proyecto quieren comprender o resolver con esta herramienta.",
+      "Reúnan la evidencia o información necesaria antes de completar la plantilla.",
+      "Completen la plantilla con aportes trazables y distingan hechos de interpretaciones.",
+      "Sinteticen patrones, tensiones, oportunidades o decisiones que resulten de la aplicación.",
+      "Registren el entregable y envíen los hallazgos relevantes a la fase del proyecto."
+    ],
+    "special": false,
+    "special_note": "",
+    "source": "Dinngo / designthinking.es - plantilla original proporcionada por el docente"
+  },
+  {
+    "id": "interaccion-constructiva",
+    "title": "Interacción Constructiva",
+    "file": "plantilla-interaccion-constructiva-design-thinking-en-espanol.pdf",
+    "objective": "Obtener información sobre la experiencia de uso del usuario.",
+    "time": "02:00",
+    "primary": "Testear",
+    "secondary": [
+      "Empatizar"
+    ],
+    "category": "Observación de uso",
+    "deliverable": "Registro de interacción verbalizada",
+    "fields": [
+      "Tarea/experiencia",
+      "Instrucción al usuario",
+      "Qué hace",
+      "Qué dice mientras actúa",
+      "Dificultades",
+      "Oportunidades de mejora"
+    ],
+    "use": "Úsala para obtener información mientras el usuario interactúa y verbaliza su experiencia.",
+    "steps": [
+      "Definan qué parte del proyecto quieren comprender o resolver con esta herramienta.",
+      "Reúnan la evidencia o información necesaria antes de completar la plantilla.",
+      "Completen la plantilla con aportes trazables y distingan hechos de interpretaciones.",
+      "Sinteticen patrones, tensiones, oportunidades o decisiones que resulten de la aplicación.",
+      "Registren el entregable y envíen los hallazgos relevantes a la fase del proyecto."
+    ],
+    "special": false,
+    "special_note": "",
+    "source": "Dinngo / designthinking.es - plantilla original proporcionada por el docente"
+  },
+  {
+    "id": "juego-de-roles",
+    "title": "Juego de roles",
+    "file": "plantilla-juego-de-roles-design-thinking-en-espanol.pdf",
+    "objective": "Profundizar en una solución, explorando distintas perspectivas de una posible escena de uso de un producto o servicio.",
+    "time": "02:00",
+    "primary": "Prototipar",
+    "secondary": [
+      "Empatizar",
+      "Testear"
+    ],
+    "category": "Simulación",
+    "deliverable": "Escena simulada + aprendizajes",
+    "fields": [
+      "Escenario",
+      "Roles",
+      "Objetivo de cada rol",
+      "Secuencia de la escena",
+      "Conflictos/reacciones",
+      "Aprendizajes para la solución"
+    ],
+    "use": "Úsala para explorar una experiencia o solución representando distintos actores.",
+    "steps": [
+      "Definan qué parte del proyecto quieren comprender o resolver con esta herramienta.",
+      "Reúnan la evidencia o información necesaria antes de completar la plantilla.",
+      "Completen la plantilla con aportes trazables y distingan hechos de interpretaciones.",
+      "Sinteticen patrones, tensiones, oportunidades o decisiones que resulten de la aplicación.",
+      "Registren el entregable y envíen los hallazgos relevantes a la fase del proyecto."
+    ],
+    "special": false,
+    "special_note": "",
+    "source": "Dinngo / designthinking.es - plantilla original proporcionada por el docente"
+  },
+  {
+    "id": "lienzo-de-modelo-de-negocio",
+    "title": "Lienzo de Modelo de Negocio",
+    "file": "plantilla-lienzo-de-modelo-de-negocio-design-thinking-en-espanol.pdf",
+    "objective": "Analizar problemas en mayor profundidad.",
+    "time": "03:00",
+    "primary": "Idear",
+    "secondary": [
+      "Definir"
+    ],
+    "category": "Modelo de negocio",
+    "deliverable": "Lienzo de modelo de negocio completado",
+    "fields": [
+      "Segmentos de clientes",
+      "Propuesta de valor",
+      "Canales",
+      "Relaciones",
+      "Fuentes de ingresos",
+      "Recursos clave",
+      "Actividades clave",
+      "Socios clave",
+      "Estructura de costos"
+    ],
+    "use": "Úsala cuando el proyecto ya necesita discutir cómo se crea, entrega y captura valor.",
+    "steps": [
+      "Definan qué parte del proyecto quieren comprender o resolver con esta herramienta.",
+      "Reúnan la evidencia o información necesaria antes de completar la plantilla.",
+      "Completen la plantilla con aportes trazables y distingan hechos de interpretaciones.",
+      "Sinteticen patrones, tensiones, oportunidades o decisiones que resulten de la aplicación.",
+      "Registren el entregable y envíen los hallazgos relevantes a la fase del proyecto."
+    ],
+    "special": false,
+    "special_note": "",
+    "source": "Dinngo / designthinking.es - plantilla original proporcionada por el docente"
+  },
+  {
+    "id": "mapa-de-actores",
+    "title": "Mapa de actores",
+    "file": "plantilla-mapa-de-actores-design-thinking-en-espanol.pdf",
+    "objective": "Identificar a los usuarios que participan en el uso de un producto o servicio.",
+    "time": "00:40",
+    "primary": "Empatizar",
+    "secondary": [
+      "Definir"
+    ],
+    "category": "Actores",
+    "deliverable": "Mapa de actores y relaciones",
+    "fields": [
+      "Usuario central",
+      "Actores directos",
+      "Actores indirectos",
+      "Relaciones/influencias",
+      "Intereses o necesidades",
+      "Actores prioritarios"
+    ],
+    "use": "Úsala para identificar quiénes participan o influyen en la experiencia del usuario.",
+    "steps": [
+      "Definan qué parte del proyecto quieren comprender o resolver con esta herramienta.",
+      "Reúnan la evidencia o información necesaria antes de completar la plantilla.",
+      "Completen la plantilla con aportes trazables y distingan hechos de interpretaciones.",
+      "Sinteticen patrones, tensiones, oportunidades o decisiones que resulten de la aplicación.",
+      "Registren el entregable y envíen los hallazgos relevantes a la fase del proyecto."
+    ],
+    "special": false,
+    "special_note": "",
+    "source": "Dinngo / designthinking.es - plantilla original proporcionada por el docente"
+  },
+  {
+    "id": "mapa-de-atraccion-de-clientes",
+    "title": "Mapa de atracción de clientes",
+    "file": "plantilla-mapa-de-atraccion-de-clientes-design-thinking-en-espanol.pdf",
+    "objective": "Identificar las acciones actuales para la captación de clientes y plantear otras nuevas.",
+    "time": "01:00",
+    "primary": "Idear",
+    "secondary": [
+      "Definir"
+    ],
+    "category": "Clientes/canales",
+    "deliverable": "Mapa de acciones de atracción",
+    "fields": [
+      "Segmento objetivo",
+      "Acciones actuales",
+      "Canales actuales",
+      "Problemas de atracción",
+      "Nuevas acciones posibles",
+      "Priorización"
+    ],
+    "use": "Úsala para revisar cómo se atraen clientes y explorar nuevas acciones.",
+    "steps": [
+      "Definan qué parte del proyecto quieren comprender o resolver con esta herramienta.",
+      "Reúnan la evidencia o información necesaria antes de completar la plantilla.",
+      "Completen la plantilla con aportes trazables y distingan hechos de interpretaciones.",
+      "Sinteticen patrones, tensiones, oportunidades o decisiones que resulten de la aplicación.",
+      "Registren el entregable y envíen los hallazgos relevantes a la fase del proyecto."
+    ],
+    "special": false,
+    "special_note": "",
+    "source": "Dinngo / designthinking.es - plantilla original proporcionada por el docente"
+  },
+  {
+    "id": "mapa-de-empatia",
+    "title": "Mapa de Empatía",
+    "file": "plantilla-mapa-de-empatia-design-thinking-en-espanol.pdf",
+    "objective": "Aumentar la empatía con los usuarios investigados.",
+    "time": "00:40",
+    "primary": "Empatizar",
+    "secondary": [
+      "Definir"
+    ],
+    "category": "Síntesis de usuario",
+    "deliverable": "Mapa de empatía sustentado en evidencia",
+    "fields": [
+      "¿Qué piensa y siente?",
+      "¿Qué oye?",
+      "¿Qué ve?",
+      "¿Qué dice y hace?",
+      "Limitaciones / obstáculos",
+      "Oportunidades / necesidades",
+      "Evidencias que sustentan el mapa"
+    ],
+    "use": "Úsala para organizar y discutir de forma visual la comprensión alcanzada sobre usuarios investigados.",
+    "steps": [
+      "Definan qué parte del proyecto quieren comprender o resolver con esta herramienta.",
+      "Reúnan la evidencia o información necesaria antes de completar la plantilla.",
+      "Completen la plantilla con aportes trazables y distingan hechos de interpretaciones.",
+      "Sinteticen patrones, tensiones, oportunidades o decisiones que resulten de la aplicación.",
+      "Registren el entregable y envíen los hallazgos relevantes a la fase del proyecto."
+    ],
+    "special": false,
+    "special_note": "",
+    "source": "Dinngo / designthinking.es - plantilla original proporcionada por el docente"
+  },
+  {
+    "id": "mapa-de-impacto",
+    "title": "Mapa de impacto",
+    "file": "plantilla-mapa-de-impacto.pdf",
+    "objective": "Conectar un objetivo con los actores, impactos y entregables necesarios para alcanzarlo.",
+    "time": "00:40",
+    "primary": "Definir",
+    "secondary": [
+      "Idear"
+    ],
+    "category": "Impacto",
+    "deliverable": "Mapa objetivo-actores-impactos-entregables",
+    "fields": [
+      "Objetivo",
+      "¿Quiénes pueden producir el impacto?",
+      "¿Cómo deben cambiar/actuar?",
+      "¿Qué podemos hacer/entregar?",
+      "Relaciones entre elementos"
+    ],
+    "use": "Úsala para conectar un objetivo con actores, impactos deseados y acciones o entregables.",
+    "steps": [
+      "Definan qué parte del proyecto quieren comprender o resolver con esta herramienta.",
+      "Reúnan la evidencia o información necesaria antes de completar la plantilla.",
+      "Completen la plantilla con aportes trazables y distingan hechos de interpretaciones.",
+      "Sinteticen patrones, tensiones, oportunidades o decisiones que resulten de la aplicación.",
+      "Registren el entregable y envíen los hallazgos relevantes a la fase del proyecto."
+    ],
+    "special": false,
+    "special_note": "",
+    "source": "Dinngo / designthinking.es - plantilla original proporcionada por el docente"
+  },
+  {
+    "id": "mapa-de-interaccion-de-usuarios",
+    "title": "Mapa de interacción de usuarios",
+    "file": "plantilla-mapa-de-interaccion-de-usuarios-design-thinking-en-espanol.pdf",
+    "objective": "Identificar los puntos de conexión entre los usuarios a lo largo del uso del producto o servicio para mejorar la experiencia final.",
+    "time": "00:40",
+    "primary": "Empatizar",
+    "secondary": [
+      "Definir"
+    ],
+    "category": "Interacciones",
+    "deliverable": "Mapa de conexiones y touchpoints",
+    "fields": [
+      "Usuarios/actores",
+      "Puntos de conexión",
+      "Secuencia de interacciones",
+      "Información intercambiada",
+      "Fricciones",
+      "Oportunidades"
+    ],
+    "use": "Úsala para localizar puntos de conexión entre usuarios a lo largo de una experiencia.",
+    "steps": [
+      "Definan qué parte del proyecto quieren comprender o resolver con esta herramienta.",
+      "Reúnan la evidencia o información necesaria antes de completar la plantilla.",
+      "Completen la plantilla con aportes trazables y distingan hechos de interpretaciones.",
+      "Sinteticen patrones, tensiones, oportunidades o decisiones que resulten de la aplicación.",
+      "Registren el entregable y envíen los hallazgos relevantes a la fase del proyecto."
+    ],
+    "special": false,
+    "special_note": "",
+    "source": "Dinngo / designthinking.es - plantilla original proporcionada por el docente"
+  },
+  {
+    "id": "mapa-de-ofertas",
+    "title": "Mapa de ofertas",
+    "file": "plantilla-mapa-de-ofertas-design-thinking-en-espanol.pdf",
+    "objective": "Sostener la conversación sobre la funcionalidad de una solución mediante herramientas visuales.",
+    "time": "00:40",
+    "primary": "Prototipar",
+    "secondary": [
+      "Idear"
+    ],
+    "category": "Oferta/funcionalidad",
+    "deliverable": "Mapa visual de componentes de la oferta",
+    "fields": [
+      "Usuario",
+      "Oferta central",
+      "Componentes/funciones",
+      "Relaciones entre componentes",
+      "Valor aportado",
+      "Aspectos a prototipar"
+    ],
+    "use": "Úsala para conversar visualmente sobre qué integra una solución y cómo se relacionan sus componentes.",
+    "steps": [
+      "Definan qué parte del proyecto quieren comprender o resolver con esta herramienta.",
+      "Reúnan la evidencia o información necesaria antes de completar la plantilla.",
+      "Completen la plantilla con aportes trazables y distingan hechos de interpretaciones.",
+      "Sinteticen patrones, tensiones, oportunidades o decisiones que resulten de la aplicación.",
+      "Registren el entregable y envíen los hallazgos relevantes a la fase del proyecto."
+    ],
+    "special": false,
+    "special_note": "",
+    "source": "Dinngo / designthinking.es - plantilla original proporcionada por el docente"
+  },
+  {
+    "id": "mapa-de-presente-mapa-de-futuro",
+    "title": "Mapa de presente, Mapa de futuro",
+    "file": "plantilla-mapa-de-presente-mapa-de-futuro-design-thinking-en-espanol.pdf",
+    "objective": "Definir los puntos de conflicto e identificar los deseos de los usuarios implicados en la solución.",
+    "time": "01:00",
+    "primary": "Definir",
+    "secondary": [
+      "Idear"
+    ],
+    "category": "Transformación",
+    "deliverable": "Comparación presente/futuro",
+    "fields": [
+      "Situación presente",
+      "Conflictos actuales",
+      "Deseos de usuarios",
+      "Situación futura deseada",
+      "Cambios necesarios",
+      "Brechas prioritarias"
+    ],
+    "use": "Úsala para contrastar la situación actual con un futuro deseado e identificar brechas.",
+    "steps": [
+      "Definan qué parte del proyecto quieren comprender o resolver con esta herramienta.",
+      "Reúnan la evidencia o información necesaria antes de completar la plantilla.",
+      "Completen la plantilla con aportes trazables y distingan hechos de interpretaciones.",
+      "Sinteticen patrones, tensiones, oportunidades o decisiones que resulten de la aplicación.",
+      "Registren el entregable y envíen los hallazgos relevantes a la fase del proyecto."
+    ],
+    "special": false,
+    "special_note": "",
+    "source": "Dinngo / designthinking.es - plantilla original proporcionada por el docente"
+  },
+  {
+    "id": "mapa-del-sistema",
+    "title": "Mapa del sistema",
+    "file": "plantilla-mapa-del-sistema-design-thinking-en-espanol.pdf",
+    "objective": "Representar la solución de forma completa y visual.",
+    "time": "00:40",
+    "primary": "Prototipar",
+    "secondary": [
+      "Definir"
+    ],
+    "category": "Sistema",
+    "deliverable": "Mapa integral de la solución",
+    "fields": [
+      "Elementos del sistema",
+      "Actores",
+      "Flujos",
+      "Relaciones",
+      "Entradas/salidas",
+      "Puntos críticos"
+    ],
+    "use": "Úsala para representar de forma completa una solución y las relaciones entre sus componentes.",
+    "steps": [
+      "Definan qué parte del proyecto quieren comprender o resolver con esta herramienta.",
+      "Reúnan la evidencia o información necesaria antes de completar la plantilla.",
+      "Completen la plantilla con aportes trazables y distingan hechos de interpretaciones.",
+      "Sinteticen patrones, tensiones, oportunidades o decisiones que resulten de la aplicación.",
+      "Registren el entregable y envíen los hallazgos relevantes a la fase del proyecto."
+    ],
+    "special": false,
+    "special_note": "",
+    "source": "Dinngo / designthinking.es - plantilla original proporcionada por el docente"
+  },
+  {
+    "id": "mapa-mental",
+    "title": "Mapa Mental",
+    "file": "plantilla-mapa-mental-design-thinking-en-espanol.pdf",
+    "objective": "Evaluar la relación entre distintas variables sobre un tema central y obtener una visión global y simplificada del mismo.",
+    "time": "00:30",
+    "primary": "Definir",
+    "secondary": [
+      "Idear"
+    ],
+    "category": "Síntesis",
+    "deliverable": "Mapa mental del tema/reto",
+    "fields": [
+      "Tema central",
+      "Ramas principales",
+      "Variables relacionadas",
+      "Conexiones",
+      "Patrones/hallazgos",
+      "Conclusión"
+    ],
+    "use": "Úsala para organizar variables y obtener una visión global y simplificada de un tema.",
+    "steps": [
+      "Definan qué parte del proyecto quieren comprender o resolver con esta herramienta.",
+      "Reúnan la evidencia o información necesaria antes de completar la plantilla.",
+      "Completen la plantilla con aportes trazables y distingan hechos de interpretaciones.",
+      "Sinteticen patrones, tensiones, oportunidades o decisiones que resulten de la aplicación.",
+      "Registren el entregable y envíen los hallazgos relevantes a la fase del proyecto."
+    ],
+    "special": false,
+    "special_note": "",
+    "source": "Dinngo / designthinking.es - plantilla original proporcionada por el docente"
+  },
+  {
+    "id": "mapas-del-contexto",
+    "title": "Mapas del contexto",
+    "file": "plantilla-mapas-del-contexto-design-thinking-en-espanol.pdf",
+    "objective": "Definir cuál es el contexto relacionado con nuestro reto.",
+    "time": "01:30",
+    "primary": "Empatizar",
+    "secondary": [
+      "Definir"
+    ],
+    "category": "Contexto",
+    "deliverable": "Mapa contextual del reto",
+    "fields": [
+      "Reto",
+      "Entorno físico",
+      "Entorno social",
+      "Factores tecnológicos",
+      "Factores organizacionales",
+      "Restricciones",
+      "Oportunidades del contexto"
+    ],
+    "use": "Úsala para hacer explícito el contexto que rodea el reto y al usuario.",
+    "steps": [
+      "Definan qué parte del proyecto quieren comprender o resolver con esta herramienta.",
+      "Reúnan la evidencia o información necesaria antes de completar la plantilla.",
+      "Completen la plantilla con aportes trazables y distingan hechos de interpretaciones.",
+      "Sinteticen patrones, tensiones, oportunidades o decisiones que resulten de la aplicación.",
+      "Registren el entregable y envíen los hallazgos relevantes a la fase del proyecto."
+    ],
+    "special": false,
+    "special_note": "",
+    "source": "Dinngo / designthinking.es - plantilla original proporcionada por el docente"
+  },
+  {
+    "id": "maquetas",
+    "title": "Maquetas",
+    "file": "plantilla-maquetas-design-thinking-en-espanol.pdf",
+    "objective": "Visualizar y testear una posible solución.",
+    "time": "01:00",
+    "primary": "Prototipar",
+    "secondary": [
+      "Testear"
+    ],
+    "category": "Prototipo físico",
+    "deliverable": "Plan y registro de maqueta",
+    "fields": [
+      "Qué se va a representar",
+      "Escala/nivel de detalle",
+      "Materiales",
+      "Partes clave",
+      "Qué queremos probar",
+      "Resultados del primer test"
+    ],
+    "use": "Úsala para visualizar y probar espacial o físicamente una posible solución.",
+    "steps": [
+      "Definan qué parte del proyecto quieren comprender o resolver con esta herramienta.",
+      "Reúnan la evidencia o información necesaria antes de completar la plantilla.",
+      "Completen la plantilla con aportes trazables y distingan hechos de interpretaciones.",
+      "Sinteticen patrones, tensiones, oportunidades o decisiones que resulten de la aplicación.",
+      "Registren el entregable y envíen los hallazgos relevantes a la fase del proyecto."
+    ],
+    "special": false,
+    "special_note": "",
+    "source": "Dinngo / designthinking.es - plantilla original proporcionada por el docente"
+  },
+  {
+    "id": "mas-mejor",
+    "title": "Más / Mejor",
+    "file": "plantilla-mas-mejor-design-thinking-en-espanol.pdf",
+    "objective": "Obtener feedback constructivo.",
+    "time": "00:40",
+    "primary": "Testear",
+    "secondary": [
+      "Idear"
+    ],
+    "category": "Feedback",
+    "deliverable": "Feedback Más/Mejor priorizado",
+    "fields": [
+      "Qué queremos más",
+      "Qué debería ser mejor",
+      "Por qué",
+      "Cambios propuestos",
+      "Prioridad"
+    ],
+    "use": "Úsala para obtener retroalimentación constructiva y accionable.",
+    "steps": [
+      "Definan qué parte del proyecto quieren comprender o resolver con esta herramienta.",
+      "Reúnan la evidencia o información necesaria antes de completar la plantilla.",
+      "Completen la plantilla con aportes trazables y distingan hechos de interpretaciones.",
+      "Sinteticen patrones, tensiones, oportunidades o decisiones que resulten de la aplicación.",
+      "Registren el entregable y envíen los hallazgos relevantes a la fase del proyecto."
+    ],
+    "special": false,
+    "special_note": "",
+    "source": "Dinngo / designthinking.es - plantilla original proporcionada por el docente"
+  },
+  {
+    "id": "scamper",
+    "title": "SCAMPER",
+    "file": "plantilla-materiales-scamper-design-thinking-en-espanol.pdf",
+    "objective": "Aumentar el número y variedad de las ideas.",
+    "time": "00:40",
+    "primary": "Idear",
+    "secondary": [],
+    "category": "Generación de ideas",
+    "deliverable": "Matriz SCAMPER + ideas",
+    "fields": [
+      "Sustituir",
+      "Combinar",
+      "Adaptar",
+      "Modificar",
+      "Poner en otros usos",
+      "Eliminar",
+      "Reordenar / invertir",
+      "Ideas seleccionadas"
+    ],
+    "use": "Úsala para aumentar el número y variedad de ideas mediante siete provocaciones.",
+    "steps": [
+      "Definan qué parte del proyecto quieren comprender o resolver con esta herramienta.",
+      "Reúnan la evidencia o información necesaria antes de completar la plantilla.",
+      "Completen la plantilla con aportes trazables y distingan hechos de interpretaciones.",
+      "Sinteticen patrones, tensiones, oportunidades o decisiones que resulten de la aplicación.",
+      "Registren el entregable y envíen los hallazgos relevantes a la fase del proyecto."
+    ],
+    "special": false,
+    "special_note": "",
+    "source": "Dinngo / designthinking.es - plantilla original proporcionada por el docente"
+  },
+  {
+    "id": "matriz-de-ideas",
+    "title": "Matriz de ideas",
+    "file": "plantilla-matriz-de-ideas-design-thinking-en-espanol.pdf",
+    "objective": "Generar ideas teniendo en cuenta a los distintos tipos de usuarios.",
+    "time": "00:40",
+    "primary": "Idear",
+    "secondary": [
+      "Empatizar"
+    ],
+    "category": "Generación de ideas",
+    "deliverable": "Matriz usuario-necesidad-idea",
+    "fields": [
+      "Tipos de usuario",
+      "Necesidades / retos",
+      "Ideas por combinación",
+      "Ideas repetidas/patrones",
+      "Ideas seleccionadas"
+    ],
+    "use": "Úsala para generar alternativas considerando explícitamente diferentes tipos de usuarios.",
+    "steps": [
+      "Definan qué parte del proyecto quieren comprender o resolver con esta herramienta.",
+      "Reúnan la evidencia o información necesaria antes de completar la plantilla.",
+      "Completen la plantilla con aportes trazables y distingan hechos de interpretaciones.",
+      "Sinteticen patrones, tensiones, oportunidades o decisiones que resulten de la aplicación.",
+      "Registren el entregable y envíen los hallazgos relevantes a la fase del proyecto."
+    ],
+    "special": false,
+    "special_note": "",
+    "source": "Dinngo / designthinking.es - plantilla original proporcionada por el docente"
+  },
+  {
+    "id": "matriz-eric",
+    "title": "Matriz ERIC",
+    "file": "plantilla-matriz-eric-design-thinking-en-espanol.pdf",
+    "objective": "Plantear acciones que nos ayuden a diferenciarnos, en base a el desarrollo previo de nuestra curva de valor.",
+    "time": "01:00",
+    "primary": "Idear",
+    "secondary": [
+      "Definir"
+    ],
+    "category": "Estrategia",
+    "deliverable": "Matriz eliminar-reducir-incrementar-crear",
+    "fields": [
+      "Eliminar",
+      "Reducir",
+      "Incrementar",
+      "Crear",
+      "Nueva lógica de valor"
+    ],
+    "use": "Úsala después de analizar la curva de valor para plantear acciones de diferenciación.",
+    "steps": [
+      "Definan qué parte del proyecto quieren comprender o resolver con esta herramienta.",
+      "Reúnan la evidencia o información necesaria antes de completar la plantilla.",
+      "Completen la plantilla con aportes trazables y distingan hechos de interpretaciones.",
+      "Sinteticen patrones, tensiones, oportunidades o decisiones que resulten de la aplicación.",
+      "Registren el entregable y envíen los hallazgos relevantes a la fase del proyecto."
+    ],
+    "special": false,
+    "special_note": "",
+    "source": "Dinngo / designthinking.es - plantilla original proporcionada por el docente"
+  },
+  {
+    "id": "matriz-de-impacto-y-esfuerzo",
+    "title": "Matriz de impacto y esfuerzo",
+    "file": "plantilla-matriz-impacto-esfuerzo-design-thinking-en-espanol.pdf",
+    "objective": "Tomar decisiones evaluando el potencial de acciones a ejecutar.",
+    "time": "00:40",
+    "primary": "Idear",
+    "secondary": [
+      "Definir"
+    ],
+    "category": "Priorización",
+    "deliverable": "Matriz impacto-esfuerzo + selección",
+    "fields": [
+      "Opciones/acciones",
+      "Impacto esperado",
+      "Esfuerzo requerido",
+      "Cuadrante",
+      "Acciones prioritarias",
+      "Justificación"
+    ],
+    "use": "Úsala para decidir dónde invertir recursos comparando beneficio esperado y esfuerzo.",
+    "steps": [
+      "Definan qué parte del proyecto quieren comprender o resolver con esta herramienta.",
+      "Reúnan la evidencia o información necesaria antes de completar la plantilla.",
+      "Completen la plantilla con aportes trazables y distingan hechos de interpretaciones.",
+      "Sinteticen patrones, tensiones, oportunidades o decisiones que resulten de la aplicación.",
+      "Registren el entregable y envíen los hallazgos relevantes a la fase del proyecto."
+    ],
+    "special": false,
+    "special_note": "",
+    "source": "Dinngo / designthinking.es - plantilla original proporcionada por el docente"
+  },
+  {
+    "id": "matriz-de-motivaciones",
+    "title": "Matriz de motivaciones",
+    "file": "plantilla-matriz-motivaciones-design-thinking-en-espanol.pdf",
+    "objective": "Tener en cuenta todas las variables posibles con respecto a las necesidades del usuario.",
+    "time": "01:00",
+    "primary": "Empatizar",
+    "secondary": [
+      "Definir"
+    ],
+    "category": "Motivaciones",
+    "deliverable": "Matriz necesidades-motivadores-barreras",
+    "fields": [
+      "Usuario/segmento",
+      "Necesidades",
+      "Motivadores",
+      "Barreras",
+      "Comportamientos asociados",
+      "Implicaciones para el reto"
+    ],
+    "use": "Úsala para ampliar la lectura de necesidades considerando motivaciones y barreras.",
+    "steps": [
+      "Definan qué parte del proyecto quieren comprender o resolver con esta herramienta.",
+      "Reúnan la evidencia o información necesaria antes de completar la plantilla.",
+      "Completen la plantilla con aportes trazables y distingan hechos de interpretaciones.",
+      "Sinteticen patrones, tensiones, oportunidades o decisiones que resulten de la aplicación.",
+      "Registren el entregable y envíen los hallazgos relevantes a la fase del proyecto."
+    ],
+    "special": false,
+    "special_note": "",
+    "source": "Dinngo / designthinking.es - plantilla original proporcionada por el docente"
+  },
+  {
+    "id": "matriz-de-tendencias",
+    "title": "Matriz de tendencias",
+    "file": "plantilla-matriz-tendencias-design-thinking-en-espanol.pdf",
+    "objective": "Conocer cómo las nuevas tendencias están definiendo el futuro del sector en el que trabajemos.",
+    "time": "01:00",
+    "primary": "Definir",
+    "secondary": [
+      "Idear"
+    ],
+    "category": "Tendencias",
+    "deliverable": "Matriz de tendencias e implicaciones",
+    "fields": [
+      "Tendencia",
+      "Evidencia/señal",
+      "Impacto en usuarios",
+      "Impacto en el sector",
+      "Oportunidades",
+      "Riesgos"
+    ],
+    "use": "Úsala para explorar cómo tendencias emergentes pueden transformar el contexto del proyecto.",
+    "steps": [
+      "Definan qué parte del proyecto quieren comprender o resolver con esta herramienta.",
+      "Reúnan la evidencia o información necesaria antes de completar la plantilla.",
+      "Completen la plantilla con aportes trazables y distingan hechos de interpretaciones.",
+      "Sinteticen patrones, tensiones, oportunidades o decisiones que resulten de la aplicación.",
+      "Registren el entregable y envíen los hallazgos relevantes a la fase del proyecto."
+    ],
+    "special": false,
+    "special_note": "",
+    "source": "Dinngo / designthinking.es - plantilla original proporcionada por el docente"
+  },
+  {
+    "id": "mision-imposible",
+    "title": "Misión imposible",
+    "file": "plantilla-mision-imposible-design-thinking-en-espanol.pdf",
+    "objective": "Plantear nuevas alternativas a partir de un cambio de perspectiva.",
+    "time": "02:00",
+    "primary": "Idear",
+    "secondary": [],
+    "category": "Provocación",
+    "deliverable": "Hipótesis extremas + ideas derivadas",
+    "fields": [
+      "Supuesto actual",
+      "Misión imposible / provocación",
+      "Qué tendría que cambiar",
+      "Ideas que aparecen",
+      "Ideas rescatables"
+    ],
+    "use": "Úsala para cambiar de perspectiva mediante restricciones o hipótesis aparentemente imposibles.",
+    "steps": [
+      "Definan qué parte del proyecto quieren comprender o resolver con esta herramienta.",
+      "Reúnan la evidencia o información necesaria antes de completar la plantilla.",
+      "Completen la plantilla con aportes trazables y distingan hechos de interpretaciones.",
+      "Sinteticen patrones, tensiones, oportunidades o decisiones que resulten de la aplicación.",
+      "Registren el entregable y envíen los hallazgos relevantes a la fase del proyecto."
+    ],
+    "special": false,
+    "special_note": "",
+    "source": "Dinngo / designthinking.es - plantilla original proporcionada por el docente"
+  },
+  {
+    "id": "moodboard",
+    "title": "Moodboard",
+    "file": "plantilla-moodboard-design-thinking-en-espanol.pdf",
+    "objective": "Mejorar la comunicación sobre conceptos complejos e inspirar al equipo de innovación, en la generación de ideas.",
+    "time": "01:00",
+    "primary": "Idear",
+    "secondary": [
+      "Prototipar"
+    ],
+    "category": "Inspiración visual",
+    "deliverable": "Moodboard + principios visuales",
+    "fields": [
+      "Concepto a comunicar",
+      "Palabras clave",
+      "Referencias visuales",
+      "Sensaciones deseadas",
+      "Elementos a evitar",
+      "Principios visuales resultantes"
+    ],
+    "use": "Úsala para alinear al equipo sobre una dirección estética o conceptual compleja.",
+    "steps": [
+      "Definan qué parte del proyecto quieren comprender o resolver con esta herramienta.",
+      "Reúnan la evidencia o información necesaria antes de completar la plantilla.",
+      "Completen la plantilla con aportes trazables y distingan hechos de interpretaciones.",
+      "Sinteticen patrones, tensiones, oportunidades o decisiones que resulten de la aplicación.",
+      "Registren el entregable y envíen los hallazgos relevantes a la fase del proyecto."
+    ],
+    "special": false,
+    "special_note": "",
+    "source": "Dinngo / designthinking.es - plantilla original proporcionada por el docente"
+  },
+  {
+    "id": "perfil-de-usuario",
+    "title": "Perfil de usuario",
+    "file": "plantilla-perfil-de-usuario-design-thinking-en-espanol.pdf",
+    "objective": "Tener presente a los usuarios entrevistados durante las siguientes fases del proceso.",
+    "time": "01:00",
+    "primary": "Empatizar",
+    "secondary": [
+      "Definir"
+    ],
+    "category": "Usuario",
+    "deliverable": "Perfil de usuario documentado",
+    "fields": [
+      "Identificador/perfil",
+      "Contexto",
+      "Objetivos",
+      "Comportamientos observados",
+      "Necesidades",
+      "Frustraciones",
+      "Evidencias"
+    ],
+    "use": "Úsala para conservar visibles las características de usuarios investigados en las fases posteriores.",
+    "steps": [
+      "Definan qué parte del proyecto quieren comprender o resolver con esta herramienta.",
+      "Reúnan la evidencia o información necesaria antes de completar la plantilla.",
+      "Completen la plantilla con aportes trazables y distingan hechos de interpretaciones.",
+      "Sinteticen patrones, tensiones, oportunidades o decisiones que resulten de la aplicación.",
+      "Registren el entregable y envíen los hallazgos relevantes a la fase del proyecto."
+    ],
+    "special": false,
+    "special_note": "",
+    "source": "Dinngo / designthinking.es - plantilla original proporcionada por el docente"
+  },
+  {
+    "id": "personas",
+    "title": "Personas",
+    "file": "plantilla-personas-design-thinking-en-espanol.pdf",
+    "objective": "Creación de arquetipos de usuarios para apoyar el desarrollo de una solución final.",
+    "time": "01:00",
+    "primary": "Empatizar",
+    "secondary": [
+      "Definir"
+    ],
+    "category": "Usuario",
+    "deliverable": "Persona/User Persona basado en evidencia",
+    "fields": [
+      "Nombre/arquetipo",
+      "Contexto",
+      "Objetivos",
+      "Conductas",
+      "Motivaciones",
+      "Necesidades",
+      "Frustraciones",
+      "Evidencias"
+    ],
+    "use": "Úsala para sintetizar patrones de usuarios en un arquetipo. En este curso el User Persona se trabaja como actividad estructurada independiente y no cuenta entre las tres herramientas de Empatizar.",
+    "steps": [
+      "Definan qué parte del proyecto quieren comprender o resolver con esta herramienta.",
+      "Reúnan la evidencia o información necesaria antes de completar la plantilla.",
+      "Completen la plantilla con aportes trazables y distingan hechos de interpretaciones.",
+      "Sinteticen patrones, tensiones, oportunidades o decisiones que resulten de la aplicación.",
+      "Registren el entregable y envíen los hallazgos relevantes a la fase del proyecto."
+    ],
+    "special": true,
+    "special_note": "En PI-4803 el User Persona se desarrolla como actividad estructurada independiente; no cuenta entre las 3 herramientas de Empatizar.",
+    "source": "Dinngo / designthinking.es - plantilla original proporcionada por el docente"
+  },
+  {
+    "id": "phillips-6-6",
+    "title": "Phillips 6/6",
+    "file": "plantilla-phillips-6-6-design-thinking-en-espanol.pdf",
+    "objective": "Llegar a consensos de forma grupal.",
+    "time": "01:00",
+    "primary": "Idear",
+    "secondary": [
+      "Definir"
+    ],
+    "category": "Consenso",
+    "deliverable": "Síntesis de discusión y consenso",
+    "fields": [
+      "Pregunta/tema",
+      "Aportes grupo 1",
+      "Aportes grupo 2",
+      "Aportes grupo 3",
+      "Coincidencias",
+      "Consenso final"
+    ],
+    "use": "Úsala para producir discusión breve y llegar a consensos en equipos o grupos amplios.",
+    "steps": [
+      "Definan qué parte del proyecto quieren comprender o resolver con esta herramienta.",
+      "Reúnan la evidencia o información necesaria antes de completar la plantilla.",
+      "Completen la plantilla con aportes trazables y distingan hechos de interpretaciones.",
+      "Sinteticen patrones, tensiones, oportunidades o decisiones que resulten de la aplicación.",
+      "Registren el entregable y envíen los hallazgos relevantes a la fase del proyecto."
+    ],
+    "special": false,
+    "special_note": "",
+    "source": "Dinngo / designthinking.es - plantilla original proporcionada por el docente"
+  },
+  {
+    "id": "protipado-de-apps-en-papel",
+    "title": "Protipado de Apps en papel",
+    "file": "plantilla-prototipado-apps-papel-design-thinking-en-espanol.pdf",
+    "objective": "Definir las pantallas de una aplicación móvil de forma rápida y sencilla.",
+    "time": "02:00",
+    "primary": "Prototipar",
+    "secondary": [
+      "Testear"
+    ],
+    "category": "Prototipo interfaz",
+    "deliverable": "Secuencia de pantallas en papel",
+    "fields": [
+      "Objetivo de la app",
+      "Usuario/tarea",
+      "Pantallas necesarias",
+      "Flujo entre pantallas",
+      "Interacciones clave",
+      "Qué se probará"
+    ],
+    "use": "Úsala para definir rápidamente pantallas y flujos antes de programar.",
+    "steps": [
+      "Definan qué parte del proyecto quieren comprender o resolver con esta herramienta.",
+      "Reúnan la evidencia o información necesaria antes de completar la plantilla.",
+      "Completen la plantilla con aportes trazables y distingan hechos de interpretaciones.",
+      "Sinteticen patrones, tensiones, oportunidades o decisiones que resulten de la aplicación.",
+      "Registren el entregable y envíen los hallazgos relevantes a la fase del proyecto."
+    ],
+    "special": false,
+    "special_note": "",
+    "source": "Dinngo / designthinking.es - plantilla original proporcionada por el docente"
+  },
+  {
+    "id": "prototipo-en-bruto",
+    "title": "Prototipo en bruto",
+    "file": "plantilla-prototipo-en-bruto-design-thinking-en-espanol.pdf",
+    "objective": "Agilizar la definición de ideas o posibles soluciones a través de elementos tangibles.",
+    "time": "03:00",
+    "primary": "Prototipar",
+    "secondary": [
+      "Testear"
+    ],
+    "category": "Prototipo físico",
+    "deliverable": "Plan + prototipo tangible inicial",
+    "fields": [
+      "Qué se va a prototipar",
+      "Qué se quiere probar",
+      "Materiales",
+      "Boceto/estructura",
+      "Supuestos representados",
+      "Resultado del test inicial"
+    ],
+    "use": "Úsala para convertir rápidamente una idea en algo tangible y testeable.",
+    "steps": [
+      "Definan qué parte del proyecto quieren comprender o resolver con esta herramienta.",
+      "Reúnan la evidencia o información necesaria antes de completar la plantilla.",
+      "Completen la plantilla con aportes trazables y distingan hechos de interpretaciones.",
+      "Sinteticen patrones, tensiones, oportunidades o decisiones que resulten de la aplicación.",
+      "Registren el entregable y envíen los hallazgos relevantes a la fase del proyecto."
+    ],
+    "special": false,
+    "special_note": "",
+    "source": "Dinngo / designthinking.es - plantilla original proporcionada por el docente"
+  },
+  {
+    "id": "prototipo-en-imagen",
+    "title": "Prototipo en imagen",
+    "file": "plantilla-prototipo-en-imagen-design-thinking-en-espanol.pdf",
+    "objective": "Representar una posible solución de forma visual.",
+    "time": "00:40",
+    "primary": "Prototipar",
+    "secondary": [
+      "Testear"
+    ],
+    "category": "Prototipo visual",
+    "deliverable": "Plan + representación visual",
+    "fields": [
+      "Qué se va a representar",
+      "Estilo visual",
+      "Materiales/herramientas",
+      "Elementos esenciales",
+      "Mensaje o experiencia",
+      "Qué se quiere probar"
+    ],
+    "use": "Úsala para representar visualmente una solución antes de producirla.",
+    "steps": [
+      "Definan qué parte del proyecto quieren comprender o resolver con esta herramienta.",
+      "Reúnan la evidencia o información necesaria antes de completar la plantilla.",
+      "Completen la plantilla con aportes trazables y distingan hechos de interpretaciones.",
+      "Sinteticen patrones, tensiones, oportunidades o decisiones que resulten de la aplicación.",
+      "Registren el entregable y envíen los hallazgos relevantes a la fase del proyecto."
+    ],
+    "special": false,
+    "special_note": "",
+    "source": "Dinngo / designthinking.es - plantilla original proporcionada por el docente"
+  },
+  {
+    "id": "pruebas-de-usabilidad",
+    "title": "Pruebas de usabilidad",
+    "file": "plantilla-pruebas-de-usabilidad-o-user-testing-design-thinking-en-espanol.pdf",
+    "objective": "Testear la experiencia del usuario sobre una posible solución.",
+    "time": "01:00",
+    "primary": "Testear",
+    "secondary": [],
+    "category": "Usabilidad",
+    "deliverable": "Matriz de user testing + hallazgos",
+    "fields": [
+      "Aspectos a evaluar",
+      "Tareas",
+      "Usuario 1 - observaciones",
+      "Usuario 2 - observaciones",
+      "Usuario 3 - observaciones",
+      "Problemas recurrentes",
+      "Cambios prioritarios"
+    ],
+    "use": "Úsala para observar si los usuarios pueden utilizar una solución y dónde encuentran fricción.",
+    "steps": [
+      "Definan qué parte del proyecto quieren comprender o resolver con esta herramienta.",
+      "Reúnan la evidencia o información necesaria antes de completar la plantilla.",
+      "Completen la plantilla con aportes trazables y distingan hechos de interpretaciones.",
+      "Sinteticen patrones, tensiones, oportunidades o decisiones que resulten de la aplicación.",
+      "Registren el entregable y envíen los hallazgos relevantes a la fase del proyecto."
+    ],
+    "special": false,
+    "special_note": "",
+    "source": "Dinngo / designthinking.es - plantilla original proporcionada por el docente"
+  },
+  {
+    "id": "que-como-por-que",
+    "title": "¿Qué, cómo, por qué?",
+    "file": "plantilla-que-como-por-que-design-thinking-en-espanol.pdf",
+    "objective": "Aumentar la capacidad de observación e identificar suposiciones que deberán contrastarse con los usuarios.",
+    "time": "00:20",
+    "primary": "Empatizar",
+    "secondary": [
+      "Definir"
+    ],
+    "category": "Observación",
+    "deliverable": "Registro Qué-Cómo-Por qué + hipótesis",
+    "fields": [
+      "Foto/escena observada",
+      "¿Qué está sucediendo?",
+      "¿Cómo está sucediendo?",
+      "¿Por qué podría estar sucediendo?",
+      "Suposiciones a contrastar"
+    ],
+    "use": "Úsala para separar observación de interpretación y detectar suposiciones que requieren contraste.",
+    "steps": [
+      "Definan qué parte del proyecto quieren comprender o resolver con esta herramienta.",
+      "Reúnan la evidencia o información necesaria antes de completar la plantilla.",
+      "Completen la plantilla con aportes trazables y distingan hechos de interpretaciones.",
+      "Sinteticen patrones, tensiones, oportunidades o decisiones que resulten de la aplicación.",
+      "Registren el entregable y envíen los hallazgos relevantes a la fase del proyecto."
+    ],
+    "special": false,
+    "special_note": "",
+    "source": "Dinngo / designthinking.es - plantilla original proporcionada por el docente"
+  },
+  {
+    "id": "safari",
+    "title": "Safari",
+    "file": "plantilla-safari-design-thinking-en-espanol.pdf",
+    "objective": "Comprender el reto, a través de la activación de la observación.",
+    "time": "02:00",
+    "primary": "Empatizar",
+    "secondary": [],
+    "category": "Observación",
+    "deliverable": "Plan de safari + hallazgos",
+    "fields": [
+      "Objetivo",
+      "Fecha/lugar",
+      "Itinerario",
+      "Recursos",
+      "Qué observar",
+      "Hallazgos",
+      "Conclusiones / preguntas"
+    ],
+    "use": "Úsala para explorar el contexto activando intencionalmente la observación.",
+    "steps": [
+      "Definan qué parte del proyecto quieren comprender o resolver con esta herramienta.",
+      "Reúnan la evidencia o información necesaria antes de completar la plantilla.",
+      "Completen la plantilla con aportes trazables y distingan hechos de interpretaciones.",
+      "Sinteticen patrones, tensiones, oportunidades o decisiones que resulten de la aplicación.",
+      "Registren el entregable y envíen los hallazgos relevantes a la fase del proyecto."
+    ],
+    "special": false,
+    "special_note": "",
+    "source": "Dinngo / designthinking.es - plantilla original proporcionada por el docente"
+  },
+  {
+    "id": "seleccion-n-u-f",
+    "title": "Selección N.U.F.",
+    "file": "plantilla-seleccion-nuf-design-thinking-en-espanol.pdf",
+    "objective": "Evaluar ideas en base a su viabilidad, novedad, y aporte de valor.",
+    "time": "00:40",
+    "primary": "Idear",
+    "secondary": [],
+    "category": "Priorización de ideas",
+    "deliverable": "Matriz novedad-utilidad-factibilidad",
+    "fields": [
+      "Ideas",
+      "Novedad",
+      "Utilidad",
+      "Factibilidad",
+      "Puntuación/resultado",
+      "Idea(s) seleccionada(s)"
+    ],
+    "use": "Úsala para evaluar ideas con criterios de novedad, utilidad y factibilidad.",
+    "steps": [
+      "Definan qué parte del proyecto quieren comprender o resolver con esta herramienta.",
+      "Reúnan la evidencia o información necesaria antes de completar la plantilla.",
+      "Completen la plantilla con aportes trazables y distingan hechos de interpretaciones.",
+      "Sinteticen patrones, tensiones, oportunidades o decisiones que resulten de la aplicación.",
+      "Registren el entregable y envíen los hallazgos relevantes a la fase del proyecto."
+    ],
+    "special": false,
+    "special_note": "",
+    "source": "Dinngo / designthinking.es - plantilla original proporcionada por el docente"
+  },
+  {
+    "id": "seria-no-seria",
+    "title": "Sería / No sería",
+    "file": "plantilla-seria-no-seria-design-thinking-en-espanol.pdf",
+    "objective": "Facilitar la comunicación de nuestra realidad actual o futura mediante comparaciones con otros elementos.",
+    "time": "00:30",
+    "primary": "Idear",
+    "secondary": [
+      "Definir"
+    ],
+    "category": "Analogías",
+    "deliverable": "Comparaciones sería/no sería",
+    "fields": [
+      "Concepto o realidad",
+      "Si fuera...",
+      "Sería...",
+      "No sería...",
+      "Implicaciones / principios obtenidos"
+    ],
+    "use": "Úsala para aclarar una realidad o dirección mediante analogías y contrastes.",
+    "steps": [
+      "Definan qué parte del proyecto quieren comprender o resolver con esta herramienta.",
+      "Reúnan la evidencia o información necesaria antes de completar la plantilla.",
+      "Completen la plantilla con aportes trazables y distingan hechos de interpretaciones.",
+      "Sinteticen patrones, tensiones, oportunidades o decisiones que resulten de la aplicación.",
+      "Registren el entregable y envíen los hallazgos relevantes a la fase del proyecto."
+    ],
+    "special": false,
+    "special_note": "",
+    "source": "Dinngo / designthinking.es - plantilla original proporcionada por el docente"
+  },
+  {
+    "id": "start-stop-continue",
+    "title": "Start, Stop, Continue",
+    "file": "plantilla-start-stop-continue-design-thinking-en-espanol.pdf",
+    "objective": "Obtener feedback o retroalimentación sobre un proyecto o desempeño personal.",
+    "time": "01:00",
+    "primary": "Testear",
+    "secondary": [
+      "Idear"
+    ],
+    "category": "Feedback",
+    "deliverable": "Matriz comenzar-detener-continuar",
+    "fields": [
+      "Start - comenzar",
+      "Stop - detener",
+      "Continue - continuar",
+      "Razones/evidencias",
+      "Acciones priorizadas"
+    ],
+    "use": "Úsala para convertir feedback sobre un proyecto o desempeño en acciones concretas.",
+    "steps": [
+      "Definan qué parte del proyecto quieren comprender o resolver con esta herramienta.",
+      "Reúnan la evidencia o información necesaria antes de completar la plantilla.",
+      "Completen la plantilla con aportes trazables y distingan hechos de interpretaciones.",
+      "Sinteticen patrones, tensiones, oportunidades o decisiones que resulten de la aplicación.",
+      "Registren el entregable y envíen los hallazgos relevantes a la fase del proyecto."
+    ],
+    "special": false,
+    "special_note": "",
+    "source": "Dinngo / designthinking.es - plantilla original proporcionada por el docente"
+  },
+  {
+    "id": "storyboard-o-guion-grafico",
+    "title": "Storyboard o guion gráfico",
+    "file": "plantilla-storyboard-guion-grafico-design-thinking-en-espanol.pdf",
+    "objective": "Sostener la conversación sobre la funcionalidad de una solución mediante herramientas visuales.",
+    "time": "01:00",
+    "primary": "Prototipar",
+    "secondary": [
+      "Idear",
+      "Testear"
+    ],
+    "category": "Narrativa",
+    "deliverable": "Storyboard de la experiencia/solución",
+    "fields": [
+      "Usuario y escenario",
+      "Escena 1",
+      "Escena 2",
+      "Escena 3",
+      "Escena 4",
+      "Escena 5",
+      "Momento crítico",
+      "Qué se quiere validar"
+    ],
+    "use": "Úsala para representar visualmente una secuencia de uso y discutir funcionalidad o experiencia.",
+    "steps": [
+      "Definan qué parte del proyecto quieren comprender o resolver con esta herramienta.",
+      "Reúnan la evidencia o información necesaria antes de completar la plantilla.",
+      "Completen la plantilla con aportes trazables y distingan hechos de interpretaciones.",
+      "Sinteticen patrones, tensiones, oportunidades o decisiones que resulten de la aplicación.",
+      "Registren el entregable y envíen los hallazgos relevantes a la fase del proyecto."
+    ],
+    "special": false,
+    "special_note": "",
+    "source": "Dinngo / designthinking.es - plantilla original proporcionada por el docente"
+  },
+  {
+    "id": "tarjetas-rojas-y-verdes",
+    "title": "Tarjetas rojas y verdes",
+    "file": "plantilla-tarjetas-verdes-y-rojas-completa-design-thinking-en-espanol.pdf",
+    "objective": "Gestionar las opiniones en grupos grandes.",
+    "time": "00:30",
+    "primary": "Testear",
+    "secondary": [
+      "Idear"
+    ],
+    "category": "Feedback grupal",
+    "deliverable": "Registro de opiniones positivas/negativas",
+    "fields": [
+      "Tema/solución evaluada",
+      "Tarjetas verdes - funciona/aporta",
+      "Tarjetas rojas - preocupa/no funciona",
+      "Patrones",
+      "Cambios propuestos"
+    ],
+    "use": "Úsala para gestionar rápidamente opiniones de grupos grandes.",
+    "steps": [
+      "Definan qué parte del proyecto quieren comprender o resolver con esta herramienta.",
+      "Reúnan la evidencia o información necesaria antes de completar la plantilla.",
+      "Completen la plantilla con aportes trazables y distingan hechos de interpretaciones.",
+      "Sinteticen patrones, tensiones, oportunidades o decisiones que resulten de la aplicación.",
+      "Registren el entregable y envíen los hallazgos relevantes a la fase del proyecto."
+    ],
+    "special": false,
+    "special_note": "",
+    "source": "Dinngo / designthinking.es - plantilla original proporcionada por el docente"
+  },
+  {
+    "id": "usuarios-extremos",
+    "title": "Usuarios extremos",
+    "file": "plantilla-usuarios-extremos-design-thinking-en-espanol.pdf",
+    "objective": "Identificar necesidades que en usuarios medios no aparecerían.",
+    "time": "00:30",
+    "primary": "Empatizar",
+    "secondary": [
+      "Definir"
+    ],
+    "category": "Investigación",
+    "deliverable": "Comparación usuarios extremos/medios",
+    "fields": [
+      "Extremo 1",
+      "Usuario medio",
+      "Extremo 2",
+      "Necesidades visibles en extremos",
+      "Patrones comunes",
+      "Implicaciones"
+    ],
+    "use": "Úsala para revelar necesidades que podrían pasar desapercibidas al estudiar solo usuarios medios.",
+    "steps": [
+      "Definan qué parte del proyecto quieren comprender o resolver con esta herramienta.",
+      "Reúnan la evidencia o información necesaria antes de completar la plantilla.",
+      "Completen la plantilla con aportes trazables y distingan hechos de interpretaciones.",
+      "Sinteticen patrones, tensiones, oportunidades o decisiones que resulten de la aplicación.",
+      "Registren el entregable y envíen los hallazgos relevantes a la fase del proyecto."
+    ],
+    "special": false,
+    "special_note": "",
+    "source": "Dinngo / designthinking.es - plantilla original proporcionada por el docente"
+  },
+  {
+    "id": "y-si",
+    "title": "¿Y si...?",
+    "file": "plantilla-y-si-design-thinking-en-espanol.pdf",
+    "objective": "Plantear hipótesis extremas que den pie a nuevas ideas.",
+    "time": "02:00",
+    "primary": "Idear",
+    "secondary": [],
+    "category": "Provocación",
+    "deliverable": "Banco de hipótesis extremas e ideas",
+    "fields": [
+      "Situación actual",
+      "¿Y si...? 1",
+      "¿Y si...? 2",
+      "¿Y si...? 3",
+      "Ideas derivadas",
+      "Hipótesis/ideas seleccionadas"
+    ],
+    "use": "Úsala para provocar nuevas ideas mediante escenarios extremos o alternativos.",
+    "steps": [
+      "Definan qué parte del proyecto quieren comprender o resolver con esta herramienta.",
+      "Reúnan la evidencia o información necesaria antes de completar la plantilla.",
+      "Completen la plantilla con aportes trazables y distingan hechos de interpretaciones.",
+      "Sinteticen patrones, tensiones, oportunidades o decisiones que resulten de la aplicación.",
+      "Registren el entregable y envíen los hallazgos relevantes a la fase del proyecto."
+    ],
+    "special": false,
+    "special_note": "",
+    "source": "Dinngo / designthinking.es - plantilla original proporcionada por el docente"
+  }
+]

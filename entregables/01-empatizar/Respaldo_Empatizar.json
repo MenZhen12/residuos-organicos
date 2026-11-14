@@ -1,0 +1,242 @@
+{
+  "step": 0,
+  "project": {
+    "name": "Manejo de residuos orgánicos en el hogar",
+    "team": "Grupo 3",
+    "members": "Gianmarco Forlani Villalta, Cesar Eduardo Gomez Medrano, Valeria Santos Mora, Keila Tamara Sibaja Mata, Kun Men Zheng Liang",
+    "problem": "En varios hogares encuestados, almacenar restos de comida hasta desecharlos genera olores, líquidos, insectos y ocupación de espacio. Las personas recurren a bolsas, recipientes, congelación o disposición exterior, con experiencias de dificultad distintas. Se busca comprender esta situación sin dar por elegida una solución.",
+    "user": "Personas que participan en el manejo de restos de comida en su hogar. La encuesta aporta 32 respuestas anónimas; no registra edad, cantón ni composición del hogar de forma sistemática.",
+    "context": "Después de preparar o consumir comida y durante el almacenamiento temporal hasta la recolección o aprovechamiento. Los relatos mencionan cocina, patio, terraza, calor y variación en días de recolección.",
+    "learning": "Comprender qué provoca la mayor carga, cómo intervienen espacio y espera, qué estrategias usan y en qué condiciones el manejo resulta más sencillo o más desagradable.",
+    "assumption": "Dejar en pausa que un recipiente hermético, una compostera o un dispositivo que elimine residuos sea necesariamente la solución. Son ideas mencionadas por participantes, no soluciones validadas."
+  },
+  "quiz": {
+    "done": true,
+    "correct": {
+      "0": true,
+      "1": true,
+      "2": true,
+      "3": true,
+      "4": true
+    },
+    "order0": [
+      2,
+      1,
+      0
+    ],
+    "order1": [
+      0,
+      2,
+      1
+    ],
+    "order2": [
+      1,
+      0,
+      2
+    ],
+    "order3": [
+      1,
+      0,
+      2
+    ],
+    "order4": [
+      1,
+      2,
+      0
+    ]
+  },
+  "tools": [
+    {
+      "name": "Mapas del contexto",
+      "purpose": "Definir cuál es el contexto relacionado con nuestro reto.",
+      "plan": "Aplicación documental sobre las respuestas del formulario, sin entrevistas ni observación nuevas.\nReto: Comprender cómo se manejan y almacenan temporalmente los restos de comida en el hogar y qué dificulta mantener la limpieza hasta su destino final. Aplicación documental a 32 respuestas del 12–13/10/2026; no se realizó visita a hogares.\nEntorno físico: Los relatos sitúan la experiencia en cocina, patio, terraza y recipientes de basura. ID 2 declara falta de espacio y líquidos; ID 20 reporta bolsas rotas por mapaches en el patio. Son experiencias declaradas, no mediciones del equipo [E01, E03].\nEntorno social: La tarea ocurre en hogares y después de actividades familiares (ID 17, Q1). ID 14, Q1 vincula acumulación con una familia grande; no se conoce la composición de los demás hogares. No hay evidencia sobre quién distribuye las tareas dentro de cada hogar.\nFactores tecnológicos: Se declaran bolsas cerradas, doble bolsa, recipientes con tapa y refrigeración/congelación (ID 2, 6, 9, 12, 16–18, 22, Q5). Son recursos actuales, no soluciones probadas por el equipo [E10, E12].\nFactores organizacionales: La frecuencia y continuidad de recolección condicionan el tiempo de almacenamiento: ID 13 menciona el intervalo de jueves a martes y ID 25, los feriados. Las frecuencias son autorreportadas y no se verificaron rutas oficiales [E02, E16].\nRestricciones: Falta de espacio [E01, E04], espera entre recolecciones [E02], olores y líquidos [E01], acceso de animales [E03]. No se midieron volúmenes, temperaturas, costos ni capacidad del congelador.\nOportunidades del contexto: Necesidad inferida: comprender el intervalo entre generar y retirar residuos como parte central del problema, y no limitarse al momento de tirar la bolsa [E01–E04, E16]. Comparar contextos de recolección distintos antes de generalizar.",
+      "result": "La espera entre generación y recolección aparece como contexto de acumulación, falta de espacio y olores [E01–E04, E16]. La frecuencia varía entre casos y no está verificada externamente. El mapa contextual está completado con la evidencia disponible, manteniendo explícitas las variables no medidas.",
+      "refs": "E01, E02, E03, E04, E16"
+    },
+    {
+      "name": "Usuarios extremos",
+      "purpose": "Identificar necesidades que en usuarios medios no aparecerían.",
+      "plan": "Aplicación documental sobre las respuestas del formulario, sin entrevistas ni observación nuevas.\nExtremo 1: Extremo de menor dificultad declarada: ID 15 dice que el manejo está organizado por la composta (Q4, E05); ID 30 declara generar pocos desperdicios y no tener ese tipo de problemas (Q3/Q5, E14–E15). Se conservan como dos casos distintos, sin fusionarlos en una persona.\nUsuario medio: Caso intermedio para contraste, no “usuario promedio” estadístico: ID 2 guarda restos en bolsas separadas y cerradas y espera la recolección (Q1/Q5, E01). La muestra no permite estimar un usuario medio poblacional.\nExtremo 2: Extremo de mayor dificultad declarada: ID 26 reporta recolección una vez por semana, acumulación en patio y presencia de insectos (Q1, E06). En Q3 expresa “Terrible y feo, no saber que hacer”. Es un caso real del formulario, sin atribuirle edad o ubicación.\nNecesidades visibles en extremos: Inferencia: algunos hogares requieren tolerar varios días de almacenamiento sin que el cuidado de los residuos aumente excesivamente la carga doméstica [E01, E06]. Los casos con composta o pocos desperdicios permiten investigar qué condiciones facilitan un manejo menos problemático [E05, E14–E15].\nPatrones comunes: El contraste no es absoluto: ID 29 declara buena frecuencia diaria y ausencia de problemas graves, pero califica la experiencia como “Desagradable” [E07–E08]. Por tanto, frecuencia favorable y valoración positiva no son equivalentes.\nImplicaciones: No imponer una única experiencia a todos los hogares. Profundizar en cantidad generada, destino de residuos, espacio y frecuencia de recolección. Estos extremos se seleccionaron retrospectivamente de la encuesta; no son entrevistas nuevas ni segmentos validados.",
+      "result": "Hay experiencias contrastantes: organización mediante composta [E05], pocos desperdicios [E14–E15] y acumulación con recolección semanal [E06]. La recolección diaria no elimina por sí sola el desagrado [E07–E08]. Se comparan casos individuales; no se estima prevalencia poblacional.",
+      "refs": "E05, E06, E07, E08, E14, E15"
+    },
+    {
+      "name": "Mapa de Empatía",
+      "purpose": "Aumentar la empatía con los usuarios investigados.",
+      "plan": "Aplicación documental sobre las respuestas del formulario, sin entrevistas ni observación nuevas.\n¿Qué piensa y siente?: Inferencia: podría preocuparle que el hogar se perciba sucio pese a limpiarlo; ID 6 lo expresa en Q3 [E09]. El rechazo a olores también aparece en ID 12, Q3. No se atribuyen emociones no declaradas a todas las personas.\n¿Qué oye?: No hay evidencia directa sobre consejos, conversaciones o mensajes que escucha la persona. El formulario no lo pregunta; dejar esta dimensión abierta evita inventar influencias sociales.\n¿Qué ve?: Según los relatos, aparecen líquidos, moscas, bolsas acumuladas y falta de espacio [E01, E03, E04, E09]. No se hizo observación directa ni inspección de vivienda.\n¿Qué dice y hace?: Dice: ID 24 describe la separación como más complicada [E11]. Hace, según autorreporte: ID 12 congela en bolsa hermética [E10]; ID 8 desecha en el basurero común y ajusta el momento a la recolección [E12]. Son estrategias de personas distintas.\nLimitaciones / obstáculos: Espera de recolección y espacio limitado [E01–E04]; ausencia de dónde disponer la fracción orgánica [E12]; ID 22 pide un congelador más grande [E13], lo que sugiere explorar capacidad sin asumir que ya se midió.\nOportunidades / necesidades: Necesidades inferidas: higiene durante la espera, separación practicable y manejo compatible con espacio y esfuerzo disponibles [E09–E13]. No se propone todavía un producto ni se da por aceptado el compostaje.\nEvidencias que sustentan el mapa: E09 (ID 6/Q3), E10 (ID 12/Q5), E11 (ID 24/Q2), E12 (ID 8/Q5), E13 (ID 22/Q4), E17 (ID 7/Q3). Fuente única: formulario de 32 respuestas, Sheet1. La síntesis usa autorreportes; requiere contraste posterior con observación.",
+      "result": "Se observa una tensión entre querer higiene y tener que conservar o manipular residuos: congelar y cerrar bolsas alivian la espera, pero la separación se declara complicada y se solicita mayor capacidad [E09–E13]. También existe percepción de mejora gradual [E17]. Se distinguen citas, conductas autorreportadas e inferencias.",
+      "refs": "E09, E10, E11, E12, E13, E17"
+    }
+  ],
+  "sentiment": {
+    "responses": "32",
+    "dominant": "NEU — Neutral (clasificación automática)",
+    "pct": "56,25% (18/32)",
+    "emotion1": "Otros 63,10% (categoría residual, no emoción específica)",
+    "emotion2": "Alegría 11,07%; Enojo 10,35% (promedios de probabilidades)",
+    "quote1": "ID 6, Q3: “Lo que más me molesta es el mal olor y que atrae moscas o bichos, sobre todo si la basura se queda varios días antes de que pase el camión. También me preocupa el lixiviado que sueltan, porque ensucia el basurero y deja un olor difícil de quitar. Me molesta porque es antihigiénico y hace que la casa se sienta sucia, aunque esté limpia” — NEG; ver E09.",
+    "quote2": "ID 7, Q3: “Eficiente, porque la he ido mejorando poco a poco.” — POS; ver E17.",
+    "quote3": "ID 29, Q3: “Desagradable” — NEU, pese al sentido negativo de la expresión; ver E08 y E19.",
+    "interpretation": "En las 32 Q3, el modelo clasificó 18 como NEU (56,25%), 12 como NEG (37,50%) y 2 como POS (6,25%). La categoría emocional con mayor probabilidad promedio fue Otros (63,10%), que no es una emoción específica; entre las emociones nombradas destacan Alegría (11,07%) y Enojo (10,35%), y la menor es Miedo (2,09%). Estos promedios no son porcentajes de personas que sienten cada emoción. El patrón automático debe leerse con cautela: ID 1 e ID 29 dicen “Desagradable”, pero fueron NEU (confianza 0,478); ID 23 describe disposición en un basurero separado y fue NEG (0,820). ID 6 y 12 respaldan cualitativamente molestias por olores, mientras ID 7 declara mejora gradual. La neutralidad del modelo no implica ausencia de problema. Los relatos sugieren una tensión entre mantener la limpieza y conservar residuos durante la espera de recolección. Conviene preservar esa tensión y los casos de manejo organizado para profundizar en Definir. Resultados: Analisis_sentimientos/sentimientos_resumen.pdf y sentimientos_resumen.xlsx; modelos robertuito de la práctica original, Q3 completa y truncamiento original a 128 tokens."
+  },
+  "evidence": [
+    {
+      "id": "E01",
+      "kind": "Cita directa",
+      "source": "Mapas del contexto; encuesta Manejo de residuos orgánicos, ID 2, Q1, fila 3 de Sheet1 (12–13/10/2026).",
+      "text": "“Si, cuando se acumula mucha basura, debemos dejar las bolsas a un lado porque no hay suficiente espacio para almacenarlas. Los restos de comida generan líquidos y malos olores fuertes, por lo que resulta incómodo tenerlos dentro de la casa. Además, debemos esperar hasta el día en que pasa el camión recolector para poder desecharlos.”"
+    },
+    {
+      "id": "E02",
+      "kind": "Cita directa",
+      "source": "Mapas del contexto; encuesta Manejo de residuos orgánicos, ID 13, Q2, fila 14 de Sheet1 (12–13/10/2026).",
+      "text": "“Lo que me molesta es que se hacen gusanos y malos olores en la basura. Por qué de jueves a martes son muchos días de acumulación de desechos .”"
+    },
+    {
+      "id": "E03",
+      "kind": "Cita directa",
+      "source": "Mapas del contexto; encuesta Manejo de residuos orgánicos, ID 20, Q1, fila 21 de Sheet1 (12–13/10/2026).",
+      "text": "“En ocasiones algunos residuos al depositarlos en el contenedor de la basura de la casa produce liquidos despues de horas o de varios dias al estar ahi, como la recoleccion de  basura pasa un par de veces a la semana esto es un problema constante, estos liquidos de residuos han atraido en varias ocasiones mapaches al pationde mi casa y han generado problemas ronpiendo las bolsas y tirando con los contenedores de basura.”"
+    },
+    {
+      "id": "E04",
+      "kind": "Cita directa",
+      "source": "Mapas del contexto; encuesta Manejo de residuos orgánicos, ID 21, Q2, fila 22 de Sheet1 (12–13/10/2026).",
+      "text": "“Los malos olores y no tener espacio”"
+    },
+    {
+      "id": "E05",
+      "kind": "Cita directa",
+      "source": "Usuarios extremos; encuesta Manejo de residuos orgánicos, ID 15, Q4, fila 16 de Sheet1 (12–13/10/2026).",
+      "text": "“En realidad lo llevamos bastante organizado por el tema de la compasta”"
+    },
+    {
+      "id": "E06",
+      "kind": "Cita directa",
+      "source": "Usuarios extremos; encuesta Manejo de residuos orgánicos, ID 26, Q1, fila 27 de Sheet1 (12–13/10/2026).",
+      "text": "“Es complicado cuando el camión de basura solo pasa una vez a la semana y se ve como la basura se acumula en el patio y se ven las movas y el mal olor.”"
+    },
+    {
+      "id": "E07",
+      "kind": "Cita directa",
+      "source": "Usuarios extremos; encuesta Manejo de residuos orgánicos, ID 29, Q1, fila 30 de Sheet1 (12–13/10/2026).",
+      "text": "“No he tenido problemas graves con la basura ya que vivo en el centro y ahí pasa el camión todos los días”"
+    },
+    {
+      "id": "E08",
+      "kind": "Cita directa",
+      "source": "Usuarios extremos; encuesta Manejo de residuos orgánicos, ID 29, Q3, fila 30 de Sheet1 (12–13/10/2026).",
+      "text": "“Desagradable”"
+    },
+    {
+      "id": "E09",
+      "kind": "Cita directa",
+      "source": "Mapa de Empatía; encuesta Manejo de residuos orgánicos, ID 6, Q3, fila 7 de Sheet1 (12–13/10/2026).",
+      "text": "“Lo que más me molesta es el mal olor y que atrae moscas o bichos, sobre todo si la basura se queda varios días antes de que pase el camión. También me preocupa el lixiviado que sueltan, porque ensucia el basurero y deja un olor difícil de quitar. Me molesta porque es antihigiénico y hace que la casa se sienta sucia, aunque esté limpia”"
+    },
+    {
+      "id": "E10",
+      "kind": "Cita directa",
+      "source": "Mapa de Empatía; encuesta Manejo de residuos orgánicos, ID 12, Q5, fila 13 de Sheet1 (12–13/10/2026).",
+      "text": "“En la actualidad los colocó en bolsa plástica con cierre hermético y los congeló  hasta que pasa el camión recolector.”"
+    },
+    {
+      "id": "E11",
+      "kind": "Cita directa",
+      "source": "Mapa de Empatía; encuesta Manejo de residuos orgánicos, ID 24, Q2, fila 25 de Sheet1 (12–13/10/2026).",
+      "text": "“Que se hagan gusanos, por eso los separamos pero es mas complicado de tener separados”"
+    },
+    {
+      "id": "E12",
+      "kind": "Cita directa",
+      "source": "Mapa de Empatía; encuesta Manejo de residuos orgánicos, ID 8, Q5, fila 9 de Sheet1 (12–13/10/2026).",
+      "text": "“Al no tener dónde desechar la parte orgánica, se desecha directo al basurero común. Se trata de desechar los restos orgánico lo más cercano a los días de recolección de basura y mantener el basurero cerrado para limitar la propagación de olores.”"
+    },
+    {
+      "id": "E13",
+      "kind": "Cita directa",
+      "source": "Mapa de Empatía; encuesta Manejo de residuos orgánicos, ID 22, Q4, fila 23 de Sheet1 (12–13/10/2026).",
+      "text": "“un congelador mas grande”"
+    },
+    {
+      "id": "E14",
+      "kind": "Cita directa",
+      "source": "Usuarios extremos; encuesta Manejo de residuos orgánicos, ID 30, Q3, fila 31 de Sheet1 (12–13/10/2026).",
+      "text": "“Casi no generamos desperdicio de comida, y de tener alimento perritos de la calle”"
+    },
+    {
+      "id": "E15",
+      "kind": "Cita directa",
+      "source": "Usuarios extremos; encuesta Manejo de residuos orgánicos, ID 30, Q5, fila 31 de Sheet1 (12–13/10/2026).",
+      "text": "“No tenemos ése tipo de problemas”"
+    },
+    {
+      "id": "E16",
+      "kind": "Cita directa",
+      "source": "Mapas del contexto; encuesta Manejo de residuos orgánicos, ID 25, Q1, fila 26 de Sheet1 (12–13/10/2026).",
+      "text": "“En días feriados que no pasa la basura, se acumula más  y por ende el manejo se complica”"
+    },
+    {
+      "id": "E17",
+      "kind": "Cita directa",
+      "source": "Mapa de Empatía; encuesta Manejo de residuos orgánicos, ID 7, Q3, fila 8 de Sheet1 (12–13/10/2026).",
+      "text": "“Eficiente, porque la he ido mejorando poco a poco.”"
+    },
+    {
+      "id": "E18",
+      "kind": "Resultado cuantitativo",
+      "source": "Notebook original, modelos pysentimiento/robertuito-sentiment-analysis y robertuito-emotion-analysis; Q3; sentimientos_resumen.xlsx, hojas Sentimientos/Promedios; ejecución 23/10/2026.",
+      "text": "32 respuestas: NEU 18/32 (56,25%); NEG 12/32 (37,50%); POS 2/32 (6,25%). Probabilidades emocionales promedio: Otros 63,10%; Alegría 11,07%; Enojo 10,35%; Tristeza 6,40%; Disgusto 3,60%; Sorpresa 3,40%; Miedo 2,09%. No equivalen a prevalencias de emociones."
+    },
+    {
+      "id": "E19",
+      "kind": "Dato / contexto",
+      "source": "Contraste de respuestas_con_sentimientos.csv: ID 1, 23 y 29, Q3, sentiment_label y confidence.",
+      "text": "ID 1 e ID 29: “Desagradable” fue clasificado NEU, confianza 0,478. ID 23: “Los alimentos desperdiciados se ponen en un basurero separado del de reciclaje.” fue clasificado NEG, confianza 0,820. Son discrepancias entre clasificación automática y lectura cualitativa, conservadas sin corregir las salidas del modelo."
+    },
+    {
+      "id": "E20",
+      "kind": "Dato / contexto",
+      "source": "Respuestas_originales.xlsx, Sheet1: 32 filas de respuestas, IDs 1–32, cinco preguntas abiertas. Fechas 12–13/10/2026.",
+      "text": "Las 32 Q3 contienen texto. Q4 de ID 4 contiene únicamente “.” y Q1 de ID 18 menciona humedad en una bodega de pinturas. Esas dos respuestas no se usan como evidencia del problema; no se elimina a los participantes ni sus Q3 del análisis automático."
+    }
+  ],
+  "persona": {
+    "role": "Persona que gestiona restos de comida en su hogar. Perfil compuesto de casos con espera de recolección; no representa a las 32 personas ni es un participante individual.",
+    "context": "Almacenamiento temporal de residuos en un hogar con espacio limitado y espera hasta la recolección [E01, E02, E04]. No se infieren edad, género, ocupación ni ubicación.",
+    "goal": "Inferencia: mantener el hogar limpio y reducir molestias mientras llega el momento de disponer los residuos [E01, E09, E12].",
+    "job": "Conservar y retirar restos de comida sin que la espera implique olores, líquidos, insectos o una carga doméstica excesiva [E01, E09–E13].",
+    "says": "ID 6: “hace que la casa se sienta sucia, aunque esté limpia” (extracto de Q3). ID 24: “por eso los separamos pero es mas complicado de tener separados” (extracto de Q2).",
+    "saysRefs": "E09, E11",
+    "does": "Según autorreportes: almacena en bolsas cerradas (ID 2/Q5), congela hasta la recolección (ID 12/Q5) o aproxima la eliminación de residuos a los días de recolección (ID 8/Q5). Son alternativas declaradas, no conductas observadas ni una rutina única.",
+    "doesRefs": "E01, E10, E12",
+    "thinks": "Inferencia: podría valorar la organización, pero considerar insuficiente limpiar si los residuos deben permanecer varios días y siguen produciendo molestias.",
+    "thinksRefs": "E01, E02, E09, E11",
+    "feels": "Inferencia: podría sentir desagrado y frustración por las molestias y la manipulación adicional. ID 6 declara molestia y ID 24 describe complicación; no se atribuye el resultado del modelo a una persona específica.",
+    "feelsRefs": "E09, E11",
+    "needs": "Necesidades inferidas: mantener condiciones de higiene durante la espera, disponer de una rutina de separación practicable y gestionar el espacio de almacenamiento. Motivador: evitar que la casa se sienta sucia; existe también interés por mejorar gradualmente el manejo (ID 7).",
+    "needsRefs": "E01, E04, E09, E11, E13, E17",
+    "pains": "Olores y líquidos mientras espera, insectos o animales en los relatos y complejidad adicional al separar residuos. No se afirma enfermedad ni toxicidad comprobada.",
+    "painsRefs": "E01, E03, E09, E11",
+    "barriers": "Espacio limitado [E04], tiempo hasta la recolección [E02] y ausencia de un lugar para disposición orgánica [E12]. La petición de un congelador más grande [E13] orienta una pregunta sobre capacidad, no prueba una medida.",
+    "workarounds": "Bolsas cerradas o dobles, recipientes con tapa y espera hasta el camión; congelación declarada [E10], ajuste a días de recolección [E12]. La composta pertenece a un caso de contraste [E05] y no se atribuye automáticamente al perfil central."
+  },
+  "insights": [
+    {
+      "text": "Aunque las personas intentan mantener limpio el hogar, la espera hasta la recolección puede prolongar la permanencia de residuos que producen molestias. Los relatos sugieren que necesitan conservar condiciones de higiene durante ese intervalo, además de retirar la basura a tiempo. Es una interpretación de E01, E02, E09 y E16, no una relación causal demostrada.",
+      "refs": "E01, E02, E09, E16"
+    },
+    {
+      "text": "Aunque separar residuos se asocia con un mejor manejo, para algunos participantes añade dificultad: se mantienen fracciones aparte y se recurre a congelar o a buscar más capacidad. La tensión sugiere que una práctica ambiental deseada necesita encajar en el espacio y el esfuerzo domésticos disponibles.",
+      "refs": "E10, E11, E12, E13"
+    },
+    {
+      "text": "Aunque una recolección más frecuente reduce la espera en algunos relatos, no garantiza una experiencia agradable: ID 29 declara recolección diaria y aun así usa “Desagradable”. Los contrastes con hogares que compostan o generan pocos restos sugieren que también importa el destino de los residuos y la rutina de manejo.",
+      "refs": "E05, E06, E07, E08, E14, E15"
+    }
+  ],
+  "selectedInsight": 0,
+  "openQuestions": "¿Cuánto residuo se genera y cuánto tiempo permanece en cada hogar? ¿Qué capacidad y espacio hay disponibles? ¿Quién hace la tarea y cuánto esfuerzo requiere? ¿Qué impide separar o compostar en cada caso? ¿Cómo cambian las experiencias según frecuencia real de recolección, calor y tipo de residuo? ¿Qué consejos escuchan los usuarios?",
+  "limitations": "Fuente única: 32 respuestas de un formulario, obtenidas el 12–13/10/2026. Muestreo y reclutamiento no documentados; no hay representatividad estadística. Las preguntas mencionan olores, líquidos y espacio, lo que puede inducir esos temas. Las tres herramientas reorganizan la misma fuente y no constituyen triangulación independiente. No hay observaciones ni entrevistas de seguimiento. Q1 de ID 18 trata humedad en una bodega de pinturas y se excluye de la interpretación del problema; sus otras respuestas sí se conservan. Q4 de ID 4 contiene solo un punto, sin contenido interpretable. Todas las Q3 tienen texto, pero algunas describen conductas y no sentimientos. Las citas reflejan percepciones, no hechos sanitarios comprobados. User Persona e insights son síntesis provisionales. El modelo presenta discrepancias semánticas (E19) y usa truncamiento a 128 tokens según el código original. La categoría Otros domina el análisis emocional y no debe leerse como una emoción concreta.",
+  "nextFieldwork": "Contrastar los casos ID 2, 15, 26 y 29 mediante entrevistas con consentimiento y un registro de la rutina de almacenamiento, si fuera posible contactar participantes por una vía consentida. Al ser respuestas anónimas, no se asume que se puedan recontactar: puede requerirse reclutar perfiles comparables. Observar contexto, medir volumen/tiempo y documentar voces familiares antes de Definir. Confirmar segmento y condiciones sin validar todavía un producto."
+}
